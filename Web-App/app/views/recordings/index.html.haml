@@ -1,0 +1,55 @@
+
+.row.content-title
+  .col-sm-6
+    %h3 Recordings
+
+  .col-sm-6
+    .dropdown.pull-right
+      %a.btn.btn-success{href: new_recording_path}
+        %i.glyphicon.glyphicon-plus
+        New Recording
+      %button#dropdownMenu1.btn.btn-default.dropdown-toggle{"data-toggle" => "dropdown"}
+        Order
+        %span.caret
+      %ul.dropdown-menu
+        %li= link_to 'Created Date > Latest First', request.path + '?order=-created_at'
+        %li= link_to 'Created Date > Oldest First', request.path + '?order=%2Bcreated_at'
+        %li= link_to 'Title', request.path + '?order=%2Btitle'
+        - if current_user.is_a_account_admin?
+          %li= link_to 'Sharing Approval', request.path + '?order=%2Bsharing_approved'
+          %li= link_to 'Username', request.path + '?order=+created_by'
+
+
+- @recordings.active.in_groups_of(6,false).each do |group|
+  .row
+    .col-xs-12.col-sm-12.col-md-12
+      - group.each do |recording|
+        .col-xs-4.col-sm-3.col-md-2{style: 'overflow-x: hidden;'}
+          = link_to recording.play_url+"?increment=false&return=true" do
+            - if recording.thumbnail_url
+              %img{src: recording.thumbnail_url, style: 'height: 120px;'}
+            - else
+              = image_tag "thumbnail.png", style: 'height: 120px'
+          %br
+          %b
+            - if recording.title.length > 25
+              = recording.title[0..25] + "..."
+            - else
+              = recording.title
+          %br
+          = recording.created_at.strftime("%B %e, %Y")
+          |
+          = (Time.now.midnight + recording.expected_length.to_i.seconds).strftime("%M:%S")
+          %br
+          = "Viewed #{recording.play_count} times"
+          - if recording.is_draft?
+            %br
+            %label.label.label-info Draft Recording
+          - if !recording.sharing_approved?
+            %br
+            %label.label.label-warning Needs Sharing Approval
+          %br
+          %a{href: edit_recording_path(recording)} Edit
+          |
+          = link_to recording, :method => :delete, :data => { :confirm => 'Are you sure?' } do
+            Delete

@@ -1,0 +1,29 @@
+<div class="account-wrapper">
+
+  <div class="account-body">
+
+    <h3>Forgot your password?</h3>
+    <h5>We'll email you instructions on how to reset your password.</h5>
+
+    <%= form_for(resource, as: resource_name, url: password_path(resource_name), html: { method: :post }, class: ['form', 'account-form']) do |f| %>
+      <%= devise_error_messages! %>
+
+      <div class="form-group">
+        <%= f.email_field :email, placeholder: 'Your Email', autofocus: true, class: 'form-control' %>
+      </div>
+
+      <div class="form-group"><%= f.submit "Reset Password", class: 'btn btn-secondary btn-block btn-lg' %></div>
+
+      <div class="form-group">
+        <%= link_to new_session_path(resource_name) do %>
+          <i class="fa fa-angle-double-left"></i>
+          Back to Login
+        <% end %>
+      </div> <!-- /.form-group -->
+
+    <% end %>
+
+  </div>
+
+</div>
+

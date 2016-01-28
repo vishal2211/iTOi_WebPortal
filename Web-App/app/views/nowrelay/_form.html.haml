@@ -1,0 +1,149 @@
+%h3.content-title
+  %u Group Branding and Setup
+
+= form_for @nowrelay, class: 'form parsley-form', url:{:controller=>'nowrelay',:action=>'createCompany'}, :html => {:multipart => true} do |f|
+  - if @nowrelay.errors.any?
+    #error_explanation
+      %h2= "#{pluralize(@nowrelay.errors.count, "error")} prohibited this company from being saved:"
+      %ul
+        - @nowrelay.errors.full_messages.each do |msg|
+          %li= msg
+
+  .form-group
+    = f.hidden_field :email, :value=>@nowrelay.email
+    = f.hidden_field :token, :value=>@nowrelay.token
+
+
+  = f.fields_for @company do |nowCompany|
+    .form-group
+      = nowCompany.label :name
+      = nowCompany.text_field :name, class: 'form-control parsley-validated', 'data-required' => 'true'
+
+      .row
+        .col-md-3
+          .form-group
+            %p
+            = nowCompany.hidden_field :default_plan_id, :class => "form-control", :value=>'4'
+
+        .col-md-3
+          .form-group
+            %p
+            = nowCompany.hidden_field :contract_start_date, class: 'form-control parsley-validated', :readonly=>true, :value=>Time.now, 'data-required' => 'false'
+
+        .col-md-3
+          .form-group
+            %p
+            = nowCompany.hidden_field :contract_end_date, class: 'form-control parsley-validated', :value=>@nowrelay.expiration, :readonly=>true,'data-required' => 'false'
+
+        .col-md-3
+          .form-group
+            = nowCompany.hidden_field(:allow_uploads,{:class => "form-control", :value=>true})
+
+    .form-group
+      = nowCompany.label 'Whitelabel Text'
+      = nowCompany.text_field :whitelabel_text, class: 'form-control parsley-validated', 'data-required' => 'false'
+
+    .row
+      .col-md-4
+        .form-group
+          %label
+            Whitelabel Icon
+            %small (300x300 .jpg or .png)
+          %br
+          .fileinput.fileinput-new{"data-provides" => "fileinput"}
+            .fileinput-new.thumbnail{:style => "width: 250px; height: 150px;"}
+              - if @company.whitelabel_icon_url
+                %img.valign-middle{:src => @company.whitelabel_icon_url, :style => "max-width: 200px; max-height: 150px;"}
+              - else
+                %img{:alt => "...", "data-src" => "/holder.js/100%x100%/text:Upload Image"}/
+            .fileinput-preview.fileinput-exists.thumbnail{:style => "max-width: 200px; max-height: 150px;"}
+            %div
+              %span.btn.btn-default.btn-file
+                %span.fileinput-new Select image
+                %span.fileinput-exists Change
+                %input{:name => "company[whitelabel_image]", :type => "file"}/
+              %a.btn.btn-default.fileinput-exists{"data-dismiss" => "fileinput", :href => "#"} Remove
+
+      .col-md-4
+        .form-group
+          %label
+            Watermark Image
+            %small (720x720 transparent .png)
+          %br
+          .fileinput.fileinput-new{"data-provides" => "fileinput"}
+            .fileinput-new.thumbnail{:style => "width: 250px; height: 150px;"}
+              - if @company.watermark_image_url
+                %img.valign-middle{:src => @company.watermark_image_url, :style => "max-width: 200px; max-height: 150px;"}
+              - else
+                %img{:alt => "...", "data-src" => "/holder.js/100%x100%/text:Upload Image"}/
+            .fileinput-preview.fileinput-exists.thumbnail{:style => "max-width: 200px; max-height: 150px;"}
+            %div
+              %span.btn.btn-default.btn-file
+                %span.fileinput-new Select image
+                %span.fileinput-exists Change
+                %input{:name => "company[watermark_image]", :type => "file"}/
+              %a.btn.btn-default.fileinput-exists{"data-dismiss" => "fileinput", :href => "#"} Remove
+
+      .col-md-4
+        .form-group
+          %label
+            Header Image
+            %small (720x720 .jpg or .png))
+          %br
+          .fileinput.fileinput-new{"data-provides" => "fileinput"}
+            .fileinput-new.thumbnail{:style => "width: 250px; height: 150px;"}
+              - if @company.header_image_url
+                %img.valign-middle{:src => @company.header_image_url, :style => "max-width: 200px; max-height: 150px;"}
+              - else
+                %img{:alt => "...", "data-src" => "/holder.js/100%x100%/text:Upload Image"}/
+            .fileinput-preview.fileinput-exists.thumbnail{:style => "max-width: 200px; max-height: 150px;"}
+            %div
+              %span.btn.btn-default.btn-file
+                %span.fileinput-new Select image
+                %span.fileinput-exists Change
+                %input{:name => "company[header_image]", :type => "file"}/
+              %a.btn.btn-default.fileinput-exists{"data-dismiss" => "fileinput", :href => "#"} Remove
+
+    .row
+      .col-md-4
+        .form-group
+          %label
+            Footer Image
+            %small (720x720 .jpg or .png)
+          %br
+          .fileinput.fileinput-new{"data-provides" => "fileinput"}
+            .fileinput-new.thumbnail{:style => "width: 250px; height: 150px;"}
+              - if @company.footer_image_url
+                %img.valign-middle{:src => @company.footer_image_url, :style => "max-width: 200px; max-height: 150px;"}
+              - else
+                %img{:alt => "...", "data-src" => "/holder.js/100%x100%/text:Upload Image"}/
+            .fileinput-preview.fileinput-exists.thumbnail{:style => "max-width: 200px; max-height: 150px;"}
+            %div
+              %span.btn.btn-default.btn-file
+                %span.fileinput-new Select image
+                %span.fileinput-exists Change
+                %input{:name => "company[footer_image]", :type => "file"}/
+              %a.btn.btn-default.fileinput-exists{"data-dismiss" => "fileinput", :href => "#"} Remove
+
+      .col-md-4
+        .form-group
+          %label
+            Company Logo
+            %small (300x100 .jpg or .png)
+          %br
+          .fileinput.fileinput-new{"data-provides" => "fileinput"}
+            .fileinput-new.thumbnail{:style => "width: 250px; height: 150px;"}
+              - if @company.company_logo_url
+                %img.valign-middle{:src => @company.company_logo_url, :style => "max-width: 200px; max-height: 150px;"}
+              - else
+                %img{:alt => "...", "data-src" => "/holder.js/100%x100%/text:Upload Image"}/
+            .fileinput-preview.fileinput-exists.thumbnail{:style => "max-width: 200px; max-height: 150px;"}
+            %div
+              %span.btn.btn-default.btn-file
+                %span.fileinput-new Select image
+                %span.fileinput-exists Change
+                %input{:name => "company[company_logo]", :type => "file"}/
+              %a.btn.btn-default.fileinput-exists{"data-dismiss" => "fileinput", :href => "#"} Remove
+
+    .form-group
+      = f.submit 'Save', class: 'btn btn-danger'

@@ -1,0 +1,27 @@
+!!!
+%html
+  %head
+    %title iTOi
+    %meta{:charset => "utf-8"}/
+    %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}/
+    %meta{:content => "see iTOi web administration", :name => "description"}/
+    %meta{:content => "See iTOi / Orangeberry Company", :name => "author"}/
+    / Google Font: Open Sans
+    %link{:href => "//fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic", :rel => "stylesheet"}/
+    %link{:href => "//fonts.googleapis.com/css?family=Oswald:400,300,700", :rel => "stylesheet"}/
+
+    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
+    = javascript_include_tag 'application', 'data-turbolinks-track' => true
+    = csrf_meta_tags
+
+  %body#doc-body
+    %header.navbar.navbar-right.navbar-fixed-top{role: 'banner'}
+      .container
+        .navbar-header
+          %a.navbar-brand{href: '/documentation'}
+            = image_tag "logo.png"
+            iTOi API Documentation
+        %nav.collapse.navbar-collapse{role: 'navigation'}
+
+    = yield
+

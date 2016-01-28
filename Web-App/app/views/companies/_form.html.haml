@@ -1,0 +1,161 @@
+%h3.content-title
+  %u Company Branding
+
+= form_for @company, class: 'form parsley-form', :html => {:multipart => true} do |f|
+  - if @company.errors.any?
+    #error_explanation
+      %h2= "#{pluralize(@company.errors.count, "error")} prohibited this company from being saved:"
+      %ul
+        - @company.errors.full_messages.each do |msg|
+          %li= msg
+
+  .form-group
+    = f.label :name
+    = f.text_field :name, class: 'form-control parsley-validated', 'data-required' => 'true'
+
+  - if current_user.is_admin?
+    .row
+      .col-md-2
+        .form-group
+          = f.label "Default Plan"
+          %p
+          = f.select(:default_plan_id, [['Silver',1], ['Bronze',2], ['Gold',3], ['Platinum',4], ['Unlimited',5]], {}, {:class => "form-control"})
+
+      .col-md-2
+        .form-group
+          = f.label "Contract Start Date"
+          %p
+          = f.text_field :contract_start_date, class: 'form-control parsley-validated', 'data-required' => 'false'
+
+      .col-md-2
+        .form-group
+          = f.label "Contract End Date"
+          %p
+          = f.text_field :contract_end_date, class: 'form-control parsley-validated', 'data-required' => 'false'
+
+      .col-md-2
+        .form-group
+          = f.label "Allow Uploads"
+          %p
+          = f.select(:allow_uploads, [['Yes',true], ['No',false]], {}, {:class => "form-control"})
+
+      .col-md-2
+        .form-group
+          = f.label "Request User Email"
+          %p
+          = f.select(:request_user_email, [['Yes',true], ['No',false]], {}, {:class => "form-control"})
+
+    .row
+
+      .col-md-2
+        .form-group
+          = f.label "Sharing Approval Req'd"
+          %p
+          = f.select(:videos_require_approval, [['Yes',true], ['No',false]], {}, {:class => "form-control"})
+
+      .col-md-2
+        .form-group
+          = f.label "Workflow"
+          %p
+          = f.select(:simplified_workflow, [['Standard',false], ['Simplified',true]], {}, {:class => "form-control"})
+
+  .form-group
+    = f.label 'Whitelabel Text'
+    = f.text_field :whitelabel_text, class: 'form-control parsley-validated', 'data-required' => 'false'
+
+  - unless @company.new_record?
+
+    .row
+      .col-md-4
+        .form-group
+          %label
+            Whitelabel Icon
+            %small (300x300 .jpg or .png)
+          %br
+          .fileinput{"data-provides" => "fileinput", "class" => @company.whitelabel_icon_url ? "fileinput-exists" : "fileinput-new"}
+            .fileinput-new.thumbnail{:style => "width: 250px; height: 150px;"}
+              %img{:alt => "...", "src" => "holder.js/100%x100%/text:Upload Image"}/
+            .fileinput-preview.fileinput-exists.thumbnail{:style => "max-width: 200px; max-height: 150px;"}
+              %img.valign-middle{:src => @company.whitelabel_icon_url ?  @company.whitelabel_icon_url + '?' + @company.updated_at.to_i.to_s : nil, :style => "max-width: 200px; max-height: 150px;"}
+            %div
+              %span.btn.btn-default.btn-file
+                %span.fileinput-new Select image
+                %span.fileinput-exists Change
+                %input{:name => "company[whitelabel_icon]", :type => "file"}/
+              %a.btn.btn-default.fileinput-exists{"data-dismiss" => "fileinput", :href => "#"} Remove
+
+      .col-md-4
+        .form-group
+          %label
+            Watermark Image
+            %small (720x720 transparent .png)
+          %br
+          .fileinput{"data-provides" => "fileinput", "class" => @company.watermark_image_url ? "fileinput-exists" : "fileinput-new"}
+            .fileinput-new.thumbnail{:style => "width: 250px; height: 150px;"}
+              %img{:alt => "...", "src" => "holder.js/100%x100%/text:Upload Image"}/
+            .fileinput-preview.fileinput-exists.thumbnail{:style => "width: 250px; height: 150px;"}
+              %img.valign-middle{:src => @company.watermark_image_url ? @company.watermark_image_url + '?' + @company.updated_at.to_i.to_s : nil, :style => "max-width: 200px; max-height: 150px;"}
+            %div
+              %span.btn.btn-default.btn-file
+                %span.fileinput-new Select image
+                %span.fileinput-exists Change
+                %input{:name => "company[watermark_image]", :type => "file"}/
+              %a.btn.btn-default.fileinput-exists{"data-dismiss" => "fileinput", :href => "#"} Remove
+
+      .col-md-4
+        .form-group
+          %label
+            Header Image
+            %small (720x720 .jpg or .png))
+          %br
+          .fileinput{"data-provides" => "fileinput", "class" => @company.header_image_url ? "fileinput-exists" : "fileinput-new"}
+            .fileinput-new.thumbnail{:style => "width: 250px; height: 150px;"}
+              %img{:alt => "...", "src" => "holder.js/100%x100%/text:Upload Image"}/
+            .fileinput-preview.fileinput-exists.thumbnail{:style => "width: 200px; height: 150px;"}
+              %img.valign-middle{:src => @company.header_image_url ? @company.header_image_url + '?' +  @company.updated_at.to_i.to_s : nil, :style => "max-width: 200px; max-height: 150px;"}
+            %div
+              %span.btn.btn-default.btn-file
+                %span.fileinput-new Select image
+                %span.fileinput-exists Change
+                %input{:name => "company[header_image]", :type => "file"}/
+              %a.btn.btn-default.fileinput-exists{"data-dismiss" => "fileinput", :href => "#"} Remove
+
+    .row
+      .col-md-4
+        .form-group
+          %label
+            Footer Image
+            %small (720x720 .jpg or .png)
+          %br
+          .fileinput{"data-provides" => "fileinput", "class" => @company.footer_image_url ? "fileinput-exists" : "fileinput-new"}
+            .fileinput-new.thumbnail{:style => "width: 250px; height: 150px;"}
+              %img{:alt => "...", "src" => "holder.js/100%x100%/text:Upload Image"}/
+            .fileinput-preview.fileinput-exists.thumbnail{:style => "max-width: 200px; max-height: 150px;"}
+              %img.valign-middle{:src => @company.footer_image_url ? @company.footer_image_url + '?' +  @company.updated_at.to_i.to_s : nil, :style => "max-width: 200px; max-height: 150px;"}
+            %div
+              %span.btn.btn-default.btn-file
+                %span.fileinput-new Select image
+                %span.fileinput-exists Change
+                %input{:name => "company[footer_image]", :type => "file"}/
+              %a.btn.btn-default.fileinput-exists{"data-dismiss" => "fileinput", :href => "#"} Remove
+
+      .col-md-4
+        .form-group
+          %label
+            Company Logo
+            %small (300x100 .jpg or .png)
+          %br
+          .fileinput{"data-provides" => "fileinput", "class" => @company.company_logo_url ? "fileinput-exists" : "fileinput-new"}
+            .fileinput-new.thumbnail{:style => "width: 250px; height: 150px;"}
+              %img{:alt => "...", "src" => "holder.js/100%x100%/text:Upload Image"}/
+            .fileinput-preview.fileinput-exists.thumbnail{:style => "max-width: 200px; max-height: 150px;"}
+              %img.valign-middle{:src => @company.company_logo_url ? @company.company_logo_url + '?' + @company.updated_at.to_i.to_s : nil, :style => "max-width: 200px; max-height: 150px;"}
+            %div
+              %span.btn.btn-default.btn-file
+                %span.fileinput-new Select image
+                %span.fileinput-exists Change
+                %input{:name => "company[company_logo]", :type => "file"}/
+              %a.btn.btn-default.fileinput-exists{"data-dismiss" => "fileinput", :href => "#"} Remove
+
+  .form-group
+    = f.submit 'Save', class: 'btn btn-danger'

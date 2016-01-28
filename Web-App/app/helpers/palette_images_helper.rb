@@ -1,0 +1,2 @@
+module PaletteImagesHelper
+end

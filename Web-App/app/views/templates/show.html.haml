@@ -1,0 +1,27 @@
+%p#notice= notice
+
+%p
+  %b Created by:
+  = @template.created_by
+%p
+  %b Presentation template:
+  = @template.presentation_template_id
+%p
+  %b Title:
+  = @template.title
+%p
+  %b Tag url:
+  = @template.tag_url
+%p
+  %b Watermark url:
+  = @template.watermark_url
+%p
+  %b Left sidebar url:
+  = @template.left_sidebar_url
+%p
+  %b Right sidebar url:
+  = @template.right_sidebar_url
+
+= link_to 'Edit', edit_template_path(@template)
+\|
+= link_to 'Back', templates_path

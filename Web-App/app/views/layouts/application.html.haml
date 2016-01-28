@@ -1,0 +1,147 @@
+!!!
+%html
+  %head
+    %title iTOi
+    %meta{:charset => "utf-8"}/
+    %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}/
+    %meta{:content => "see iTOi web administration", :name => "description"}/
+    %meta{:content => "See iTOi / Orangeberry Company", :name => "author"}/
+    / Google Font: Open Sans
+    %link{:href => "//fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic", :rel => "stylesheet"}/
+    %link{:href => "//fonts.googleapis.com/css?family=Oswald:400,300,700", :rel => "stylesheet"}/
+
+    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
+    = javascript_include_tag 'application', 'data-turbolinks-track' => true
+    = csrf_meta_tags
+
+  %body{:id => "#{params[:controller].parameterize}-#{params[:action].parameterize}"}
+    #wrapper
+      %header.navbar.navbar-inverse{:role => "banner"}
+        .container
+          .navbar-header
+            %button.navbar-toggle{"data-target" => ".navbar-collapse", "data-toggle" => "collapse", :type => "button"}
+              %span.sr-only Toggle navigation
+              %i.fa.fa-cog
+            %a.navbar-brand.navbar-brand-img{:href => "./"}
+              - if current_user && current_user.company && current_user.company.company_logo_url
+                = image_tag current_user.company.company_logo_url, {style: 'max-height: 50px; padding: 5px'}
+              - else
+                = image_tag "logo.png"
+          / /.navbar-header
+          %nav.collapse.navbar-collapse{:role => "navigation"}
+            %ul.nav.navbar-nav.noticebar.navbar-left
+              -#%li.dropdown
+              -#  %a.dropdown-toggle{"data-toggle" => "dropdown", :href => "./page-notifications.html"}
+              -#    %i.fa.fa-bell
+              -#    %span.navbar-visible-collapsed  Notifications 
+              -#    %span.badge.badge-primary 1
+              -#  %ul.dropdown-menu.noticebar-menu.noticebar-hoverable{:role => "menu"}
+              -#    %li.nav-header
+              -#      .pull-left
+              -#        Notifications
+              -#      .pull-right
+              -#        %a{:href => "javascript:;"} Mark as Read
+              -#    %li
+              -#      %a.noticebar-item{:href => "#"}
+              -#        %span.noticebar-item-image
+              -#          %i.fa.fa-cloud-upload.text-success
+              -#        %span.noticebar-item-body
+              -#          %strong.noticebar-item-title Approval Requested
+              -#          %span.noticebar-item-text This is just an example (doesn't work), but an approval request would show up here
+              -#          %span.noticebar-item-time
+              -#            %i.fa.fa-clock-o
+              -#            12 minutes ago
+              -#    %li.noticebar-menu-view-all
+              -#      %a{:href => "#"} View All Notifications
+            %ul.nav.navbar-nav.navbar-right
+              %li
+                %a{:href => "javascript:;"} Support
+              %li.dropdown.navbar-profile
+                %a.dropdown-toggle{"data-toggle" => "dropdown", :href => "javascript:;"}
+                  My Account
+                  %span.navbar-profile-label= current_user.email
+                  %i.fa.fa-caret-down
+                %ul.dropdown-menu{:role => "menu"}
+                  %li
+                    %a{:href => "/me"}
+                      %i.fa.fa-user
+                      \  My Profile
+                  %li
+                    = link_to password_account_path do
+                      %i.fa.fa-lock
+                      \  Change Password
+                  %li
+                    = link_to destroy_user_session_path, :method => :delete do
+                      %i.fa.fa-sign-out
+                      \  Logout
+        / .container
+      .mainnav
+        .container
+          %a.mainnav-toggle{"data-target" => ".mainnav-collapse", "data-toggle" => "collapse"}
+            %span.sr-only Toggle navigation
+            %i.fa.fa-bars
+          %nav.collapse.mainnav-collapse{:role => "navigation"}
+            /%form.mainnav-form.pull-right{:role => "search"}
+            /  %input.form-control.input-md.mainnav-search-query{:placeholder => "Search", :type => "text"}/
+            /  %button.btn.btn-sm.mainnav-form-btn
+            /    %i.fa.fa-search
+            %ul.mainnav-menu
+              %li.dropdown{:class => if controller_name == 'home' then 'active' else '' end}
+                %a.dropdown-toggle{:href => "/"}
+                  Dashboard
+              - unless current_user.is_admin?
+                %li.dropdown{:class => if controller_name == 'recordings' then 'active' else '' end}
+                  %a.dropdown-toggle{:href => recordings_path}
+                    Recordings
+              - if current_user.is_admin?
+                %li.dropdown{:class => if controller_name == 'plans' then 'active' else '' end}
+                  %a.dropdown-toggle{:href => plans_path}
+                    Plans
+                %li.dropdown{:class => if controller_name == 'companies' then 'active' else '' end}
+                  %a.dropdown-toggle{:href => companies_path}
+                    Clients
+                %li.dropdown{:class => if controller_name == 'user_records' then 'active' else '' end}
+                  %a.dropdown-toggle{:href => user_records_path}
+                    User Records
+                %li.dropdown{:class => if controller_name == 'app_builds' then 'active' else '' end}
+                  %a.dropdown-toggle{:href => app_builds_path}
+                    Builds
+              - if (current_user.company && !current_user.is_admin? && (current_user.company_user && current_user.company_user.is_admin?))
+                %li.dropdown{:class => if controller_name == 'user_records' then 'active' else '' end}
+                  %a.dropdown-toggle{:href => company_users_path(current_user.company)}
+                    Users
+                %li.dropdown
+                  %a.dropdown-toggle{"data-hover" => "dropdown", "data-toggle" => "dropdown", :href => "javascript:;"}
+                    Company
+                    %i.mainnav-caret
+                  %ul.dropdown-menu{:role => "menu"}
+                    %li
+                      %a{:href => company_path(current_user.company)}
+                        %i.fa.fa-gears
+                        \  Branding
+                    %li
+                      %a{:href => company_users_path(current_user.company)}
+                        %i.fa.fa-users
+                        \  User Administration
+                    -#%li
+                    -#  %a{:href => "#"}
+                    -#    %i.fa.fa-dollar
+                    -#    \  Plans &amp; Billing
+      .content
+        .container
+          - if flash[:notice]
+            .row
+              .alert.alert-info
+                = flash[:notice]
+          - if flash[:alert]
+            .row
+              .alert.alert-danger
+                = flash[:alert]
+          .row
+            = yield
+
+    %footer.footer
+      .container
+        %p.pull-left
+          Copyright © 2015 SeeiTOi.
+          = link_to "VISIT iTOi", "http://www.seeitoi.com"

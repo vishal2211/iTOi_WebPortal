@@ -1,0 +1,27 @@
+%h3.content-title
+  %u Templates
+
+.row
+  .col-md-12
+    .table-responsive
+      %table.table.table-striped.table-bordered.thumbnail-table
+        %thead
+          %tr
+            %th Description
+            %th Created By
+            %th Created Date
+            %th File Info
+            %th Actions
+        %tbody
+          - @templates.each do |template|
+            %tr
+              %td.valign-middle= link_to template.title, template
+              %td.valign-middle= template.user.email
+              %td.valign-middle= template.created_at.strftime("%B %-m, %Y")
+              %td.text-center.valign-middle
+                %a.btn.btn-xs.btn-primary{href: edit_template_path(template)}
+                  %i.fa.fa-pencil
+                %a.btn.btn-xs.btn-secondary{href: template_path(template), :method => :delete, :data => { :confirm => 'Are you sure?' }}
+                  %i.fa.fa-times
+
+/= link_to 'New Template', new_template_path, class: 'btn btn-secondary'

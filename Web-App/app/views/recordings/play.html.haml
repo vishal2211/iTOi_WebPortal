@@ -1,0 +1,18 @@
+%center
+  %h1{style: 'font-size: 1.5em'}= @recording.title
+  - if @show_close_icon
+    %div{style: 'position: absolute; top: 30px; right: 5%; font-size: 24px; color: #b5b8bb'}
+      %a{href: "javascript:window.history.back()", style: "color: #b5b8bb;"} X
+  %p
+    = link_to "from #{@recording.user.email}", "mailto:#{@recording.user.email}"
+  %video{controls: 'controls', poster: @recording.thumbnail_url, style: 'max-width: 90%;max-height: 80vh;'}
+    %source{src: @recording.cdn_video_url, type:"video/mp4"}
+  %ul
+    %li= link_to(image_tag("icon-link.png"), "javascript:window.prompt(\"Copy to clipboard (Ctrl+C):\", '#{@recording.play_url}');void(0);", {target: 'new'})
+    %li= link_to(image_tag("icon-mail.png"), "mailto:?subject=#{CGI.escape @recording.title}&body=#{CGI.escape @recording.title}%20#{@recording.play_url}")
+    %li= link_to(image_tag("icon-fb.png"),"https://www.facebook.com/sharer/sharer.php?u=#{@recording.play_url}", {target: "new"})
+    %li= link_to(image_tag("icon-twitter.png"),"https://twitter.com/home?status=#{@recording.play_url}", {target: "new"})
+    - if @recording.youtube_url
+      %li= link_to(image_tag("icon-youtube.png"),@recording.youtube_url, {target: "new"})
+  = link_to "http://www.seeitoi.com", {target:"new"} do
+    = image_tag "FOOTER.png", style: 'max-width: 100%;'

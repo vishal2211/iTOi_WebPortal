@@ -1,0 +1,101 @@
+source 'https://rubygems.org'
+
+
+# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+gem 'rails', '~> 4.1.1'
+gem 'mysql2'
+gem 'sass-rails', '~> 4.0.3'
+gem 'haml-rails'
+gem 'uglifier', '>= 1.3.0'
+gem 'coffee-rails', '~> 4.0.0'
+
+# See https://github.com/sstephenson/execjs#readme for more supported runtimes
+# gem 'therubyracer',  platforms: :ruby
+
+# Use jquery as the JavaScript library
+gem 'jquery-rails'
+gem 'jquery-ui-rails'
+gem 'turbolinks'
+gem 'jbuilder', '~> 2.0'
+gem 'sdoc', '~> 0.4.0',          group: :doc
+gem 'rails-backbone', github: 'codebrew/backbone-rails', branch: 'master'
+gem 'dalli'
+
+# Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
+gem 'spring',        group: :development
+
+gem 'resque'
+gem 'resque_mailer'
+
+gem 'holder_rails'
+
+gem 'parse-ruby-client'
+
+# for API
+gem 'active_model_serializers'
+
+gem 'capistrano-rails', group: :development
+gem 'nifty-generators', group: :development
+gem 'quiet_assets', group: :development
+
+gem 'haml'
+gem 'cancan'
+gem 'devise'
+gem 'devise_invitable'
+gem 'airbrake'
+gem 'will_paginate'
+gem 'will_paginate-bootstrap'
+
+gem 'whenever'
+gem 'aws-sdk', '~> 1.8.1.1'
+gem 'aws-ses', :require => 'aws/ses'
+gem 'aws'
+
+gem "axlsx"
+gem "axlsx_rails"
+
+#gem 'debugger', group: [:development, :test]
+
+gem "mocha", group: :test
+
+gem 'unicorn'
+gem 'capistrano3-unicorn'
+gem 'capistrano-rvm'
+gem 'capistrano-resque', require: false
+
+# Development Tools
+group :development do
+  gem 'rb-fsevent', '~> 0.9.1'
+  gem 'guard'
+  gem 'guard-livereload'
+  gem 'better_errors'
+  gem "binding_of_caller"
+  gem "rails-erd"
+  gem "awesome_print"
+  gem "therubyracer"
+  gem "annotate"
+end
+
+group :test do
+  gem 'rspec-rails', '~> 3.0'
+  gem 'factory_girl_rails'
+  gem 'database_cleaner'
+  gem 'capybara', '~> 2.4.3'
+  # gem 'selenium-webdriver'
+  # celluloid 0.15.2 has an issue in receivers.rb:9:in `initialize': undefined method `new' for Timers:Module (NoMethodError)
+  # the gem is required by 'listen' which is required by guard
+  gem 'celluloid', '~> 0.16.0'
+  gem 'simplecov', :require => false
+
+  # Did you get this error?
+  #
+  # An error occurred while installing capybara-webkit (1.X.X), and Bundler cannot continue.
+  # Make sure that `gem install capybara-webkit -v '1.X.X'` succeeds before bundling.
+  # ...
+  # You need to install qt, so that webkit can run
+  # iLames: brew install qt
+  # Master Race: sudo apt-get install libqtwebkit-dev
+  #
+  # http://goo.gl/qJxZLA
+  gem 'capybara-webkit'
+end

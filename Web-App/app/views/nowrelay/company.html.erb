@@ -1,0 +1,12 @@
+<h1 class="text-primary">New Group</h1>
+<% if NowUser.where(:email=>@nowrelay.email, :token=>@nowrelay.token).count >= 0 %>
+	<%= render 'form' %>
+<% elsif userInfo.count > 0  && userInfo.pluck(:tokenExpiration)[0] <= Time.now %>
+	<div class="col-md-12">
+		<h1 class="text-danger">Registration Token Has Expired</h1>
+		<p>Please click below to resend</p>
+		<%= link_to 'Resend Auth', relay_resendAuth_path, class:"btn btn-primary btn-danger" %>
+	</div>
+<% else %>
+	<%= render 'relayError' %>
+<% end %>

@@ -1,0 +1,33 @@
+%h3.content-title
+  %u Clients
+
+.row
+  .col-md-12
+    .table-responsive
+      %table.table.table-striped.table-bordered.thumbnail-table
+        %thead
+          %tr
+            %th Name
+            %th Users
+            %th Recordings
+            %th Created
+            %th Actions
+        %tbody
+          - @companies.each do |company|
+            %tr
+              %td.valign-middle= link_to company.name, company
+              %td.valign-middle= link_to pluralize(company.company_users.count, "User"), company_users_path(company)
+              %td.text-center
+                %a.btn.btn-secondary{href: recordings_company_path(company)}
+                  = pluralize(company.recordings.active.length, "recording")
+              %td.valign-middle= company.created_at.strftime("%B %-m, %Y")
+              %td.text-center.valign-middle
+                %a.btn.btn-xs.btn-primary{href: edit_company_path(company)}
+                  %i.fa.fa-pencil
+                = link_to company, :method => :delete, :data => { :confirm => 'Are you REALLY sure?' }, :class => 'btn btn-xs btn-secondary' do
+                  %i.fa.fa-times
+
+.row
+  .col-md-4
+    = link_to new_company_path, :class => 'btn btn-primary' do
+      New Client

@@ -1,0 +1,30 @@
+{"recording": {
+  "id": 5,
+  "template_id": null,
+  "title": "Example Recording Updated",
+  "script": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed...",
+  "scroll_speed": 55,
+  "video_url": "https://s3.amazonaws.com/iTOi.producer.videos/B76F2F80-6B74-4EB5-A953-A734CF4EF86B.mp4",
+  "video_background_color": "234/49/48",
+  "expected_length": 129.49,
+  "recording_images": [
+    {
+      "id": 7,
+      "associated_string": "secondi",
+      "image_url": "https://s3.amazonaws.com/iTOi.producer.images/B76F2F80-6B74-4EB5-A953-A734CF4EF86A.jpg",
+      "start_time": 5.294,
+      "end_time": 7.582,
+      "scroll_height": 300,
+      "scroll_y_value": 768
+    },
+    {
+      "id": 8,
+      "associated_string": "adipiscing elit, sed",
+      "image_url": "https://s3.amazonaws.com/iTOi.producer.images/B76F2F80-6B74-4EB5-A953-A734CF4EF86A.jpg",
+      "start_time": 7.582,
+      "end_time": 9.444,
+      "scroll_height": 300,
+      "scroll_y_value": 768
+    }
+  ]
+}}

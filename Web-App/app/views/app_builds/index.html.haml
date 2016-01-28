@@ -1,0 +1,119 @@
+.row
+  .col-sm-4
+    .panel.panel-info
+      .panel-heading
+        .panel-title Debug Build
+      .panel-body
+        = form_for AppBuild.debug, class: 'form parsley-form', :html => {:multipart => true} do |f|
+
+          - if AppBuild.debug.binary_url
+            .form-group
+              = f.label 'Download Path'
+              %br
+              %pre= AppBuild.debug.download_path(request.host)
+
+            .form-group
+              = f.label 'Current Version'
+              %br
+              %pre= AppBuild.debug.version
+
+            %hr
+
+          %h3 Upload New Build
+
+          .form-group
+            = f.label 'New Build Version'
+            = f.text_field :version, class: 'form-control parsley-validated'
+
+          .form-group
+            .fileinput.fileinput-new{"data-provides" => "fileinput"}
+              %div
+                %span.btn.btn-default.btn-file
+                  %span.fileinput-new Select New Build
+                  %span.fileinput-exists Change
+                  %input{:name => "app_build[binary]", :type => "file"}/
+                %a.btn.btn-default.fileinput-exists{"data-dismiss" => "fileinput", :href => "#"} Remove
+            %input{:name => "app_build[level]", :type => "hidden", :value => AppBuild::LEVEL_DEBUG}
+
+          .form-group
+            = f.submit 'Upload', class: 'btn btn-danger'
+
+
+  .col-sm-4
+    .panel.panel-info
+      .panel-heading
+        .panel-title Hotfix Build
+      .panel-body
+        = form_for AppBuild.hotfix, class: 'form parsley-form', :html => {:multipart => true} do |f|
+
+          - if AppBuild.hotfix.binary_url
+            .form-group
+              = f.label 'Download Path'
+              %br
+              %pre= AppBuild.hotfix.download_path(request.host)
+
+            .form-group
+              = f.label 'Current Version'
+              %br
+              %pre= AppBuild.hotfix.version
+
+            %hr
+
+          %h3 Upload New Build
+
+          .form-group
+            = f.label 'New Build Version'
+            = f.text_field :version, class: 'form-control parsley-validated'
+
+          .form-group
+            .fileinput.fileinput-new{"data-provides" => "fileinput"}
+              %div
+                %span.btn.btn-default.btn-file
+                  %span.fileinput-new Select New Build
+                  %span.fileinput-exists Change
+                  %input{:name => "app_build[binary]", :type => "file"}/
+                %a.btn.btn-default.fileinput-exists{"data-dismiss" => "fileinput", :href => "#"} Remove
+            %input{:name => "app_build[level]", :type => "hidden", :value => AppBuild::LEVEL_HOTFIX}
+
+          .form-group
+            = f.submit 'Upload', class: 'btn btn-danger'
+
+
+  .col-sm-4
+    .panel.panel-default
+      .panel-heading
+        .panel-title Release Build
+      .panel-body
+        = form_for AppBuild.release, class: 'form parsley-form', :html => {:multipart => true} do |f|
+
+          - if AppBuild.release.binary_url
+            .form-group
+              = f.label 'Download Path'
+              %br
+              %pre= AppBuild.release.download_path(request.host)
+
+            .form-group
+              = f.label 'Current Version'
+              %br
+              %pre= AppBuild.release.version
+
+            %hr
+
+          %h3 Upload New Build
+
+          .form-group
+            = f.label 'New Build Version'
+            = f.text_field :version, class: 'form-control parsley-validated'
+
+          .form-group
+            .fileinput.fileinput-new{"data-provides" => "fileinput"}
+              %div
+                %span.btn.btn-default.btn-file
+                  %span.fileinput-new Select New Build
+                  %span.fileinput-exists Change
+                  %input{:name => "app_build[binary]", :type => "file"}/
+                %a.btn.btn-default.fileinput-exists{"data-dismiss" => "fileinput", :href => "#"} Remove
+            %input{:name => "app_build[level]", :type => "hidden", :value => AppBuild::LEVEL_RELEASE}
+
+          .form-group
+            = f.submit 'Upload', class: 'btn btn-danger'

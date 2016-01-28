@@ -1,0 +1,37 @@
+!!!
+%html
+  %head
+    %title ITOi
+    %meta{:charset => "utf-8"}/
+    %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}/
+    %meta{:content => "see iTOi web administration", :name => "description"}/
+    %meta{:content => "See iTOi / Orangeberry Company", :name => "author"}/
+    / Google Font: Open Sans
+    %link{:href => "//fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic", :rel => "stylesheet"}/
+    %link{:href => "//fonts.googleapis.com/css?family=Oswald:400,300,700", :rel => "stylesheet"}/
+
+    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
+    = javascript_include_tag 'application', 'data-turbolinks-track' => true
+    = csrf_meta_tags
+
+  %body.account-bg
+    #wrapper
+      %header.navbar.navbar-inverse{:role => "banner"}
+        .container
+          .navbar-header
+            %button.navbar-toggle{"data-target" => ".navbar-collapse", "data-toggle" => "collapse", :type => "button"}
+              %span.sr-only Toggle navigation
+              %i.fa.fa-cog
+            %a.navbar-brand.navbar-brand-img{:href => "#"}
+              = image_tag "logo.png"
+          / /.navbar-header
+          %nav.collapse.navbar-collapse{:role => "navigation"}
+
+            %ul.nav.navbar-nav.navbar-right
+              %li
+                %a{:href => "javsacript:;"} About
+              %li
+                %a{:href => "javascript:;"} Support
+
+      = yield
+

@@ -1,0 +1,18 @@
+%h3.content-title
+  %u Plans
+
+.row
+  .col-md-12
+    .table-responsive
+      %table.table.table-striped.table-bordered.thumbnail-table
+        %thead
+          %tr
+            %th Name
+            %th Actions
+        %tbody
+          - @plans.each do |plan|
+            %tr
+              %td.valign-middle= link_to plan.name, edit_plan_path(plan)
+              %td.text-center.valign-middle
+                %a.btn.btn-xs.btn-primary{href: edit_plan_path(plan)}
+                  %i.fa.fa-pencil

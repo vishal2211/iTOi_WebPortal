@@ -1,0 +1,12 @@
+{
+  "Type" : "Notification",
+  "MessageId" : "e5a2bd24-315b-5d21-9561-f0a93c900d77",
+  "TopicArn" : "arn:aws:sns:us-east-1:212890319766:transcode-error",
+  "Subject" : "The Amazon Elastic Transcoder job 1427311493823-u37u65 has failed.",
+  "Message" : "{\n  \"state\" : \"ERROR\",\n  \"errorCode\" : 3002,\n  \"messageDetails\" : \"3002 67e9e2fb-25ab-4410-aaa2-d8d58e7ecff1: The specified object could not be saved in the specified bucket because an object by that name already exists: bucket=itoi-output, key=trans-1.mp4.\",\n  \"version\" : \"2012-09-25\",\n  \"jobId\" : \"1427311493823-u37u65\",\n  \"pipelineId\" : \"1426197713085-npyz1h\",\n  \"input\" : {\n    \"key\" : \"FF0EB7D6-69CC-47AA-BF8F-B344CFE142E9.mp4\",\n    \"frameRate\" : \"auto\",\n    \"resolution\" : \"auto\",\n    \"aspectRatio\" : \"auto\",\n    \"interlaced\" : \"auto\",\n    \"container\" : \"auto\"\n  },\n  \"outputs\" : [ {\n    \"id\" : \"1\",\n    \"presetId\" : \"1351620000000-100070\",\n    \"key\" : \"trans-1.mp4\",\n    \"thumbnailPattern\" : \"\",\n    \"rotate\" : \"0\",\n    \"status\" : \"Error\",\n    \"statusDetail\" : \"3002 67e9e2fb-25ab-4410-aaa2-d8d58e7ecff1: The specified object could not be saved in the specified bucket because an object by that name already exists: bucket=itoi-output, key=trans-1.mp4.\",\n    \"errorCode\" : 3002\n  } ]\n}",
+  "Timestamp" : "2015-03-25T19:24:59.466Z",
+  "SignatureVersion" : "1",
+  "Signature" : "yDN8nfABKEcblnNjN20kQ1dlWPHv+QJLjtu/n0L4jLcQnaGxwr7qUz/2h878PvOsChD7VXkoGo5MAhIgfnkXtgicLmYh2ttXIW5k36C4L82DzIp4hRnofqudiivVA3zDx0XOnIS9NvwW+yUB1pvijLwZHqfOvrCB3lVWOzo3oaAVAtb05OuGTZ2aDdhaCqGBZv5BDP3v7fqOTTXrcTU6Rnc1U/2a59y0653cfElPm3mkZGyDyPRxeV3dJZ5QXyhbzSuDmvgjc4AL2TWbIWcJwnT9j1mhQeriqpj9DkLu8SQ0aNoI5KdN9XMAsPVDnM+7OUnEoxOBsOO8T+uOHGZS0Q==",
+  "SigningCertURL" : "https://sns.us-east-1.amazonaws.com/SimpleNotificationService-d6d679a1d18e95c2f9ffcf11f4f9e198.pem",
+  "UnsubscribeURL" : "https://sns.us-east-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:us-east-1:212890319766:transcode-error:f338a629-16d6-4155-a402-371d9a5c1878"
+}

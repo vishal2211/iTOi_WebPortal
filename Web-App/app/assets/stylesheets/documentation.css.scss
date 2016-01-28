@@ -1,0 +1,30 @@
+#doc-body {
+  padding-top: 85px;
+
+  .navbar-brand {
+    padding-top: 5px;
+  }
+
+  .navbar-header {
+    height: 65px;
+  }
+
+  #doc-sidebar li.active {
+      border:0 #eee solid;
+      border-right-width:4px;
+  }
+
+  #doc-sidebar li.header {
+
+  }
+
+  #doc-sidebar li.subheading a {
+    padding-left: 25px;
+  }
+
+  .spacer {
+    clear: both;
+    margin-top: 45px;
+  }
+
+}

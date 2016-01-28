@@ -1,0 +1,5 @@
+%html
+  %head
+    = stylesheet_link_tag    'player', media: 'all', 'data-turbolinks-track' => true
+  %body{style: "background: rgb(#{@recording.video_background_color.gsub(/\//,",")})"}
+    = yield

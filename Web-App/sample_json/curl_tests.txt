@@ -1,0 +1,43 @@
+Create User
+curl -iv -XPOST -H"X-API-Authentication: 394f026f0d288eb28d75a03e137730c5" -d @sample_json/user_create.json -H"Content-type: application/json" http://localhost:3000/api/v1/users
+
+Query Self
+curl -iv -XGET -u "david@nine70labs.com:testpass" -H"Content-type: application/json" http://127.0.0.1:3000/api/v1/users/me
+
+
+Update Minutes
+curl -iv -XPUT -u "david@nine70labs.com:testpass" -d@sample_json/user_update_minutes.json -H"Content-type: application/json" http://127.0.0.1:3000/api/v1/users/me
+
+Reset Password
+curl -iv -XPOST -H"X-API-Authentication: 394f026f0d288eb28d75a03e137730c5" -d @sample_json/reset_password.json -H"Content-type: application/json" http://127.0.0.1:3000/api/v1/users/reset_password
+
+Bump billing event
+curl -iv -XPOST -H"X-API-Authentication: 394f026f0d288eb28d75a03e137730c5"  -u "david@nine70labs.com:testpass" -d @sample_json/billing_event_create.json -H"Content-type: application/json" http://127.0.0.1:3000/api/v1/users/bump_subscription
+
+Create Recording
+curl -iv -XPOST -H"X-API-Authentication: 394f026f0d288eb28d75a03e137730c5" -u "david@nine70labs.com:testpass" -d @sample_json/recording_create.json -H"Content-type: application/json" http://127.0.0.1:3000/api/v1/recordings
+
+Show Recording
+curl -XGET -H"X-API-Authentication: 394f026f0d288eb28d75a03e137730c5" -u "david@nine70labs.com:testpass" -H"Content-type: application/json" http://127.0.0.1:3000/api/v1/recordings/1078 |python -mjson.tool
+
+Update Recording
+curl -iv -XPUT -H"X-API-Authentication: 394f026f0d288eb28d75a03e137730c5" -u "david@nine70labs.com:testpass" -d @sample_json/recording_update.json -H"Content-type: application/json" http://127.0.0.1:3000/api/v1/recordings/5
+
+Destroy Recording
+curl -iv -XDELETE -u "david@nine70labs.com:testpass" -H"Content-type: application/json" http://localhost:3000/api/v1/recordings/2
+
+List Recordings
+curl -iv -XGET -H"X-API-Authentication: 394f026f0d288eb28d75a03e137730c5" -u "david@nine70labs.com:testpass" -H"Content-type: application/json" http://localhost:3000/api/v1/recordings
+curl -XGET -H"X-API-Authentication: 394f026f0d288eb28d75a03e137730c5" -u "david@nine70labs.com:testpass" -H"Content-type: application/json" http://127.0.0.1:3000/api/v1/recordings |python -mjson.tool
+
+Create Media Item
+curl -iv -XPOST -u "david@nine70labs.com:testpass" -d @sample_json/media_create.json -H"Content-type: application/json" http://localhost:3000/api/v1/media
+
+List Media Items
+curl -iv -XGET -H"X-API-Authentication: 394f026f0d288eb28d75a03e137730c5" -u "david@nine70labs.com:testpass" -d @sample_json/media_create.json -H"Content-type: application/json" http://localhost:3000/api/v1/media
+
+Destroy Media
+curl -iv -XDELETE -u "david@nine70labs.com:testpass" -H"Content-type: application/json" http://localhost:3000/api/v1/media/1
+
+SNS Failure:
+curl -iv -XPOST -d @sample_json/sns_failure.json -H"Content-type: application/json" http://127.0.0.1:3000/api/v1/callbacks/fail

@@ -1,0 +1,25 @@
+.row
+  - if NowUser.isUser(current_user) && NowUser.expired(:email=>current_user.email)
+    - if current_user.company_user.is_admin?
+      %p.text-danger
+        ='Account is expired.'
+        %a.text-warning{href:'http://seeitoi.com/login', target:'_blank'} Visit our site by clicking here in order to renew your subscription.
+.row
+  .col-md-10.col-md-offset-1
+    .portlet
+      %h4.portlet-title
+        %u View Activity
+
+      .portlet-body
+        #line-chart.chart-holder-300
+.row
+  .col-md-2.col-md-offset-4
+    .well.text-center
+      %b Total Views
+      %br
+      = current_user.total_views
+  .col-md-2
+    .well.text-center
+      %b Total Minutes
+      %br
+      = (Time.now.midnight + current_user.total_seconds.to_i.seconds).strftime("%M:%S")

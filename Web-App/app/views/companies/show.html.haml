@@ -1,0 +1,102 @@
+%h3.content-title
+  %u= @company.name
+
+
+- if current_user.is_admin?
+  .row{:style => "margin-bottom: 25px;"}
+    .col-md-2
+      %label Contract Start Date
+      %br
+      %p= @company.contract_start_date
+
+    .col-md-2
+      %label Contract End Date
+      %br
+      %p= @company.contract_end_date
+
+    .col-md-2
+      %label Default Plan
+      %br
+      %p= @company.default_plan.name if @company.default_plan
+
+    .col-md-2
+      %label Allow Uploads
+      %br
+      %p= @company.allow_uploads ? "Yes" : "No"
+
+    .col-md-2
+      %label Request User Email
+      %br
+      %p= @company.request_user_email ? "Yes" : "No"
+
+    .col-md-2
+      %label Workflow
+      %br
+      %p= @company.simplified_workflow? ? "Simplified" : "Standard"
+
+
+  .row
+    .col-md-2
+      %label Sharing Approval Required
+      %br
+      %p= @company.videos_require_approval? ? "Yes" : "No"
+
+.row{:style => "margin-bottom: 25px;"}
+  .col-md-4
+    %label Whitelabel Icon
+    %br
+    - if @company.whitelabel_icon_url
+      %div{:style => "max-width: 200px; max-height: 150px;"}
+        %img{src: @company.whitelabel_icon_url ? @company.whitelabel_icon_url + '?' + @company.updated_at.to_i.to_s : nil, :style => "max-width: 200px; max-height: 150px;"}
+    - else
+      %p None
+
+  .col-md-4
+    %label Watermark Image
+    %br
+    - if @company.watermark_image_url
+      %div{:style => "max-width: 200px; max-height: 150px;"}
+        %img{src: @company.watermark_image_url ? @company.watermark_image_url + '?' + @company.updated_at.to_i.to_s : nil, :style => "max-width: 200px; max-height: 150px;"}
+    - else
+      %p None
+
+  .col-md-4
+
+    %label Header Image
+    %br
+    - if @company.header_image_url
+      %div{:style => "max-width: 200px; max-height: 150px;"}
+        %img{src: @company.header_image_url ? @company.header_image_url + '?' + @company.updated_at.to_i.to_s : nil, :style => "max-width: 200px; max-height: 150px;"}
+    - else
+      %p None
+
+.row{:style => "margin-bottom: 25px;"}
+  .col-md-4
+    %label Footer Image
+    %br
+    - if @company.footer_image_url
+      %div{:style => "max-width: 200px; max-height: 150px;"}
+        %img{src: @company.footer_image_url ? @company.footer_image_url + '?' + @company.updated_at.to_i.to_s : nil, :style => "max-width: 200px; max-height: 150px;"}
+    - else
+      %p None
+
+  .col-md-4
+    %label Company Logo
+    %br
+    - if @company.company_logo_url
+      %div{:style => "max-width: 200px; max-height: 150px;"}
+        %img{src: @company.company_logo_url ? @company.company_logo_url + '?' + @company.updated_at.to_i.to_s : nil, :style => "max-width: 200px; max-height: 150px;"}
+    - else
+      %p None
+
+  .col-md-4
+    %label Whitelabel Text
+    %br
+    - if @company.whitelabel_text
+      %p= @company.whitelabel_text
+    - else
+      %p None
+
+= link_to 'Customize', edit_company_path(@company), class: 'btn btn-secondary'
+= link_to 'Recordings', recordings_company_path(@company), class: 'btn btn-default'
+= link_to 'Users', company_users_path(@company), class: 'btn btn-default'

@@ -1,0 +1,87 @@
+<% ##if NowUser.isUser(:email=>params[:email],:token=>params[:token]) %>
+  <div class="account-wrapper">
+    <div class="account-body">
+      <% if params[:companyToken] %>
+        <h3>Get Started with Your Group's Admin Account.</h3>
+      <% else %>
+        <h3>Get Started with Your Account.</h3>
+      <% end %>
+        <% if !params[:companyToken] %>
+          <%= form_for(resource, as: resource_name, url: registration_path(resource_name), :email=>params[:email], :token=>params[:token], class: ['form', 'account-form']) do |f| %>
+            <%= devise_error_messages! %>
+            <div class="form-group">
+              <% if NowUser.isUser(:email=>params[:email],:token=>params[:token]) %>
+                <%= f.email_field :email, placeholder: 'Your Email', autofocus: true, class: 'form-control', :value=>params[:email], :readonly=>true %>
+                </div>
+                <div class="form-group">
+                  <%= f.hidden_field :email, :value=>params[:email] %>
+                  <%= f.hidden_field :token, :value=>params[:token] %>
+                </div>
+                <div class="form-group">
+                  <%= f.password_field :password, placeholder: 'Password', autocomplete: "off", class: 'form-control'  %>
+                </div>
+                <div class="form-group">
+                  <%= f.password_field :password_confirmation, placeholder: 'Password Confirmation', autocomplete: "off", class: 'form-control'  %>
+                </div>
+                <% if ! NowUser.isUser(:email=>params[:email],:token=>params[:token]) %>
+                  <div class="form-group">
+                    <%= f.text_field :company_token, placeholder: 'Company Token (optional)', class: 'form-control'  %>
+                  </div>
+                  <% end %>
+                  <div class="form-group">
+                    <label class="checkbox-inline">
+                      <input type="checkbox" class="" value="" tabindex="5"> I agree to the <a href="javascript:;" target="_blank">Terms of Service</a> &amp; <a href="javascript:;" target="_blank">Privacy Policy</a>
+                    </label>
+                  </div>
+                  <div class="form-group">
+                    <%= f.submit "Create My Account", class: 'btn btn-secondary btn-block btn-lg' %>
+                  </div>
+              <% else %>
+                <h1 class="text-warning">Not a member yet?</h1>
+                <p>Vist our <a href="http://itoi.nowcoders.com" target="_blank">site</a> to become a member now!</a></p>
+              </div>
+              <% end %>
+          <% end %>
+        <% else %>
+          <%= form_for CompanyUser.new, url:{:controller=>'/nowrelay',:action=>'createCompanyUser'} do |f| %>
+          <%= devise_error_messages! %>
+            <div class="form-group">
+              <% if ! NowUser.isUser(:email=>params[:email],:token=>params[:token]) %>
+                <%= f.email_field :email, placeholder: 'Your Email', autofocus: true, class: 'form-control' %>
+              <% else %>
+                <%= f.email_field :email, placeholder: 'Your Email', value:params[:email], :readonly=>true, class: 'form-control' %>
+              <% end %>
+            </div>
+            <div class="form-group">
+              <%= f.hidden_field :email, :value=>params[:email] %>
+              <%= f.hidden_field :token, :value=>params[:token] %>
+            </div>
+            <div class="form-group">
+              <%= f.password_field :password, placeholder: 'Password', autocomplete: "off", class: 'form-control'  %>
+            </div>
+            <div class="form-group">
+              <%= f.password_field :password_confirmation, placeholder: 'Password Confirmation', autocomplete: "off", class: 'form-control'  %>
+            </div>
+              <%= f.hidden_field :company_token, :value=> params[:companyToken], placeholder: 'Company Token (optional)', class: 'form-control made-it'  %>
+            <div class="form-group">
+              <label class="checkbox-inline">
+                <input type="checkbox" class="" value="" tabindex="5"> I agree to the <a href="javascript:;" target="_blank">Terms of Service</a> &amp; <a href="javascript:;" target="_blank">Privacy Policy</a>
+              </label>
+            </div>
+            <div class="form-group">
+              <%= f.submit "Create My Account", class: 'btn btn-secondary btn-block btn-lg' %>
+            </div>
+          <% end %>
+        <% end %>
+  </div>
+<div class="account-footer">
+      <p>
+      Already have an account? &nbsp;
+      <%= link_to "Login to your Account!", new_session_path(resource_name) %><br />
+      </p>
+</div> <!-- /.account-footer -->
+
+
+
+
+

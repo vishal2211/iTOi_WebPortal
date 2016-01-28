@@ -1,0 +1,17 @@
+%h3.content-title
+  = current_user.email
+
+%h4.content-title
+  %u Plan Level
+
+%p= current_user.plan ? current_user.plan.name : "Bronze"
+
+%br
+%br
+
+- if current_user.plan_expiration
+  %h4.content-title
+    %u Plan Expiration
+
+  %p= current_user.plan_expiration
+

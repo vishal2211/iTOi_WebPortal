@@ -1,0 +1,3586 @@
+{ "results": [
+	{
+        "createdAt": "2014-05-29T19:17:36.791Z",
+        "lengthInSeconds": 87,
+        "objectId": "bPjcD74DC2",
+        "updatedAt": "2014-09-01T00:00:55.997Z",
+        "user": "782Yh8zvui",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/iTOiSAMPLEVIDEO",
+        "videoUUID": "874828CA-D606-449A-BDAE-D9A7A26B8AEA",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-04-20T06:48:17.797Z",
+        "lengthInSeconds": 9,
+        "objectId": "SVg88UhZGf",
+        "updatedAt": "2014-09-01T00:00:52.537Z",
+        "user": "tCb3AaD0at",
+        "videoURL": "https://s3.amazonaws.com/itoi.producer.videos.dimitarattest.com/56689E67-34E2-4CCF-8472-70C01F35782D",
+        "videoUUID": "A9AD842B-8737-42F2-B9E4-C8301762813F",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-04-20T07:00:54.060Z",
+        "lengthInSeconds": 4,
+        "objectId": "tcHBe2ib4z",
+        "updatedAt": "2014-09-01T00:01:07.420Z",
+        "user": "x9NRCBrZWW",
+        "videoURL": "https://s3.amazonaws.com/itoi.producer.videos.testattest.com/1426F4F6-B98A-4525-96AA-AD1EE814AC82",
+        "videoUUID": "97075EA0-B330-4465-8FCB-0ADCCB22A8B3",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-04-20T07:53:57.675Z",
+        "lengthInSeconds": 7,
+        "objectId": "VSP2caoiLY",
+        "updatedAt": "2014-09-01T00:00:54.190Z",
+        "user": "S6yPwRgxli",
+        "videoURL": "https://s3.amazonaws.com/itoi.producer.videos.test2attest.com/26274AEF-E09B-4B43-A25E-01583C5DAF7D",
+        "videoUUID": "451D4E57-E255-464B-B59C-31E52FCE96E1",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-04-20T07:55:52.583Z",
+        "lengthInSeconds": 18,
+        "objectId": "Kbq1OaZzDb",
+        "updatedAt": "2014-09-01T00:00:46.131Z",
+        "user": "S6yPwRgxli",
+        "videoURL": "https://s3.amazonaws.com/itoi.producer.videos.test2attest.com/8FDE6416-9787-4360-90A0-5FDD71EBE17A",
+        "videoUUID": "28316C54-575D-42F9-9DB6-49E06B1B4D05",
+        "viewsThisMonth": 0
+    },
+	{
+        "allViews": 500002,
+        "createdAt": "2014-04-26T15:31:19.195Z",
+        "lengthInSeconds": 6,
+        "objectId": "evrp8bcn1R",
+        "updatedAt": "2014-09-01T00:00:58.249Z",
+        "user": "x9NRCBrZWW",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/B53E8F3B-98B1-4E3F-81CA-A09D9A8C05A6",
+        "videoUUID": "0A49A67F-C7A4-447F-9ADF-5D869E25029E",
+        "viewsThisMonth": 0
+    },
+	{
+        "allViews": 29,
+        "createdAt": "2014-04-18T22:30:00.370Z",
+        "lengthInSeconds": 13,
+        "objectId": "UC3TdglOSV",
+        "updatedAt": "2014-09-01T00:00:53.725Z",
+        "user": "HoiDBUaipj",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/4E21DE0D-C2AB-49AD-8D33-B28DD7E3269F",
+        "videoUUID": "AEF4F76D-474D-4D0B-9D3E-ECDCA4E930BD",
+        "viewsThisMonth": 0
+    },
+	{
+        "allViews": 27,
+        "createdAt": "2014-04-18T22:15:15.897Z",
+        "lengthInSeconds": 13,
+        "objectId": "2ljm7nqJny",
+        "updatedAt": "2014-09-01T00:00:34.049Z",
+        "user": "X3x6W7kmV3",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/CBD629D5-6CD1-4E52-A3BC-282DF006E155",
+        "videoUUID": "C6AD86CD-96E4-45FB-BD7B-A2F6AF100F93",
+        "viewsThisMonth": 0
+    },
+	{
+        "allViews": 160,
+        "createdAt": "2014-03-23T02:45:58.294Z",
+        "lengthInSeconds": 66,
+        "objectId": "O1KBxnWWvR",
+        "updatedAt": "2014-09-01T00:00:48.889Z",
+        "user": "Alq1w3j0mG",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/86F71759-5244-48F2-B918-06391E25F434",
+        "videoUUID": "E1EB6FC6-2970-4F24-AAF0-981039AB6C30",
+        "viewsThisMonth": 0
+    },
+	{
+        "allViews": 24,
+        "createdAt": "2014-04-18T22:32:43.137Z",
+        "lengthInSeconds": 10,
+        "objectId": "samo5uZ3Xt",
+        "updatedAt": "2014-09-01T00:01:06.415Z",
+        "user": "X3x6W7kmV3",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/5EED875A-77C5-4D08-93BC-5F61452C2BEC",
+        "videoUUID": "9570EE6A-A532-4363-A3A4-96E4A96BD1ED",
+        "viewsThisMonth": 0
+    },
+	{
+        "allViews": 156,
+        "createdAt": "2014-03-27T01:29:37.619Z",
+        "lengthInSeconds": 5,
+        "objectId": "jngeJUIPaw",
+        "updatedAt": "2014-09-01T00:01:00.077Z",
+        "user": "Alq1w3j0mG",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/9DD26298-70AA-4717-8400-B23F16CB364E",
+        "videoUUID": "0F794641-7745-4323-8207-7D463B6D287D",
+        "viewsThisMonth": 0
+    },
+	{
+        "allViews": 10,
+        "createdAt": "2014-03-27T00:52:23.036Z",
+        "lengthInSeconds": 4,
+        "objectId": "yuVr7rGR9u",
+        "updatedAt": "2014-09-01T00:01:10.985Z",
+        "user": "Alq1w3j0mG",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/6C294B70-3BF6-4936-BB72-63F0F7585DFC",
+        "videoUUID": "D01ED220-E4C2-41E8-B2C8-0AABD416B28A",
+        "viewsThisMonth": 0
+    },
+	{
+        "allViews": 5,
+        "createdAt": "2014-04-18T22:23:22.607Z",
+        "lengthInSeconds": 10,
+        "objectId": "kICL9WPGzP",
+        "updatedAt": "2014-09-01T00:01:00.994Z",
+        "user": "HoiDBUaipj",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/5EED875A-77C5-4D08-93BC-5F61452C2BEC",
+        "videoUUID": "14968584-1E1B-4E7A-A8B1-616CC6D48175",
+        "viewsThisMonth": 0
+    },
+	{
+        "allViews": 6,
+        "createdAt": "2014-04-18T22:23:44.106Z",
+        "lengthInSeconds": 13,
+        "objectId": "kHGliapvXd",
+        "updatedAt": "2014-09-01T00:01:00.865Z",
+        "user": "HoiDBUaipj",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/CBD629D5-6CD1-4E52-A3BC-282DF006E155",
+        "videoUUID": "4E6CEA91-ED33-4C0C-84AD-731C33DF7969",
+        "viewsThisMonth": 0
+    },
+	{
+        "allViews": 8,
+        "createdAt": "2014-04-29T20:01:52.316Z",
+        "lengthInSeconds": 16,
+        "objectId": "Rbfip9q4HB",
+        "updatedAt": "2014-09-01T00:00:51.149Z",
+        "user": "782Yh8zvui",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/17185385-D947-497D-8FE9-97B41947965D",
+        "videoUUID": "34A90F01-8A47-4339-A1E6-B13AC71C3346",
+        "viewsThisMonth": 0
+    },
+	{
+        "allViews": 12,
+        "createdAt": "2014-04-29T04:31:51.444Z",
+        "lengthInSeconds": 64,
+        "objectId": "rSZxpffRBN",
+        "updatedAt": "2014-09-01T00:01:05.490Z",
+        "user": "782Yh8zvui",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/66FB1D4B-5086-4CF2-963F-81D590723682",
+        "videoUUID": "44281708-61E5-4C73-9915-67FFEAF71DED",
+        "viewsThisMonth": 0
+    },
+	{
+        "allViews": 8,
+        "createdAt": "2014-04-23T22:25:10.643Z",
+        "lengthInSeconds": 7,
+        "objectId": "ms3yMALd8W",
+        "updatedAt": "2014-09-01T00:01:02.041Z",
+        "user": "bjpmmXV6qD",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/C3A02EE1-9014-4A7B-AA78-D68A7EF4D01F",
+        "videoUUID": "5BC853FF-B82F-461B-93A3-F8251FD00901",
+        "viewsThisMonth": 0
+    },
+	{
+        "allViews": 1,
+        "createdAt": "2014-04-18T21:58:11.990Z",
+        "lengthInSeconds": 2,
+        "objectId": "cUJ8NETTEq",
+        "updatedAt": "2014-09-01T00:00:56.422Z",
+        "user": "HoiDBUaipj",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/5F3AECBE-D021-44CC-950F-F3176AD8F07D",
+        "videoUUID": "F93AC36C-1D59-4014-9806-EC7A71874CB6",
+        "viewsThisMonth": 0
+    },
+	{
+        "allViews": 1,
+        "createdAt": "2014-04-18T21:56:34.444Z",
+        "lengthInSeconds": 3,
+        "objectId": "4VgXpQQd0d",
+        "updatedAt": "2014-09-01T00:00:36.512Z",
+        "user": "HoiDBUaipj",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/051D68CC-E5D2-430F-A440-B65AEA900902",
+        "videoUUID": "FC1F53C5-1E6D-4ADD-A04E-26F5B99FCE38",
+        "viewsThisMonth": 0
+    },
+	{
+        "allViews": 1,
+        "createdAt": "2014-04-18T20:24:53.487Z",
+        "lengthInSeconds": 11,
+        "objectId": "HipfdG73e2",
+        "updatedAt": "2014-09-01T00:00:44.447Z",
+        "user": "rUUkqYLTde",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/E755EF44-29CA-42A6-B94D-4F0DD4DEAB01",
+        "videoUUID": "2D8E8C85-3555-4326-9CFB-3140CE62CC8B",
+        "viewsThisMonth": 0
+    },
+	{
+        "allViews": 1,
+        "createdAt": "2014-04-18T22:16:58.204Z",
+        "lengthInSeconds": 10,
+        "objectId": "wC0lLv6hpI",
+        "updatedAt": "2014-09-01T00:01:09.755Z",
+        "user": "X3x6W7kmV3",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/30552D28-72D5-4ECC-9A31-0E93B3D0AABE",
+        "videoUUID": "87E8A64B-0552-41AA-98EF-4CCA28728630",
+        "viewsThisMonth": 0
+    },
+	{
+        "allViews": 1,
+        "createdAt": "2014-04-18T22:15:27.831Z",
+        "lengthInSeconds": 13,
+        "objectId": "hju6DXucHw",
+        "updatedAt": "2014-09-01T00:00:59.446Z",
+        "user": "X3x6W7kmV3",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/B86E2E8E-1127-4FB0-909A-009C594B897A",
+        "videoUUID": "7F4CAE82-6439-4D1C-B374-B409CF7EC2E9",
+        "viewsThisMonth": 0
+    },
+	{
+        "allViews": 2,
+        "createdAt": "2014-04-20T06:59:32.496Z",
+        "lengthInSeconds": 5,
+        "objectId": "45tThnaGib",
+        "updatedAt": "2014-09-01T00:00:35.940Z",
+        "user": "x9NRCBrZWW",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/A5D33EFC-7F2D-4552-B84E-B98AE9B6D43E",
+        "videoUUID": "33A9D725-5FB4-4A4D-BE49-B90D494E7D2A",
+        "viewsThisMonth": 0
+    },
+	{
+        "allViews": 1,
+        "createdAt": "2014-04-18T22:23:18.947Z",
+        "lengthInSeconds": 12,
+        "objectId": "4WCcdE0xgm",
+        "updatedAt": "2014-09-01T00:00:37.381Z",
+        "user": "HoiDBUaipj",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/7CCE8A44-B2CC-4D09-90D6-4C28D8440C37",
+        "videoUUID": "4C5BB047-72D2-4D11-9113-DC21F5AE65D4",
+        "viewsThisMonth": 0
+    },
+	{
+        "allViews": 3,
+        "createdAt": "2014-04-23T22:27:36.746Z",
+        "lengthInSeconds": 13,
+        "objectId": "fov7ENpfme",
+        "updatedAt": "2014-09-01T00:00:58.740Z",
+        "user": "bjpmmXV6qD",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/E03F55CE-AE66-4D14-A3B2-C01502DB48C5",
+        "videoUUID": "9FFC7950-F88E-4D70-8305-F92EFCB9F727",
+        "viewsThisMonth": 0
+    },
+	{
+        "allViews": 3,
+        "createdAt": "2014-05-10T16:02:35.096Z",
+        "lengthInSeconds": 106,
+        "objectId": "nvPZ9Wugbn",
+        "updatedAt": "2014-09-01T00:01:03.295Z",
+        "user": "nYIQLg0lRY",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/1B7F23AF-1A6D-4FC6-A761-94A3B894CCDC",
+        "videoUUID": "A02352F2-F9BC-4FAE-A48B-CDD430B1FBCD",
+        "viewsThisMonth": 0
+    },
+	{
+        "allViews": 5,
+        "createdAt": "2014-05-12T00:37:22.652Z",
+        "lengthInSeconds": 49,
+        "objectId": "MA8dpoZboU",
+        "updatedAt": "2014-09-01T00:00:47.751Z",
+        "user": "tCb3AaD0at",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/E3E78A63-900C-4F22-8E0D-F0810C7F7B5C",
+        "videoUUID": "2BBAD801-B6C6-497A-8CAA-692A32AC73B5",
+        "viewsThisMonth": 0
+    },
+	{
+        "allViews": 1,
+        "createdAt": "2014-04-18T22:51:13.520Z",
+        "lengthInSeconds": 3,
+        "objectId": "A9GtYGGOeT",
+        "updatedAt": "2014-09-01T00:00:41.432Z",
+        "user": "HoiDBUaipj",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/CC8F3724-9A95-4A01-B79F-633CCABBCAFF",
+        "videoUUID": "98B9A997-78C7-4448-8A61-E1E0218409C1",
+        "viewsThisMonth": 0
+    },
+	{
+        "allViews": 11,
+        "createdAt": "2014-05-17T18:44:50.542Z",
+        "lengthInSeconds": 123,
+        "objectId": "iVUc6CisBA",
+        "updatedAt": "2014-09-01T00:00:59.598Z",
+        "user": "4zlZu42H0S",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/BF66BB88-D774-452B-B18C-86932703E5DA",
+        "videoUUID": "99F3D004-B702-4F2A-BBB0-C188DA024956",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-05-17T20:08:24.238Z",
+        "lengthInSeconds": 59,
+        "objectId": "tKW0KAwDXu",
+        "updatedAt": "2014-09-01T00:01:07.134Z",
+        "user": "tCb3AaD0at",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/D6D4458C-6AB6-4FB8-AF40-C3F47304036C",
+        "videoUUID": "A2D086E7-7723-4954-9431-9EC43CEC41D5",
+        "viewsThisMonth": 0
+    },
+	{
+        "allViews": 1,
+        "createdAt": "2014-04-14T01:12:46.747Z",
+        "lengthInSeconds": 47,
+        "objectId": "v73jVf95nW",
+        "updatedAt": "2014-09-01T00:01:08.280Z",
+        "user": "tCb3AaD0at",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/0F5D419E-FE8A-4E16-A1AC-334C79EEA2D3",
+        "videoUUID": "4945A3C6-D0E3-4A7E-B915-7F0302218CAA",
+        "viewsThisMonth": 0
+    },
+	{
+        "allViews": 1,
+        "createdAt": "2014-04-08T00:25:30.106Z",
+        "lengthInSeconds": 0,
+        "objectId": "4DA9EY8AmX",
+        "updatedAt": "2014-09-01T00:00:36.152Z",
+        "user": "dnanWELLVN",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/178990BE-6874-4FF9-89AA-603AB642F05F",
+        "videoUUID": "83D20419-979C-4A73-8E3B-61AAF04DAFC2",
+        "viewsThisMonth": 0
+    },
+	{
+        "allViews": 3,
+        "createdAt": "2014-05-24T00:25:24.571Z",
+        "lengthInSeconds": 3,
+        "objectId": "LNnSkbH36v",
+        "updatedAt": "2014-09-01T00:00:46.423Z",
+        "user": "I9JtVjOztJ",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/5FEE7F0A-6230-45DC-9B54-3348880EA39F",
+        "videoUUID": "1388AD36-C324-410B-BD04-D1701D9F627E",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-05-27T19:46:16.502Z",
+        "lengthInSeconds": 19,
+        "objectId": "NM40oxBSqo",
+        "updatedAt": "2014-09-01T00:00:48.558Z",
+        "user": "gRQzZ34Ycv",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/54F9D2DA-71A4-4E84-9750-97B52FD3D821",
+        "videoUUID": "F01962A2-27FD-47DF-83FA-D7BD2FC0AB81",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-05-28T01:21:41.076Z",
+        "lengthInSeconds": 32,
+        "objectId": "fLffLeWypV",
+        "updatedAt": "2014-09-01T00:00:58.494Z",
+        "user": "zXAF7puCoR",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/F83BB058-F951-48C1-9D59-DC3AA552B056",
+        "videoUUID": "BE5709DD-CCD1-4B53-BE3F-6A870C190EAA",
+        "viewsThisMonth": 0
+    },
+	{
+        "allViews": 17,
+        "createdAt": "2014-05-29T19:32:25.255Z",
+        "lengthInSeconds": 15,
+        "objectId": "0gqmOedcqg",
+        "updatedAt": "2014-09-01T00:00:32.591Z",
+        "user": "782Yh8zvui",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/4D079CE5-C428-4F17-81A2-64D968C31786",
+        "videoUUID": "188C861F-382A-4752-8D71-60BE1934F381",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-06-02T18:43:30.705Z",
+        "lengthInSeconds": 31,
+        "objectId": "wePAtzNw6p",
+        "updatedAt": "2014-09-01T00:01:10.295Z",
+        "user": "782Yh8zvui",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/F6FAAE4D-BA5D-434F-8890-D0D7D25B9736",
+        "videoUUID": "1B439C61-0693-4AF3-B140-A12DBDAC99D6",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-06-02T19:55:25.930Z",
+        "lengthInSeconds": 87,
+        "objectId": "JeuuHqURvP",
+        "updatedAt": "2014-09-01T00:00:45.342Z",
+        "user": "782Yh8zvui",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/iTOiSAMPLEVIDEO",
+        "videoUUID": "E8ABCDF7-D2F0-4B62-87BE-CC2F8D25FEF7",
+        "viewsThisMonth": 0
+    },
+	{
+        "allViews": 3,
+        "createdAt": "2014-06-02T19:58:53.984Z",
+        "lengthInSeconds": 17,
+        "objectId": "6GZTEdkFRH",
+        "updatedAt": "2014-09-01T00:00:38.800Z",
+        "user": "782Yh8zvui",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/B6119BD2-9439-4F4E-AADE-12343C151274",
+        "videoUUID": "02755A6E-7A5A-45B2-91C0-588354CA9705",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-06-03T01:06:14.525Z",
+        "lengthInSeconds": 13,
+        "objectId": "Zo7RehymjZ",
+        "updatedAt": "2014-09-01T00:00:55.218Z",
+        "user": "tCb3AaD0at",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/FC5278EF-57CF-46BC-9B91-0D1D9191767F",
+        "videoUUID": "7F3C9819-EFF5-499F-B01F-B79ECF2B9C3B",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-06-03T17:47:38.978Z",
+        "lengthInSeconds": 9,
+        "objectId": "28r2NddsTb",
+        "updatedAt": "2014-09-01T00:00:33.246Z",
+        "user": "782Yh8zvui",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/7D1EB7EA-7EA8-40DA-AF6A-2DB410B6A0CC",
+        "videoUUID": "19EC8C88-1AD7-4BD9-ACB1-B70466D5A2CC",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-06-03T17:48:44.387Z",
+        "lengthInSeconds": 27,
+        "objectId": "aoFBxGOzQp",
+        "updatedAt": "2014-09-01T00:00:55.879Z",
+        "user": "782Yh8zvui",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/F2238A75-6BC5-49AB-AE88-A4CB6A8ABE8E",
+        "videoUUID": "D33AC632-D466-4E4F-9809-C11413F7BA04",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-06-07T17:36:10.246Z",
+        "lengthInSeconds": 38,
+        "objectId": "Qt92qt0hwO",
+        "updatedAt": "2014-09-01T00:00:50.257Z",
+        "user": "7Foao9xvMX",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/960A739E-2E8C-4E32-B43F-9D2F306EB5E4",
+        "videoUUID": "48549FD9-22EF-4A17-9BE1-B8F8B343E14C",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-06-07T18:01:55.661Z",
+        "lengthInSeconds": 18,
+        "objectId": "Qb6mpVMZSt",
+        "updatedAt": "2014-09-01T00:00:49.984Z",
+        "user": "7Foao9xvMX",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/E9E41CBD-6A6D-43D4-8C53-5A97D45CC420",
+        "videoUUID": "E1626280-0CBC-4D44-B88D-F505BD48AEA4",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-06-07T18:09:15.859Z",
+        "lengthInSeconds": 37,
+        "objectId": "FuKmwMQkel",
+        "updatedAt": "2014-09-01T00:00:43.476Z",
+        "user": "7Foao9xvMX",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/D9FD2DEB-423D-4989-9CC5-95878289B460",
+        "videoUUID": "2417A2C1-AA8F-4DB3-9EFC-987B43E869CD",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-06-07T18:15:06.045Z",
+        "lengthInSeconds": 37,
+        "objectId": "Z6ltLJCF2V",
+        "updatedAt": "2014-09-01T00:00:55.100Z",
+        "user": "7Foao9xvMX",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/7D076EAE-7EED-4822-B726-5A16373174CD",
+        "videoUUID": "4F179EB9-6277-48AF-A4BA-1D69D89F6959",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-06-07T18:33:50.906Z",
+        "lengthInSeconds": 42,
+        "objectId": "TPCmfpj4r5",
+        "updatedAt": "2014-09-01T00:00:52.845Z",
+        "user": "7Foao9xvMX",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/DC7399E8-6937-4E58-AE28-E0BC58EF68B4",
+        "videoUUID": "5932033A-28D3-49B4-842F-FEBADF989E65",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-06-08T21:02:45.365Z",
+        "lengthInSeconds": 20,
+        "objectId": "tw5b4rlPXV",
+        "updatedAt": "2014-09-01T00:01:08.069Z",
+        "user": "tCb3AaD0at",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/AC707626-BAAA-44BA-9D73-7DA6B68CCCFA",
+        "videoUUID": "85DB482C-4D24-439B-9B5B-A98E3DBB3CEA",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-06-08T21:13:45.997Z",
+        "lengthInSeconds": 9,
+        "objectId": "RIUfL7JUml",
+        "updatedAt": "2014-09-01T00:00:50.587Z",
+        "user": "tCb3AaD0at",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/7C874ED8-6221-4C94-844C-A4EA964C0D7A",
+        "videoUUID": "5FBE45BE-A1F2-4A45-80E6-3144281F039A",
+        "viewsThisMonth": 0
+    },
+	{
+        "allViews": 2,
+        "createdAt": "2014-06-10T18:40:57.492Z",
+        "lengthInSeconds": 32,
+        "objectId": "MK20Fz3T39",
+        "updatedAt": "2014-09-01T00:00:48.008Z",
+        "user": "782Yh8zvui",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/F3520477-F3A4-4562-AB77-0C9F688FF799",
+        "videoUUID": "70ADC4E8-7319-4937-BD18-025F127F8BB5",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-06-20T14:24:36.882Z",
+        "lengthInSeconds": 87,
+        "objectId": "x4mDT4nyt7",
+        "updatedAt": "2014-09-01T00:01:10.448Z",
+        "user": "dG8HRYP4wX",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/iTOiSAMPLEVIDEO",
+        "videoUUID": "9587C4A7-9634-417E-9B8C-A1CB72EEC560",
+        "viewsThisMonth": 0
+    },
+	{
+        "allViews": 10,
+        "createdAt": "2014-06-24T01:09:19.140Z",
+        "lengthInSeconds": 5,
+        "objectId": "vEqdmRK6Qz",
+        "updatedAt": "2014-09-01T00:01:08.451Z",
+        "user": "Lc6gPnCNVh",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/3BD1E982-0981-4772-9ACF-C1FCB29762CF.mp4",
+        "videoUUID": "683C9528-4227-4E91-A08E-CD4A4099078E",
+        "viewsThisMonth": 0
+    },
+	{
+        "allViews": 12,
+        "createdAt": "2014-06-24T04:36:15.081Z",
+        "lengthInSeconds": 88,
+        "objectId": "sidIJ3GXUp",
+        "updatedAt": "2014-09-01T00:01:06.517Z",
+        "user": "nN1LDl0xJH",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/CC7F2257-E2F6-4675-BEC6-D24D9384FDCB.mp4",
+        "videoUUID": "BAFEBE17-30B9-4642-A44D-3CD17CCB23F5",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-06-25T18:40:42.780Z",
+        "lengthInSeconds": 84,
+        "objectId": "Rde8Xr2X7p",
+        "updatedAt": "2014-09-01T00:00:51.531Z",
+        "user": "0F8gSmUPPZ",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/CC3DD178-12B7-47D9-8289-98C7DC8B33B4.mp4",
+        "videoUUID": "AD71432D-E670-445A-AB93-C72398BD001D",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-06-29T16:27:46.617Z",
+        "lengthInSeconds": 87,
+        "objectId": "C4PndJ9Azg",
+        "updatedAt": "2014-09-01T00:00:42.341Z",
+        "user": "Lc6gPnCNVh",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/iTOiSAMPLEVIDEO.mov",
+        "videoUUID": "4B7123FF-4955-4D59-B1B7-CD8E1624C3DD",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-06-30T01:23:08.314Z",
+        "lengthInSeconds": 11,
+        "objectId": "Hk5bV7zzja",
+        "updatedAt": "2014-09-01T00:00:44.579Z",
+        "user": "tCb3AaD0at",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/7C6A0F45-5274-48F0-A239-56729085D5A5.mp4",
+        "videoUUID": "E5361D30-33B1-41F3-8969-44F1D87DA618",
+        "viewsThisMonth": 0
+    },
+	{
+        "allViews": 1,
+        "createdAt": "2014-06-27T02:26:50.121Z",
+        "lengthInSeconds": 87,
+        "objectId": "xWcFWKRowb",
+        "updatedAt": "2014-09-01T00:01:10.812Z",
+        "user": "tCb3AaD0at",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/iTOiSAMPLEVIDEO.mov",
+        "videoUUID": "9AB6D3DB-7147-4E05-8F25-FE4DCF0576AA",
+        "viewsThisMonth": 0
+    },
+	{
+        "allViews": 4,
+        "createdAt": "2014-06-30T01:37:52.111Z",
+        "lengthInSeconds": 87,
+        "objectId": "L2hfSsCr8R",
+        "updatedAt": "2014-09-01T00:00:46.286Z",
+        "user": "tCb3AaD0at",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/93DA9691-62B5-44B9-A0CC-20C7031BE368",
+        "videoUUID": "EDF55A52-FD38-432D-A186-C7512332279F",
+        "viewsThisMonth": 0
+    },
+	{
+        "allViews": 4,
+        "createdAt": "2014-06-10T19:04:15.419Z",
+        "lengthInSeconds": 31,
+        "objectId": "3QI6dlMsYV",
+        "updatedAt": "2014-09-01T00:00:35.625Z",
+        "user": "782Yh8zvui",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/86BCB231-BDBA-4C78-84E9-875C24573973",
+        "videoUUID": "60167C31-0C5E-47C5-9679-B3C74FA83621",
+        "viewsThisMonth": 0
+    },
+	{
+        "allViews": 5,
+        "createdAt": "2014-06-10T19:12:29.736Z",
+        "lengthInSeconds": 26,
+        "objectId": "4emua6NukC",
+        "updatedAt": "2014-09-14T16:52:12.076Z",
+        "user": "782Yh8zvui",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/87394FB1-B81E-44B3-8B4D-58DFE1D3AD55",
+        "videoUUID": "BD105787-F696-4FFE-A296-02EB04A2E945",
+        "viewsThisMonth": 1
+    },
+	{
+        "allViews": 2,
+        "createdAt": "2014-06-10T20:26:10.844Z",
+        "lengthInSeconds": 19,
+        "objectId": "7S4f0BZeLz",
+        "updatedAt": "2014-09-01T00:00:39.412Z",
+        "user": "782Yh8zvui",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/8730801D-DB2C-490A-BC7A-C5D88EE21950",
+        "videoUUID": "51CB7B0A-8535-4E5A-A895-9E156A9D1396",
+        "viewsThisMonth": 0
+    },
+	{
+        "allViews": 6,
+        "createdAt": "2014-06-10T18:58:56.939Z",
+        "lengthInSeconds": 27,
+        "objectId": "1Nxry2I0Qv",
+        "updatedAt": "2014-09-01T00:00:32.821Z",
+        "user": "782Yh8zvui",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/43FFE192-54D3-4158-9AC8-CD844CB746DE",
+        "videoUUID": "F1188A05-D7AB-427D-AE84-4255CA5C3772",
+        "viewsThisMonth": 0
+    },
+	{
+        "allViews": 4,
+        "createdAt": "2014-06-06T23:50:35.480Z",
+        "lengthInSeconds": 208,
+        "objectId": "QLVCgb7Zyf",
+        "updatedAt": "2014-09-01T00:00:49.676Z",
+        "user": "782Yh8zvui",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/9DD868A7-0689-4E86-BE02-4F8E9EF319C7",
+        "videoUUID": "1BBFB352-BD77-4892-8283-0711CF3DEA10",
+        "viewsThisMonth": 0
+    },
+	{
+        "allViews": 2,
+        "createdAt": "2014-06-11T20:05:09.207Z",
+        "lengthInSeconds": 33,
+        "objectId": "9Zq9GJI9nH",
+        "updatedAt": "2014-09-01T00:00:41.063Z",
+        "user": "782Yh8zvui",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/3A7B1862-3F16-4EF4-8950-73DCCA052A43",
+        "videoUUID": "DD40C2EA-3CD3-4699-8647-3C5945D02141",
+        "viewsThisMonth": 0
+    },
+	{
+        "allViews": 2,
+        "createdAt": "2014-03-30T17:27:24.365Z",
+        "lengthInSeconds": 7,
+        "objectId": "TQ7G61Jiay",
+        "updatedAt": "2014-09-01T00:00:53.158Z",
+        "user": "Alq1w3j0mG",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/966B4956-686C-4C19-914D-406958302C5F",
+        "videoUUID": "5D9B22F5-6976-4B19-91E4-BEE528D98D60",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-07-19T04:27:04.316Z",
+        "lengthInSeconds": 5,
+        "objectId": "5UtoCppswb",
+        "updatedAt": "2014-09-01T00:00:38.034Z",
+        "user": "tCb3AaD0at",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/7543178B-252C-4E04-928B-545E2DBA5678.mp4",
+        "videoUUID": "A49DDAE1-BA15-46DA-A398-223237943709",
+        "viewsThisMonth": 0
+    },
+	{
+        "allViews": 3,
+        "createdAt": "2014-07-18T01:05:48.492Z",
+        "lengthInSeconds": 87,
+        "objectId": "QTwVWvPcrE",
+        "updatedAt": "2014-09-01T00:00:49.841Z",
+        "user": "tCb3AaD0at",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/BB9002BB-0CEC-4350-A297-F3329D9DFD58",
+        "videoUUID": "454D0CAC-09D6-45FE-A14E-045FDF0EFC9B",
+        "viewsThisMonth": 0
+    },
+	{
+        "allViews": 2,
+        "createdAt": "2014-07-21T13:57:06.528Z",
+        "lengthInSeconds": 18,
+        "objectId": "MdZu6D2ue7",
+        "updatedAt": "2014-09-01T00:00:48.391Z",
+        "user": "Gy4fbHNTva",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/D922EAFB-0066-4AF6-A8E0-972029F53B46.mp4",
+        "videoUUID": "C40C8AE0-721F-457A-AAE9-B3A91B1EFC1F",
+        "viewsThisMonth": 0
+    },
+	{
+        "allViews": 2,
+        "createdAt": "2014-07-23T11:42:38.594Z",
+        "lengthInSeconds": 28,
+        "objectId": "2YU8JoYPJW",
+        "updatedAt": "2014-09-01T00:00:33.875Z",
+        "user": "LmOiIWgu53",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/6CC74F51-B379-406A-8750-23E717B7AEC2.mp4",
+        "videoUUID": "9E9492EF-CBAF-450C-BCB7-79A91EA95380",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-07-23T12:08:23.672Z",
+        "lengthInSeconds": 12,
+        "objectId": "P1UygTzw9x",
+        "updatedAt": "2014-09-01T00:00:49.101Z",
+        "user": "vEWlQFUYYl",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/96B9B49D-6F34-4A31-89AA-F0C8BD3C2BFE.mp4",
+        "videoUUID": "ACE22C10-F6E1-4BBE-860B-D0E20BE78181",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-07-23T12:35:06.605Z",
+        "lengthInSeconds": 36,
+        "objectId": "dfQbwbIPJz",
+        "updatedAt": "2014-09-01T00:00:56.839Z",
+        "user": "EksmKMsXBN",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/1527B661-47D1-4823-8D7E-AFED1E163678.mp4",
+        "videoUUID": "16CC323F-85D9-446D-97A0-45B9C5551F54",
+        "viewsThisMonth": 0
+    },
+	{
+        "allViews": 2,
+        "createdAt": "2014-07-23T12:58:54.702Z",
+        "lengthInSeconds": 79,
+        "objectId": "pg9a61SGhi",
+        "updatedAt": "2014-09-01T00:01:04.816Z",
+        "user": "2sm4yWnJ7M",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/A5C30C44-9F92-4A37-8CC3-896384EABB6C.mp4",
+        "videoUUID": "E1E0D5C9-B04C-417E-B78E-982D9AC2CF9B",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-07-23T13:05:09.030Z",
+        "lengthInSeconds": 31,
+        "objectId": "LtqWVEHqW6",
+        "updatedAt": "2014-09-01T00:00:47.167Z",
+        "user": "CAJucINhn3",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/82721289-71BE-4632-A948-69A2E7D03FF8.mp4",
+        "videoUUID": "5A9ADE13-3998-4D16-A3E8-1D8EAF772E9D",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-07-23T13:41:15.264Z",
+        "lengthInSeconds": 68,
+        "objectId": "5bV5cy99ln",
+        "updatedAt": "2014-09-01T00:00:38.092Z",
+        "user": "61AcbcAcSa",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/20ECBE9C-2755-4FF8-A186-4CCB18EEF1FE.mp4",
+        "videoUUID": "0F77518B-D350-4D44-944B-2D5A6933C567",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-07-23T13:51:59.699Z",
+        "lengthInSeconds": 10,
+        "objectId": "7eHUPBTxbf",
+        "updatedAt": "2014-09-01T00:00:39.888Z",
+        "user": "AWNtdsVnez",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/65243359-EC27-4643-B2BB-E1B65C3A3A81.mp4",
+        "videoUUID": "8E004B79-F5BB-4738-9970-9C870DB53A50",
+        "viewsThisMonth": 0
+    },
+	{
+        "allViews": 2,
+        "createdAt": "2014-07-21T13:38:33.498Z",
+        "lengthInSeconds": 28,
+        "objectId": "TQ2ZHCISro",
+        "updatedAt": "2014-09-01T00:00:52.992Z",
+        "user": "wS6yfaSC8K",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/0C9EBEF9-3D00-4AC5-8218-4D27B9CB2E77.mp4",
+        "videoUUID": "B0AA78DC-9FB2-4322-A938-892A8CBF5E5E",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-04-18T19:25:57.207Z",
+        "lengthInSeconds": 3,
+        "objectId": "0NJATGXKnI",
+        "updatedAt": "2014-09-01T00:00:32.451Z",
+        "user": "HoiDBUaipj",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/8BF9FD83-B2A3-4DEE-94C8-3E64CDB05F51",
+        "videoUUID": "75E8A756-0DCC-4D1B-BC99-A729D27FA3E2",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-04-18T21:35:48.377Z",
+        "lengthInSeconds": 3,
+        "objectId": "2Y9Gi986Fs",
+        "updatedAt": "2014-09-01T00:00:33.711Z",
+        "user": "HoiDBUaipj",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/0E5DCAD2-A07D-4AC6-92E3-5F9AC4F37043",
+        "videoUUID": "5D072888-1644-4C66-8836-25C77601811F",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-03-30T20:20:33.816Z",
+        "lengthInSeconds": 4,
+        "objectId": "2pXsZtMRKR",
+        "updatedAt": "2014-09-01T00:00:34.159Z",
+        "user": "Alq1w3j0mG",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/760A1852-D9D7-41E0-99B3-4DD7A80E4608",
+        "videoUUID": "36999497-A8F3-41B1-B86B-E3D0C69430FC",
+        "viewsThisMonth": 0
+    },
+	{
+        "allViews": 2,
+        "createdAt": "2014-06-11T19:20:06.955Z",
+        "lengthInSeconds": 26,
+        "objectId": "9Te4ZHO4O2",
+        "updatedAt": "2014-09-01T00:00:40.854Z",
+        "user": "782Yh8zvui",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/13492994-4795-4658-96CF-02D8718C128E",
+        "videoUUID": "D0E2B635-B8E5-4C05-8570-0E8906ED96A6",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-10-25T17:02:18.200Z",
+        "lengthInSeconds": 65,
+        "objectId": "pJgtg5g4wk",
+        "updatedAt": "2014-10-25T17:02:18.200Z",
+        "user": "VB0n9QHQeO",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/25D42685-90ED-4724-84ED-BFF190DAAC93.mp4",
+        "videoUUID": "2E546519-1E51-40E7-9D36-B448F8ED5D90"
+    },
+	{
+        "createdAt": "2014-12-01T00:34:43.467Z",
+        "lengthInSeconds": 87,
+        "objectId": "PbZpne2uWs",
+        "updatedAt": "2014-12-01T00:34:43.467Z",
+        "user": "v3oNR1nsTJ",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/3F85F7B1-F4A9-4D3D-8F0B-33A9C46A936C",
+        "videoUUID": "CDB182C0-FBA2-4E8A-B168-C777240049D2"
+    },
+	{
+        "allViews": 5,
+        "createdAt": "2014-12-02T15:09:19.929Z",
+        "lengthInSeconds": 60,
+        "objectId": "bRb1M7RM3i",
+        "updatedAt": "2014-12-02T16:35:39.115Z",
+        "user": "782Yh8zvui",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/CF4227C8-9845-4EA2-A5E9-4FABCC619FFD.mp4",
+        "videoUUID": "DDC4DA79-F2C2-4EBD-BC09-085910556882",
+        "viewsThisMonth": 5
+    },
+	{
+        "allViews": 1,
+        "createdAt": "2014-12-02T15:45:24.510Z",
+        "lengthInSeconds": 56,
+        "objectId": "ZKMjujOGkf",
+        "updatedAt": "2014-12-02T16:35:38.956Z",
+        "user": "782Yh8zvui",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/E84DDD65-F5DD-49BB-8018-9222C2DB2A8D.mp4",
+        "videoUUID": "2ADB1875-2A94-43E2-8C97-F634A2C7E803",
+        "viewsThisMonth": 1
+    },
+	{
+        "allViews": 5,
+        "createdAt": "2014-12-02T16:09:31.512Z",
+        "lengthInSeconds": 50,
+        "objectId": "SSxcr7oeEK",
+        "updatedAt": "2014-12-03T00:37:01.399Z",
+        "user": "782Yh8zvui",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/256E260D-877C-4FF1-980F-87654DCF7813.mp4",
+        "videoUUID": "99804F0A-67CF-4DE4-99F5-694A6461FC03",
+        "viewsThisMonth": 5
+    },
+	{
+        "createdAt": "2014-04-18T21:55:14.803Z",
+        "lengthInSeconds": 3,
+        "objectId": "2sPKtL1pVe",
+        "updatedAt": "2014-09-01T00:00:34.683Z",
+        "user": "HoiDBUaipj",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/4CF9D4A5-CC06-4618-995B-9F2824888549",
+        "videoUUID": "D8D3AFE3-99C9-49F4-BA07-C298A9E849C4",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-04-18T21:47:21.880Z",
+        "lengthInSeconds": 2,
+        "objectId": "2y7L6QWWQz",
+        "updatedAt": "2014-09-01T00:00:34.889Z",
+        "user": "HoiDBUaipj",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/5745A282-779F-454C-96F2-9CBC66C32E9E",
+        "videoUUID": "C9B9A276-DB3D-4D10-869B-AB09D1707E4C",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-03-29T17:06:36.645Z",
+        "lengthInSeconds": 10,
+        "objectId": "3X6QLNHY1m",
+        "updatedAt": "2014-09-01T00:00:35.696Z",
+        "user": "Alq1w3j0mG",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/D9382FEE-B9C0-4FF2-A8A1-2CCEDD6F3074",
+        "videoUUID": "2A9FFE7B-7E1D-4E31-AF9F-57C33F8D6BE5",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-04-18T20:44:24.665Z",
+        "lengthInSeconds": 2,
+        "objectId": "3fYHXhE7Fa",
+        "updatedAt": "2014-09-01T00:00:35.844Z",
+        "user": "HoiDBUaipj",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/78F96367-96FD-4710-A146-9C92CE5C4D38",
+        "videoUUID": "ED3DE011-8D20-4BA3-9CD0-065611DC34EF",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-06-20T17:13:07.214Z",
+        "lengthInSeconds": 37,
+        "objectId": "49fLYFmEfR",
+        "updatedAt": "2014-09-01T00:00:36.034Z",
+        "user": "4zlZu42H0S",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/70962629-B098-48DF-A9E1-177BA03284CD",
+        "videoUUID": "223FD277-67F6-4A63-A17B-9D7230E9EBD6",
+        "viewsThisMonth": 0
+    },
+	{
+        "allViews": 1,
+        "createdAt": "2014-08-07T14:02:28.042Z",
+        "lengthInSeconds": 14,
+        "objectId": "h16CTu7szL",
+        "updatedAt": "2014-09-01T00:00:59.084Z",
+        "user": "albDJrel1Y",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/5FEAB763-AE23-4586-BE94-250547924DCB.mp4",
+        "videoUUID": "C808B3A6-E0AC-4898-A24B-2A653A0CBA21",
+        "viewsThisMonth": 0
+    },
+	{
+        "allViews": 2,
+        "createdAt": "2014-08-08T02:02:57.217Z",
+        "lengthInSeconds": 125,
+        "objectId": "lea8zBcClt",
+        "updatedAt": "2014-09-01T00:01:01.693Z",
+        "user": "nN1LDl0xJH",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/43771084-6BBC-4FE9-A0EE-5654A49905F4.mp4",
+        "videoUUID": "EB366C4E-3BCF-4804-9601-B9FD9EA6F035",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-08-26T16:28:18.071Z",
+        "lengthInSeconds": 12,
+        "objectId": "smF3yUWQbX",
+        "updatedAt": "2014-09-01T00:01:06.661Z",
+        "user": "rnoiBCukk1",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/391FE3F3-FDE2-4043-8CD4-BF4389387CDD.mp4",
+        "videoUUID": "BD5805B2-D29D-4B0F-BE03-3BA74F6BEFB7",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-08-29T02:59:49.887Z",
+        "lengthInSeconds": 151,
+        "objectId": "k2I5MAQU9n",
+        "updatedAt": "2014-09-01T00:01:00.523Z",
+        "user": "7XL69FK3ll",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/44613038-3171-4F84-A3FB-9F387D6EDA25.mp4",
+        "videoUUID": "09222468-BC2C-474A-A899-B45DFCCCDEBF",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-08-25T02:46:07.674Z",
+        "lengthInSeconds": 42,
+        "objectId": "1PoJP9OHAI",
+        "updatedAt": "2014-09-01T00:00:32.947Z",
+        "user": "4zlZu42H0S",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/2C574DEF-2350-48F2-9D27-D8F544D09868.mp4",
+        "videoUUID": "4EDDC550-A9EC-47FB-A97A-CA3E826C29B7",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-08-01T01:37:31.655Z",
+        "lengthInSeconds": 114,
+        "objectId": "2MYUTJAabp",
+        "updatedAt": "2014-09-01T00:00:33.581Z",
+        "user": "nN1LDl0xJH",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/01D2AE33-AB5F-4DE3-9729-E75B2BF36491.mp4",
+        "videoUUID": "6F3EE824-8E4C-4A51-AEE2-EE2976FF753A",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-03-24T00:21:32.811Z",
+        "lengthInSeconds": 6,
+        "objectId": "4JW0UwQCFV",
+        "updatedAt": "2014-09-01T00:00:36.243Z",
+        "user": "Alq1w3j0mG",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/2A2B60B3-678B-4049-A9B3-741BFA847CFB",
+        "videoUUID": "62E62AEB-0644-48EB-B167-5E887E0AD68F",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-04-18T21:37:07.657Z",
+        "lengthInSeconds": 3,
+        "objectId": "4dzPQIOkmj",
+        "updatedAt": "2014-09-01T00:00:37.558Z",
+        "user": "HoiDBUaipj",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/EBBA13E0-D447-40A7-A40D-C6C50F8A569D",
+        "videoUUID": "AD3577F1-6224-4113-9E22-9A464EBC87BD",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-04-18T21:37:43.614Z",
+        "lengthInSeconds": 3,
+        "objectId": "5K56e2MxTz",
+        "updatedAt": "2014-09-01T00:00:37.819Z",
+        "user": "HoiDBUaipj",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/08EF6B7E-5605-4976-AA64-E3EDA1BABAAC",
+        "videoUUID": "119A73C9-DE20-4947-9777-2FD0D3942118",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-04-18T22:00:28.037Z",
+        "lengthInSeconds": 2,
+        "objectId": "5McvWG3HZC",
+        "updatedAt": "2014-09-01T00:00:37.899Z",
+        "user": "HoiDBUaipj",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/DE65B107-4E42-4FB6-B5A2-5781BB636BE8",
+        "videoUUID": "FB38BB70-7420-4D3A-9017-EDBEE40318F9",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-06-18T00:01:24.324Z",
+        "lengthInSeconds": 16,
+        "objectId": "5v3KzmI4PX",
+        "updatedAt": "2014-09-01T00:00:38.465Z",
+        "user": "tCb3AaD0at",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/F00739A4-7350-404D-B03E-7A6D0CF2F473",
+        "videoUUID": "430C9625-95C5-4B1F-820E-5BD590641DBB",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-04-18T21:38:48.643Z",
+        "lengthInSeconds": 3,
+        "objectId": "6SihDNNt6c",
+        "updatedAt": "2014-09-01T00:00:38.964Z",
+        "user": "HoiDBUaipj",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/AAEFCB1E-0372-4D97-967D-5E0ADE026B67",
+        "videoUUID": "A4B76378-A703-4F8F-B263-BE76DA9F09E8",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-03-22T01:18:37.906Z",
+        "lengthInSeconds": 4,
+        "objectId": "7L6URzCNav",
+        "updatedAt": "2014-09-01T00:00:39.289Z",
+        "user": "Alq1w3j0mG",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/EFA577CA-4463-4DC2-B81A-11B888D4CA25",
+        "videoUUID": "F22D6E85-ECD9-4F8B-93C6-80BC40C19247",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-06-11T19:00:32.666Z",
+        "lengthInSeconds": 33,
+        "objectId": "7d55EfTBGt",
+        "updatedAt": "2014-09-01T00:00:39.534Z",
+        "user": "782Yh8zvui",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/7D797590-A33E-498A-8302-7B2865BBB8AE",
+        "videoUUID": "5E0FEB20-82FA-4D6F-8ABB-21A4EE8DAB46",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-03-23T21:43:36.685Z",
+        "lengthInSeconds": 70,
+        "objectId": "7dSEDb1nfL",
+        "updatedAt": "2014-09-01T00:00:39.752Z",
+        "user": "Alq1w3j0mG",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/CDBFFBA7-EDB3-4E86-8A7C-372D1080E9D6",
+        "videoUUID": "337B3B38-4AB2-4CEB-9F7A-8F4AFAAE3CE7",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-03-22T01:14:44.562Z",
+        "lengthInSeconds": 9,
+        "objectId": "7mMUwC1l9s",
+        "updatedAt": "2014-09-01T00:00:40.030Z",
+        "user": "Alq1w3j0mG",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/4E0C625E-6CFE-4604-9E6A-0932DE924148",
+        "videoUUID": "C7A43D00-3395-497E-A382-88A0E249DAEE",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-03-29T17:17:47.052Z",
+        "lengthInSeconds": 6,
+        "objectId": "8EhV21nJxm",
+        "updatedAt": "2014-09-01T00:00:40.139Z",
+        "user": "Alq1w3j0mG",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/3361C07E-507E-4A0A-889C-08D9C747EB4A",
+        "videoUUID": "A77AF3EE-182A-418A-B60F-FCD12A234926",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-04-01T13:52:33.930Z",
+        "lengthInSeconds": 8,
+        "objectId": "8KvvjxrylC",
+        "updatedAt": "2014-09-01T00:00:40.304Z",
+        "user": "f9AcIb8M9H",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/39E8C748-0FCE-4839-A2B8-C20A724B184D",
+        "videoUUID": "1C8F225B-0334-496E-87F2-B77695F6B0DA",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-04-05T23:17:22.785Z",
+        "lengthInSeconds": 55,
+        "objectId": "A1PVme5TVS",
+        "updatedAt": "2014-09-01T00:00:41.257Z",
+        "user": "tCb3AaD0at",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/CD8392EB-191E-4D9F-BF58-B88DAEAE9906",
+        "videoUUID": "F006BFCE-F639-4EAE-903D-4E7E0AE423E0",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-04-13T22:38:54.854Z",
+        "lengthInSeconds": 24,
+        "objectId": "Ac4pvZgBy5",
+        "updatedAt": "2014-09-01T00:00:41.545Z",
+        "user": "tCb3AaD0at",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/A2A6359B-CC9E-4A7E-A2C7-60A5B2EEE23C",
+        "videoUUID": "1E2BF6D7-6EAB-4BE8-93A3-2C0772B1C9D5",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-04-18T03:55:23.228Z",
+        "lengthInSeconds": 5,
+        "objectId": "AkRtdnKtFJ",
+        "updatedAt": "2014-09-01T00:00:41.877Z",
+        "user": "tCb3AaD0at",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/2191FEDD-1A10-4C35-B723-893F10ECAC34",
+        "videoUUID": "3713A4D3-F92B-4FB8-8947-B2D0EEF76B5C",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-08-24T01:53:54.875Z",
+        "lengthInSeconds": 20,
+        "objectId": "BAhuOaBBwF",
+        "updatedAt": "2014-09-01T00:00:42.221Z",
+        "user": "nN1LDl0xJH",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/DE898BDB-9D3A-4D0C-8AC9-CE1593D47B7C.mp4",
+        "videoUUID": "1658BBFD-E7C0-4337-BF0A-E03E4C095543",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-04-18T21:57:26.911Z",
+        "lengthInSeconds": 3,
+        "objectId": "D3En5rxMZt",
+        "updatedAt": "2014-09-01T00:00:42.482Z",
+        "user": "HoiDBUaipj",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/19864773-4965-4C8A-B75D-C40C52A6D448",
+        "videoUUID": "F5FFBC9D-D8AB-4F7C-B5AE-3F86EB715345",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-04-18T20:29:04.788Z",
+        "lengthInSeconds": 4,
+        "objectId": "EtSmYcJM8L",
+        "updatedAt": "2014-09-01T00:00:42.690Z",
+        "user": "HoiDBUaipj",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/FC8A85C8-2BDF-4FA0-BDC5-BDBA02486318",
+        "videoUUID": "32EE2B0C-A1FC-4A24-9348-DD79F4351BD0",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-07-29T03:16:56.853Z",
+        "lengthInSeconds": 8,
+        "objectId": "F1t1tv9uFQ",
+        "updatedAt": "2014-09-01T00:00:42.860Z",
+        "user": "mzkkRBtEKm",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/F6623691-2876-4F40-8F82-D5CA611280AA.mp4",
+        "videoUUID": "02C78700-A197-4F15-93C4-67FEB44BB171",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-04-18T22:01:22.261Z",
+        "lengthInSeconds": 14,
+        "objectId": "FTGEHmMvIp",
+        "updatedAt": "2014-09-01T00:00:43.011Z",
+        "user": "X3x6W7kmV3",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/60CD6066-01C0-4610-BC6D-15E078FF0218",
+        "videoUUID": "021D9BA6-B960-4B16-B58D-2022D25A64E3",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-06-16T12:58:01.550Z",
+        "lengthInSeconds": 100,
+        "objectId": "Fbg8rwBRpx",
+        "updatedAt": "2014-09-01T00:00:43.191Z",
+        "user": "782Yh8zvui",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/4367CA49-A94C-4481-98AC-B77829B880E7",
+        "videoUUID": "7641C6CF-053C-46A6-B3C0-0FB71136032B",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-06-07T17:24:39.494Z",
+        "lengthInSeconds": 90,
+        "objectId": "FdxOd3qozX",
+        "updatedAt": "2014-09-01T00:00:43.309Z",
+        "user": "7Foao9xvMX",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/8CD61E8D-AB66-433A-AA70-9F6D567ABACD",
+        "videoUUID": "D5212D4B-22BB-4F69-8515-10B3AAA3C3F3",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-08-15T14:00:20.944Z",
+        "lengthInSeconds": 5,
+        "objectId": "FwElskIWTH",
+        "updatedAt": "2014-09-01T00:00:43.641Z",
+        "user": "3lSJtDJDDr",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/C837CB2F-0E5C-42F9-911F-A80548AE6D32.mp4",
+        "videoUUID": "70BAD05B-A784-4A17-A398-429A8D52D964",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-06-20T18:03:02.781Z",
+        "lengthInSeconds": 18,
+        "objectId": "GEohmnsyqd",
+        "updatedAt": "2014-09-01T00:00:43.763Z",
+        "user": "782Yh8zvui",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/E63FA895-AC7C-4F99-BE13-CBA7CC9EFD89",
+        "videoUUID": "DD3F2B7F-E0B1-420A-BAC8-965ACD0D15CB",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-04-18T22:01:20.968Z",
+        "lengthInSeconds": 3,
+        "objectId": "GFaBBJskWL",
+        "updatedAt": "2014-09-01T00:00:43.990Z",
+        "user": "HoiDBUaipj",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/09C1F860-672B-4D8B-BFC3-5963552B11C7",
+        "videoUUID": "9CE74325-D763-4499-B794-FDAF37DCE9EF",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-04-18T13:28:45.110Z",
+        "lengthInSeconds": 9,
+        "objectId": "GT1tY8SqhB",
+        "updatedAt": "2014-09-01T00:00:44.153Z",
+        "user": "0nV3AGISCl",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/F4276EEE-9AC2-4CE0-B6DF-C34454B6D425",
+        "videoUUID": "5D164622-1654-4C9C-9665-636DC31DCABA",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-03-30T14:36:17.250Z",
+        "lengthInSeconds": 18,
+        "objectId": "Gha8DUo3Pm",
+        "updatedAt": "2014-09-01T00:00:44.333Z",
+        "user": "Alq1w3j0mG",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/882E9209-B0EC-486A-B23E-1927E0669D0F",
+        "videoUUID": "89517AB9-19B6-418B-B264-DFEC7DBB0F78",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-04-18T20:34:29.179Z",
+        "lengthInSeconds": 5,
+        "objectId": "InSQFjmOqM",
+        "updatedAt": "2014-09-01T00:00:44.863Z",
+        "user": "X3x6W7kmV3",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/0D3298B9-3681-4C80-A314-A25B3F4474B5",
+        "videoUUID": "0CFB68D1-7B8D-414F-A800-3F05FCCD7571",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-04-18T19:58:26.610Z",
+        "lengthInSeconds": 12,
+        "objectId": "IyDGt5HCMr",
+        "updatedAt": "2014-09-01T00:00:45.017Z",
+        "user": "rUUkqYLTde",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/A62A9CA5-2512-47B2-8D6C-EFF72BA779F0",
+        "videoUUID": "28284F16-2E3C-43AF-A2AF-3DF5EB64EA0D",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-08-01T01:10:30.882Z",
+        "lengthInSeconds": 87,
+        "objectId": "JOWIZzFtHW",
+        "updatedAt": "2014-09-01T00:00:45.154Z",
+        "user": "Uv32bh7lId",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/C74A4380-3E4F-42F2-8D03-9DF322A34EE4",
+        "videoUUID": "05D50289-ABB0-4F74-AAFD-81F1F5F8E11F",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-04-18T21:42:00.746Z",
+        "lengthInSeconds": 4,
+        "objectId": "JmGidWIqbc",
+        "updatedAt": "2014-09-01T00:00:45.930Z",
+        "user": "HoiDBUaipj",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/E64AD05A-A592-4D87-9950-FB2605CACCAE",
+        "videoUUID": "1B5533DB-6F54-4301-A2E2-D5F74B442380",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-08-15T13:59:30.315Z",
+        "lengthInSeconds": 5,
+        "objectId": "LahkdjqTWi",
+        "updatedAt": "2014-09-01T00:00:46.584Z",
+        "user": "3lSJtDJDDr",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/91059653-D6EB-48F3-A876-91D8A8173C25.mp4",
+        "videoUUID": "B04E8124-F7BE-4B37-A8F3-AEB99D6399A6",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-04-18T21:40:23.609Z",
+        "lengthInSeconds": 2,
+        "objectId": "LeeocqAEDV",
+        "updatedAt": "2014-09-01T00:00:46.811Z",
+        "user": "HoiDBUaipj",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/45940E5B-62A1-4DC8-8E26-3008BED11003",
+        "videoUUID": "818BF784-4009-43D0-A050-67998472F5B4",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-04-18T21:44:09.522Z",
+        "lengthInSeconds": 2,
+        "objectId": "LemoZO1R31",
+        "updatedAt": "2014-09-01T00:00:46.957Z",
+        "user": "HoiDBUaipj",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/21122C10-70E7-48C2-8097-4E1C5294F229",
+        "videoUUID": "C4F8CAAC-8128-45B2-8AF2-6350D92ADA39",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-04-18T14:51:25.744Z",
+        "lengthInSeconds": 10,
+        "objectId": "M5j4sgnwKL",
+        "updatedAt": "2014-09-01T00:00:47.597Z",
+        "user": "0nV3AGISCl",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/B003B31E-EED1-4C7A-ADD1-161BC2A3AE57",
+        "videoUUID": "0DA8C3DC-DAEA-4E3C-8F15-654613189E16",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-04-18T21:58:51.867Z",
+        "lengthInSeconds": 3,
+        "objectId": "MJkcoAGvpY",
+        "updatedAt": "2014-09-01T00:00:47.882Z",
+        "user": "HoiDBUaipj",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/97D56E33-CC48-4D2F-B1EC-3E668BFC07DE",
+        "videoUUID": "E52EBE49-8B1C-4DF9-A33C-C61CA0EBA18C",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-08-24T01:32:26.245Z",
+        "lengthInSeconds": 12,
+        "objectId": "Oo6fgBPcr6",
+        "updatedAt": "2014-09-01T00:00:48.990Z",
+        "user": "nN1LDl0xJH",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/646008A1-AC47-413F-8FE2-AAAB44BF1DFC.mp4",
+        "videoUUID": "22458EF4-DD42-4A98-8CEC-D4605829914A",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-04-18T21:39:28.531Z",
+        "lengthInSeconds": 3,
+        "objectId": "P2RuTNchah",
+        "updatedAt": "2014-09-01T00:00:49.227Z",
+        "user": "HoiDBUaipj",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/A12580D5-F6F5-445C-9B8A-A4615222DF35",
+        "videoUUID": "7A751F3E-D589-430A-A74A-79F46D963C29",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-04-18T21:26:34.772Z",
+        "lengthInSeconds": 5,
+        "objectId": "PoVrS9BGTs",
+        "updatedAt": "2014-09-01T00:00:49.435Z",
+        "user": "X3x6W7kmV3",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/DC2BDA33-4646-4AF3-B03A-26B745308A55",
+        "videoUUID": "03AA6397-AC11-4714-A2DA-98D223ABE63E",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-04-18T22:23:50.734Z",
+        "lengthInSeconds": 10,
+        "objectId": "QeTEVvjgvb",
+        "updatedAt": "2014-09-01T00:00:50.098Z",
+        "user": "HoiDBUaipj",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/30552D28-72D5-4ECC-9A31-0E93B3D0AABE",
+        "videoUUID": "887A0998-1150-4E60-820D-F3F908EF3A55",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-03-28T21:55:31.207Z",
+        "lengthInSeconds": 12,
+        "objectId": "RGcnMetDu6",
+        "updatedAt": "2014-09-01T00:00:50.355Z",
+        "user": "Alq1w3j0mG",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/F3B6B1B0-5F57-4445-A5C8-2DB2F6030648",
+        "videoUUID": "F9306776-75DB-4266-87B0-3192531C45DA",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-03-22T15:33:53.511Z",
+        "lengthInSeconds": 12,
+        "objectId": "RMTK4aJyre",
+        "updatedAt": "2014-09-01T00:00:50.892Z",
+        "user": "Alq1w3j0mG",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/25B1486C-1B70-4CDF-8666-35E9EE3966B5",
+        "videoUUID": "FCD73985-B7A2-4A8D-A41C-B8B926CC0C6C",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-03-22T23:15:16.649Z",
+        "lengthInSeconds": 3,
+        "objectId": "Rjt7Yk0Zt8",
+        "updatedAt": "2014-09-01T00:00:52.114Z",
+        "user": "Alq1w3j0mG",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/77693B3F-A014-4C5C-82A9-8494CB650A42",
+        "videoUUID": "228D45A2-F97C-4F88-8221-C296C0C2EE81",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-04-18T20:26:59.570Z",
+        "lengthInSeconds": 8,
+        "objectId": "RmfFxBubTO",
+        "updatedAt": "2014-09-01T00:00:52.224Z",
+        "user": "rUUkqYLTde",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/4B7013CC-8F33-4EBC-9A7E-3C7A8935CF1C",
+        "videoUUID": "80C6B8B0-A174-48F5-80ED-274A88E39615",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-04-18T21:46:38.213Z",
+        "lengthInSeconds": 3,
+        "objectId": "SLVK3S8Qu2",
+        "updatedAt": "2014-09-01T00:00:52.365Z",
+        "user": "HoiDBUaipj",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/D4A49465-1DBF-40DD-897F-FB9A025D91FA",
+        "videoUUID": "C0460E8C-6E32-4F50-95A1-37F8EEA436C7",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-04-18T21:36:23.254Z",
+        "lengthInSeconds": 2,
+        "objectId": "TERJYZd7zE",
+        "updatedAt": "2014-09-01T00:00:52.686Z",
+        "user": "HoiDBUaipj",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/C07EC1D5-D82B-49BE-BCE6-D420BE03A33C",
+        "videoUUID": "4E7BDBFB-D83F-45E8-82AB-2E2DD95B009A",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-03-22T23:27:07.204Z",
+        "lengthInSeconds": 5,
+        "objectId": "TVwdvoNFfO",
+        "updatedAt": "2014-09-01T00:00:53.338Z",
+        "user": "Alq1w3j0mG",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/5C666272-39AF-4291-BBCE-81778FA6DCC0",
+        "videoUUID": "5A36BF03-A5AE-456A-9F46-443BA3C08467",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-04-10T20:59:26.631Z",
+        "lengthInSeconds": 9,
+        "objectId": "Tskd2S5a1u",
+        "updatedAt": "2014-09-01T00:00:53.466Z",
+        "user": "2msCmk4gKu",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/26A712F4-9954-4BA2-A746-F433A4884E8A",
+        "videoUUID": "96C4DAAB-DFE1-4E08-9C89-A13F13CA3BCE",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-04-05T21:13:31.519Z",
+        "lengthInSeconds": 4,
+        "objectId": "U690BBfzYP",
+        "updatedAt": "2014-09-01T00:00:53.603Z",
+        "user": "tCb3AaD0at",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/908B8371-0CBE-4130-A684-A0CE875C8C20",
+        "videoUUID": "8F3B37ED-5B8C-4764-9892-A8CC71F4C3D1",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-04-14T23:26:51.435Z",
+        "lengthInSeconds": 8,
+        "objectId": "UocXkapwSm",
+        "updatedAt": "2014-09-01T00:00:53.832Z",
+        "user": "jO6BcCNhtV",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/D40765AF-2E6C-4558-A26D-39F75B661D81",
+        "videoUUID": "F90ACC2C-2366-4FA0-BCED-AF74B6D3CB67",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-04-18T21:48:06.641Z",
+        "lengthInSeconds": 2,
+        "objectId": "VBuq1AW7Xr",
+        "updatedAt": "2014-09-01T00:00:54.062Z",
+        "user": "HoiDBUaipj",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/07C45DB0-C1D4-42E9-8BD4-0D1BE8397E78",
+        "videoUUID": "A22123CA-2185-427D-9444-DFDFED260E7B",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-04-16T02:22:49.926Z",
+        "lengthInSeconds": 11,
+        "objectId": "XJOKnqCaEI",
+        "updatedAt": "2014-09-01T00:00:54.339Z",
+        "user": "tCb3AaD0at",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/E80A0E45-4EBB-4452-9CF1-75EB2BFF5F1A",
+        "videoUUID": "4195CACD-1744-4348-82B1-8BBB62C9661A",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-04-18T20:32:06.549Z",
+        "lengthInSeconds": 6,
+        "objectId": "XL9oBa1b7h",
+        "updatedAt": "2014-09-01T00:00:54.925Z",
+        "user": "HoiDBUaipj",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/45505448-7E7F-4689-BA1D-07D98AB83D31",
+        "videoUUID": "624FB87D-420C-4A82-92FC-FEEB4217221B",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-04-18T21:59:42.050Z",
+        "lengthInSeconds": 2,
+        "objectId": "aOAk0353kS",
+        "updatedAt": "2014-09-01T00:00:55.401Z",
+        "user": "HoiDBUaipj",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/5DA12382-9AA8-407A-ADBE-720D723182E8",
+        "videoUUID": "3B08DE75-A47D-49B3-89EC-48359AFA514D",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-04-18T22:02:13.289Z",
+        "lengthInSeconds": 3,
+        "objectId": "anx31wYqqD",
+        "updatedAt": "2014-09-01T00:00:55.662Z",
+        "user": "X3x6W7kmV3",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/DCDEC264-E13B-4A89-BAA7-556429C3E66F",
+        "videoUUID": "62744AC4-5ECA-49A9-AEAA-5B6CB9F9F6DF",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-06-11T19:44:09.494Z",
+        "lengthInSeconds": 30,
+        "objectId": "bxHmnBEfAY",
+        "updatedAt": "2014-09-01T00:00:56.128Z",
+        "user": "782Yh8zvui",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/744A81B0-AF1D-41B7-A0A1-2C3FBB103C7E",
+        "videoUUID": "AC8A7B6C-B519-479C-8053-85F3235A1114",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-04-03T02:55:09.042Z",
+        "lengthInSeconds": 3,
+        "objectId": "cQBSlAmtHa",
+        "updatedAt": "2014-09-01T00:00:56.229Z",
+        "user": "pDE0gNib8S",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/94B74440-CF9A-4114-9A71-D8587971CD65",
+        "videoUUID": "4AFB2118-6DC7-49FD-94D0-098C12EF85ED",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-04-05T22:44:08.155Z",
+        "lengthInSeconds": 27,
+        "objectId": "dUJMXdC8hj",
+        "updatedAt": "2014-09-01T00:00:56.547Z",
+        "user": "dnanWELLVN",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/3F6977F7-860D-470D-83A3-95321DC71BE5",
+        "videoUUID": "C4A85B17-0F8E-4424-8662-2BC3199B2A90",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-04-18T22:23:58.346Z",
+        "lengthInSeconds": 13,
+        "objectId": "dYR725t5iY",
+        "updatedAt": "2014-09-01T00:00:56.698Z",
+        "user": "HoiDBUaipj",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/B86E2E8E-1127-4FB0-909A-009C594B897A",
+        "videoUUID": "74D7DAEA-9137-4FCE-9924-41630BB5570C",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-04-18T21:33:47.778Z",
+        "lengthInSeconds": 3,
+        "objectId": "dmc2CxFJMg",
+        "updatedAt": "2014-09-01T00:00:56.944Z",
+        "user": "HoiDBUaipj",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/AA7F699A-F6BD-4632-AB44-E4804876CB29",
+        "videoUUID": "7FB00AF0-EB75-414C-BC3F-8F435228DA18",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-08-18T16:22:24.349Z",
+        "lengthInSeconds": 16,
+        "objectId": "eHsrUpBU4U",
+        "updatedAt": "2014-09-01T00:00:57.161Z",
+        "user": "3lSJtDJDDr",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/11FA7480-10EF-40F8-AE9F-B616B3C131BC.mp4",
+        "videoUUID": "C6023D1E-49EF-42C4-9BCE-032DDC8B0DFF",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-08-24T19:17:48.250Z",
+        "lengthInSeconds": 281,
+        "objectId": "ecBxV2ZExg",
+        "updatedAt": "2014-09-01T00:00:57.894Z",
+        "user": "nN1LDl0xJH",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/AC47ADB4-3C38-476C-84D6-C791C29FA4BF.mp4",
+        "videoUUID": "74B97908-CD43-44E1-B341-25BC108BFDCA",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-04-18T21:35:09.879Z",
+        "lengthInSeconds": 3,
+        "objectId": "fZfop7gBQO",
+        "updatedAt": "2014-09-01T00:00:58.643Z",
+        "user": "HoiDBUaipj",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/38711153-5D3B-4C1D-A0F0-4E419847396A",
+        "videoUUID": "BC25284C-34D1-4FB2-972C-60BE4A6884AE",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-04-18T21:43:16.948Z",
+        "lengthInSeconds": 3,
+        "objectId": "gc0vnMkS5W",
+        "updatedAt": "2014-09-01T00:00:58.987Z",
+        "user": "HoiDBUaipj",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/9728D60B-5685-41B8-BA3F-9038B636DC2D",
+        "videoUUID": "C307539B-3D00-411C-BA2F-3B1311653BE9",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-04-18T21:34:30.793Z",
+        "lengthInSeconds": 2,
+        "objectId": "hUiuDzFesL",
+        "updatedAt": "2014-09-01T00:00:59.282Z",
+        "user": "HoiDBUaipj",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/F23ED01A-322E-43F1-B840-F53662DBEC81",
+        "videoUUID": "99751FAA-941C-4C21-A9E9-DA47DC7CA407",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-04-14T23:56:10.900Z",
+        "lengthInSeconds": 8,
+        "objectId": "j1l8KCwn3q",
+        "updatedAt": "2014-09-01T00:00:59.908Z",
+        "user": "jO6BcCNhtV",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/C9A417EE-F915-40EB-BCD9-7305F1B6210D",
+        "videoUUID": "104E7042-2E9B-4E17-B1D4-FAF0A5A97361",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-06-06T02:14:10.712Z",
+        "lengthInSeconds": 65,
+        "objectId": "jtEOCSp7mN",
+        "updatedAt": "2014-09-01T00:01:00.311Z",
+        "user": "nN1LDl0xJH",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/62636173-D0B9-40D9-9B7A-73912693D34E",
+        "videoUUID": "65AB8FA7-39C5-4505-ACEB-29AA95190BDF",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-03-23T18:53:15.902Z",
+        "lengthInSeconds": 4,
+        "objectId": "k5j5LLJ13F",
+        "updatedAt": "2014-09-01T00:01:00.724Z",
+        "user": "Alq1w3j0mG",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/8D45031F-2CB3-481F-8D2D-B9802815F547",
+        "videoUUID": "649AA123-5BC8-4AAA-AF50-C7C574DEEBB8",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-03-30T20:21:14.185Z",
+        "lengthInSeconds": 20,
+        "objectId": "lcvszpzlx0",
+        "updatedAt": "2014-09-01T00:01:01.218Z",
+        "user": "Alq1w3j0mG",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/CE4F369E-D11C-4983-B2A6-05107C9B117C",
+        "videoUUID": "D001AFBA-AF59-461C-880A-1058602EB6FB",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-08-13T14:28:59.004Z",
+        "lengthInSeconds": 9,
+        "objectId": "mTgeOZUGkm",
+        "updatedAt": "2014-09-01T00:01:01.887Z",
+        "user": "3lSJtDJDDr",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/67E753FF-0788-49C0-90F4-0F50231E8887.mp4",
+        "videoUUID": "264C239A-85FE-44FC-BD19-274A3AADF06C",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-08-01T14:50:49.699Z",
+        "lengthInSeconds": 15,
+        "objectId": "nPPr6k9QF0",
+        "updatedAt": "2014-09-01T00:01:02.421Z",
+        "user": "KAzzxcofP9",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/F33C4348-EA90-42E1-99CC-642673E8FB35.mp4",
+        "videoUUID": "D432D152-8731-48CB-A282-223D3CD068A9",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-08-24T15:40:24.951Z",
+        "lengthInSeconds": 351,
+        "objectId": "nkWDAUyaSL",
+        "updatedAt": "2014-09-01T00:01:02.634Z",
+        "user": "nN1LDl0xJH",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/36E109E3-8583-4898-9026-3DD50C5F66AD.mp4",
+        "videoUUID": "3237C49E-4803-47BB-9634-4810646C7273",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-04-12T16:41:06.083Z",
+        "lengthInSeconds": 41,
+        "objectId": "nmXe2fccrz",
+        "updatedAt": "2014-09-01T00:01:02.977Z",
+        "user": "tCb3AaD0at",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/F01E18AD-E09B-4478-AE97-A6F8657D4205",
+        "videoUUID": "8DBB706D-9A9E-46E3-9056-66F7AC14871A",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-03-22T23:18:12.188Z",
+        "lengthInSeconds": 10,
+        "objectId": "no0qjzXCJ9",
+        "updatedAt": "2014-09-01T00:01:03.154Z",
+        "user": "Alq1w3j0mG",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/B4162791-1433-4FC7-A7A6-C17091495FF9",
+        "videoUUID": "76C93925-F728-4DE9-8DD2-06ACFB0DBE62",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-04-18T20:33:22.556Z",
+        "lengthInSeconds": 5,
+        "objectId": "o3uJsVsoLO",
+        "updatedAt": "2014-09-01T00:01:03.464Z",
+        "user": "X3x6W7kmV3",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/492969D5-37A1-4371-857C-C97E64299DED",
+        "videoUUID": "91FFF84D-00BE-4627-A69A-0B9B921AD62B",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-04-12T19:55:37.740Z",
+        "lengthInSeconds": 9,
+        "objectId": "o5H60m6XSY",
+        "updatedAt": "2014-09-01T00:01:04.071Z",
+        "user": "tCb3AaD0at",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/ECC9FC18-20CA-4666-86F5-F3B3D64D18BE",
+        "videoUUID": "E7AE1828-1718-4DAA-BEF2-B5D1DC974918",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-06-20T15:48:26.728Z",
+        "lengthInSeconds": 31,
+        "objectId": "o8em8kSTSA",
+        "updatedAt": "2014-09-01T00:01:04.243Z",
+        "user": "4zlZu42H0S",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/7E73011F-D95B-4F1C-A0A7-725FB9E0C598",
+        "videoUUID": "62B61B25-7C22-4C0D-8C60-AD220DD380D8",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-04-18T21:41:18.400Z",
+        "lengthInSeconds": 3,
+        "objectId": "oMHOvbhn6f",
+        "updatedAt": "2014-09-01T00:01:04.392Z",
+        "user": "HoiDBUaipj",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/8DF99394-0D4B-4B9A-AD9A-E474677C3921",
+        "videoUUID": "D34FAC10-06F4-4BE4-928C-AC02A999B84C",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-04-18T22:01:47.155Z",
+        "lengthInSeconds": 13,
+        "objectId": "ov6Gqayrio",
+        "updatedAt": "2014-09-01T00:01:04.664Z",
+        "user": "X3x6W7kmV3",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/B02D9A43-144C-4862-A362-2F585076B605",
+        "videoUUID": "EF81B765-78AA-4324-ACDE-496BD56F2B4F",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-04-18T22:02:15.091Z",
+        "lengthInSeconds": 9,
+        "objectId": "qnMSabRtVW",
+        "updatedAt": "2014-09-01T00:01:04.990Z",
+        "user": "X3x6W7kmV3",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/0E4F79DE-B697-4F1B-B10C-7807664AAF63",
+        "videoUUID": "F9B294D9-8A45-4DAC-AE13-74D774393F8A",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-03-23T18:56:42.519Z",
+        "lengthInSeconds": 10,
+        "objectId": "rQYuUAfvTk",
+        "updatedAt": "2014-09-01T00:01:05.284Z",
+        "user": "Alq1w3j0mG",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/457E6838-B1C9-4A9D-845A-35F73C250109",
+        "videoUUID": "255FC2DC-F654-4F91-8705-2906A4BE4FCD",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-04-18T22:01:39.196Z",
+        "lengthInSeconds": 14,
+        "objectId": "rd3qI0Uj60",
+        "updatedAt": "2014-09-01T00:01:05.655Z",
+        "user": "X3x6W7kmV3",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/C93BCA43-C066-48DA-8F21-51EEA6D4366F",
+        "videoUUID": "24D76746-AE1F-474B-ACAA-B54A120B70F7",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-04-18T22:15:02.077Z",
+        "lengthInSeconds": 12,
+        "objectId": "ryv5X1lcgR",
+        "updatedAt": "2014-09-01T00:01:06.009Z",
+        "user": "X3x6W7kmV3",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/7CCE8A44-B2CC-4D09-90D6-4C28D8440C37",
+        "videoUUID": "E25895EA-C44D-40DA-A0F7-374866644B1E",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-04-01T05:47:56.247Z",
+        "lengthInSeconds": 2,
+        "objectId": "sGO5E2i20n",
+        "updatedAt": "2014-09-01T00:01:06.170Z",
+        "user": "pDE0gNib8S",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/295172CC-D9CA-4928-8652-32B6C12501DD",
+        "videoUUID": "94901EC6-896C-43C4-89DE-4548EC838246",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-04-18T21:45:47.682Z",
+        "lengthInSeconds": 3,
+        "objectId": "tJP9Delfsw",
+        "updatedAt": "2014-09-01T00:01:07.005Z",
+        "user": "HoiDBUaipj",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/18F5F9E1-85D3-4CB4-8218-C56B393903B1",
+        "videoUUID": "EACDA7A2-3602-43F7-BB6C-134BB5145188",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-04-18T21:45:11.837Z",
+        "lengthInSeconds": 5,
+        "objectId": "v3unnRfVYm",
+        "updatedAt": "2014-09-01T00:01:08.170Z",
+        "user": "X3x6W7kmV3",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/8FEE8F66-C018-488D-9769-B6EB3EFA3628",
+        "videoUUID": "6F3A6C37-71E0-4AB4-A17D-3137C3B60A25",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-06-19T20:26:10.306Z",
+        "lengthInSeconds": 41,
+        "objectId": "vMFnVqpnbI",
+        "updatedAt": "2014-09-01T00:01:08.587Z",
+        "user": "782Yh8zvui",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/50064D40-7B34-4AD4-B239-5605F9454AF0",
+        "videoUUID": "EA6B711A-FD46-4839-AF6B-79F7D8424156",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-07-19T18:40:40.761Z",
+        "lengthInSeconds": 6,
+        "objectId": "vcGu0yVngZ",
+        "updatedAt": "2014-09-01T00:01:09.218Z",
+        "user": "tCb3AaD0at",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/ABCE1F29-BB22-4B6D-815C-7C2A1B2CD7CE.mp4",
+        "videoUUID": "A877CE02-B360-49DF-95F5-F2287E30F3FA",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-03-30T20:23:23.437Z",
+        "lengthInSeconds": 4,
+        "objectId": "vtGfVathqV",
+        "updatedAt": "2014-09-01T00:01:09.359Z",
+        "user": "Alq1w3j0mG",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/B4EE14A7-35EC-4F3D-B12D-F04F5B69DA15",
+        "videoUUID": "80A8496E-7471-4C90-B725-EB7B4A8130A1",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-04-18T20:42:07.204Z",
+        "lengthInSeconds": 2,
+        "objectId": "vygsJI0Pd5",
+        "updatedAt": "2014-09-01T00:01:09.448Z",
+        "user": "HoiDBUaipj",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/4058E06D-92A2-4236-8F06-AEFAD30FB55E",
+        "videoUUID": "58AFE239-67E2-4F00-8BBE-618D4C1EDDF2",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-04-18T20:34:04.298Z",
+        "lengthInSeconds": 3,
+        "objectId": "w17QBldP5L",
+        "updatedAt": "2014-09-01T00:01:09.636Z",
+        "user": "HoiDBUaipj",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/324B8388-9A75-4464-8454-280127AE1204",
+        "videoUUID": "B782F0DF-6E40-4A6F-AE68-AC9EDCED257D",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-04-15T13:25:46.702Z",
+        "lengthInSeconds": 7,
+        "objectId": "wGUZXp6rBJ",
+        "updatedAt": "2014-09-01T00:01:09.863Z",
+        "user": "3rbjNTHLUb",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/F7ECE7C7-F9C3-4FD3-9995-BF27FBC5F5BA",
+        "videoUUID": "E4C01CCA-3CB0-4FE6-AD40-F1012DEB61A3",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-08-08T01:52:56.585Z",
+        "lengthInSeconds": 15,
+        "objectId": "waUigazQLM",
+        "updatedAt": "2014-09-01T00:01:10.012Z",
+        "user": "3TXi3fYw8W",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/A9631D25-3CBD-42E3-BD01-947FDE9795EA.mp4",
+        "videoUUID": "50AA159B-9CFD-4BA3-B24C-63FD01187AAE",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-04-18T20:23:08.040Z",
+        "lengthInSeconds": 3,
+        "objectId": "xFt8h3uCzW",
+        "updatedAt": "2014-09-01T00:01:10.667Z",
+        "user": "HoiDBUaipj",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/9A770CAF-9941-4AAB-B0DA-0498411E7102",
+        "videoUUID": "2694963C-E830-4D5E-B72A-B9A856D955AE",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-04-18T21:48:53.755Z",
+        "lengthInSeconds": 6,
+        "objectId": "zEs6uuDobf",
+        "updatedAt": "2014-09-01T00:01:11.200Z",
+        "user": "rUUkqYLTde",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/F4276DC6-409A-4586-9E2C-37DF2B85E6FE",
+        "videoUUID": "550C8CE3-9082-44A2-874E-7A62A1F09F60",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-03-29T16:27:58.180Z",
+        "lengthInSeconds": 19,
+        "objectId": "zWJpbpsrX2",
+        "updatedAt": "2014-09-01T00:01:11.555Z",
+        "user": "Alq1w3j0mG",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/2A49C3BC-AABA-4005-A4C2-D3849793DC12",
+        "videoUUID": "A41F0959-0327-4EA9-B53D-5D513F740654",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-04-18T21:55:56.937Z",
+        "lengthInSeconds": 2,
+        "objectId": "zpoD42xJB4",
+        "updatedAt": "2014-09-01T00:01:12.240Z",
+        "user": "HoiDBUaipj",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/1114D166-2DA1-44EB-AA0D-1A1BF5773D6A",
+        "videoUUID": "39C9ADEB-8226-48B4-8C7E-F86874AB025B",
+        "viewsThisMonth": 0
+    },
+	{
+        "createdAt": "2014-09-02T03:34:25.543Z",
+        "lengthInSeconds": 69,
+        "objectId": "trlKigMXQe",
+        "updatedAt": "2014-09-02T03:34:25.543Z",
+        "user": "cc9r8K6go8",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/4A1113C0-9470-47DB-87F6-4785D3BF4FA2.mp4",
+        "videoUUID": "8E12D022-C580-4C43-9B45-37FE3B0E3DA5"
+    },
+	{
+        "createdAt": "2014-09-02T03:48:33.211Z",
+        "lengthInSeconds": 8,
+        "objectId": "mAwFkYr0WN",
+        "updatedAt": "2014-09-02T03:48:33.211Z",
+        "user": "cc9r8K6go8",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/1C882B4B-807E-4CFC-AA07-B5289404D9AD.mp4",
+        "videoUUID": "8250027E-B75F-4DA6-AA20-467493895B59"
+    },
+	{
+        "createdAt": "2014-09-02T18:23:47.044Z",
+        "lengthInSeconds": 10,
+        "objectId": "PTsznCBBgv",
+        "updatedAt": "2014-09-02T18:23:47.044Z",
+        "user": "V5CCIhVG6X",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/BD95EEF5-EC91-4BD9-9E8B-52D44A96D55C.mp4",
+        "videoUUID": "E83D7590-00DD-44C8-9A34-0388A6880ED6"
+    },
+	{
+        "createdAt": "2014-09-03T18:01:28.959Z",
+        "lengthInSeconds": 8,
+        "objectId": "x6oq1f9HiK",
+        "updatedAt": "2014-09-03T18:01:28.959Z",
+        "user": "OgY5jl73BE",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/1E0FAAA2-2FAA-4C44-9793-69E06A33361B.mp4",
+        "videoUUID": "8A3B1189-CA12-4B8B-A3B6-BC9BB39CEE0C"
+    },
+	{
+        "createdAt": "2014-09-03T18:01:46.763Z",
+        "lengthInSeconds": 8,
+        "objectId": "MEYSQW3ZlH",
+        "updatedAt": "2014-09-03T18:01:46.763Z",
+        "user": "OgY5jl73BE",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/1E0FAAA2-2FAA-4C44-9793-69E06A33361B.mp4",
+        "videoUUID": "55B0E52E-4516-4D94-99C4-F60B0FFCDD8A"
+    },
+	{
+        "createdAt": "2014-09-03T21:31:34.452Z",
+        "lengthInSeconds": 33,
+        "objectId": "9sB7xZQrRz",
+        "updatedAt": "2014-09-03T21:31:34.452Z",
+        "user": "mOFYEWhNBw",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/B56A77FA-2338-45EB-88BF-9F51BB60463B.mp4",
+        "videoUUID": "0704631E-C97B-41BA-BB59-3452A3331843"
+    },
+	{
+        "createdAt": "2014-09-04T01:39:05.861Z",
+        "lengthInSeconds": 8,
+        "objectId": "qMChjaMfN0",
+        "updatedAt": "2014-09-04T01:39:05.861Z",
+        "user": "x9NRCBrZWW",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/8FEE85D2-1146-4D73-BFB2-7BA7BC84B7D0.mp4",
+        "videoUUID": "3170D999-A7D8-49EB-9516-C73C0280F977"
+    },
+	{
+        "createdAt": "2014-09-04T20:54:19.901Z",
+        "lengthInSeconds": 34,
+        "objectId": "5XrsBmYSVL",
+        "updatedAt": "2014-09-04T20:54:19.901Z",
+        "user": "mOFYEWhNBw",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/5371C19D-E757-48E8-877F-EAC16C3918B7.mp4",
+        "videoUUID": "88DE7FD8-C378-43D9-A6C9-E62990AAB71D"
+    },
+	{
+        "createdAt": "2014-09-04T23:27:50.464Z",
+        "lengthInSeconds": 18,
+        "objectId": "73VhKgkxkI",
+        "updatedAt": "2014-09-04T23:27:50.464Z",
+        "user": "Nt1skOhfuJ",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/1093399F-E60E-4016-BC3D-E81712295959.mp4",
+        "videoUUID": "73441A8D-D8EE-416D-9962-A2ABAF3969CF"
+    },
+	{
+        "createdAt": "2014-09-05T00:31:36.727Z",
+        "lengthInSeconds": 16,
+        "objectId": "muMqfMIZa0",
+        "updatedAt": "2014-09-05T00:31:36.727Z",
+        "user": "8PDXJE3jke",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/395D05E2-5B18-4116-AC93-BFFF6129117A.mp4",
+        "videoUUID": "ED08E996-C992-4EEA-890D-6721F6905820"
+    },
+	{
+        "createdAt": "2014-09-09T22:13:04.829Z",
+        "lengthInSeconds": 24,
+        "objectId": "qltyLDj0wr",
+        "updatedAt": "2014-09-09T22:13:04.829Z",
+        "user": "v7RpJcPW4M",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/88ABA6CC-7B04-494F-923A-4993053D6A61.mp4",
+        "videoUUID": "3AA009C1-7181-4D23-B13E-1B00E17FA351"
+    },
+	{
+        "createdAt": "2014-09-09T22:23:47.587Z",
+        "lengthInSeconds": 24,
+        "objectId": "fTuKSGLjgT",
+        "updatedAt": "2014-09-09T22:23:47.587Z",
+        "user": "v7RpJcPW4M",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/88ABA6CC-7B04-494F-923A-4993053D6A61.mp4",
+        "videoUUID": "59699FA4-71E6-4B44-9129-143FB7E5D919"
+    },
+	{
+        "createdAt": "2014-09-10T00:55:30.092Z",
+        "lengthInSeconds": 13,
+        "objectId": "GldwzSoFQG",
+        "updatedAt": "2014-09-10T00:55:30.092Z",
+        "user": "v7RpJcPW4M",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/B1EC5064-AE49-4469-B42D-E234F4C81F2E.mp4",
+        "videoUUID": "FA054C04-48C9-4C0F-AA41-CD87B7899E86"
+    },
+	{
+        "createdAt": "2014-09-10T18:18:34.120Z",
+        "lengthInSeconds": 10,
+        "objectId": "7bT8vhpay0",
+        "updatedAt": "2014-09-10T18:18:34.120Z",
+        "user": "v7RpJcPW4M",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/D26ACAEA-4DBB-4B08-8BF4-06F93C710C07.mp4",
+        "videoUUID": "1F4A9F42-A710-4330-AA63-27469CB385CD"
+    },
+	{
+        "allViews": 3,
+        "createdAt": "2014-09-10T22:23:33.106Z",
+        "lengthInSeconds": 36,
+        "objectId": "3tXQGeJeaH",
+        "updatedAt": "2014-12-02T03:49:13.456Z",
+        "user": "4zlZu42H0S",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/93A15944-497D-4DD2-A5E1-971BD8E46591.mp4",
+        "videoUUID": "4975D119-2522-48AC-BFF9-F5485A089D90",
+        "viewsThisMonth": 3
+    },
+	{
+        "allViews": 4,
+        "createdAt": "2014-09-15T16:05:20.809Z",
+        "lengthInSeconds": 17,
+        "objectId": "MUMhowoc28",
+        "updatedAt": "2014-12-02T03:49:13.255Z",
+        "user": "4zlZu42H0S",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/0090A959-000F-40F8-931B-4A82F0615B77.mp4",
+        "videoUUID": "8DD77A8D-CBC0-4D26-94C4-71A39F04F31C",
+        "viewsThisMonth": 4
+    },
+	{
+        "createdAt": "2014-09-15T16:07:06.838Z",
+        "lengthInSeconds": 87,
+        "objectId": "SmNipxNxnv",
+        "updatedAt": "2014-09-15T16:07:06.838Z",
+        "user": "JhCjB0DbmZ",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/EC46EC1E-912B-49FF-B99B-EF6F3A758334",
+        "videoUUID": "E95BCCF4-64F2-425F-9E4D-62CDCF3D8CC1"
+    },
+	{
+        "createdAt": "2014-09-16T04:10:38.810Z",
+        "lengthInSeconds": 19,
+        "objectId": "mEGBfWP3Rr",
+        "updatedAt": "2014-09-16T04:10:38.810Z",
+        "user": "h65dvTtwIg",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/263AD4A1-E431-4149-82E8-76B448DDD7D9.mp4",
+        "videoUUID": "42651A5B-E024-4D72-8CC9-DDB6CF113249"
+    },
+	{
+        "createdAt": "2014-09-16T17:53:00.425Z",
+        "lengthInSeconds": 87,
+        "objectId": "6xzOfLuarh",
+        "updatedAt": "2014-09-16T17:53:00.425Z",
+        "user": "P5FAShK35d",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/9520A833-C4A0-4059-9E97-FAB7B54B70D5",
+        "videoUUID": "147E38F4-8C25-4B5B-A040-1BFA39293E13"
+    },
+	{
+        "createdAt": "2014-09-16T22:24:13.574Z",
+        "lengthInSeconds": 11,
+        "objectId": "HZ5cfwsR9g",
+        "updatedAt": "2014-09-16T22:24:13.574Z",
+        "user": "4bdtMLtMeD",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/F0A09BEC-104D-4652-B11E-74ACD235B846.mp4",
+        "videoUUID": "2FE5DD3E-F780-4DF7-818C-A945C9985786"
+    },
+	{
+        "createdAt": "2014-09-17T01:17:37.179Z",
+        "lengthInSeconds": 10,
+        "objectId": "XS6xnniBU6",
+        "updatedAt": "2014-09-17T01:17:37.179Z",
+        "user": "P5FAShK35d",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/289281E5-FF42-46B8-8FCB-6B9ECE76AB8B.mp4",
+        "videoUUID": "116ECC85-DE76-433A-9B33-D9B43054FE08"
+    },
+	{
+        "createdAt": "2014-09-17T10:21:46.579Z",
+        "lengthInSeconds": 28,
+        "objectId": "UAWO8WSvJO",
+        "updatedAt": "2014-09-17T10:21:46.579Z",
+        "user": "ICs99BSDpv",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/ECE925B3-9EBF-4189-A193-98CA6FC2C495.mp4",
+        "videoUUID": "CDB34DA1-6B12-4E0D-97A6-19D6506721A1"
+    },
+	{
+        "createdAt": "2014-09-17T10:56:34.434Z",
+        "lengthInSeconds": 108,
+        "objectId": "t7xGs2PNGg",
+        "updatedAt": "2014-09-17T10:56:34.434Z",
+        "user": "ICs99BSDpv",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/738C152F-B9AC-4E78-9FDA-EEF88345F760.mp4",
+        "videoUUID": "29F03CE9-C5CA-478C-BBF7-F56D2A1A3D4D"
+    },
+	{
+        "createdAt": "2014-09-17T14:05:28.891Z",
+        "lengthInSeconds": 15,
+        "objectId": "3R3hEpmbRT",
+        "updatedAt": "2014-09-17T14:05:28.891Z",
+        "user": "lqIpJVudsh",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/FF515CEC-3316-44A3-8BD5-DF3168D6A8FD.mp4",
+        "videoUUID": "F882E7AC-7330-489D-B3B4-CC41812A8B88"
+    },
+	{
+        "createdAt": "2014-09-17T14:10:29.128Z",
+        "lengthInSeconds": 16,
+        "objectId": "sB1ms6EBY0",
+        "updatedAt": "2014-09-17T14:10:29.128Z",
+        "user": "lqIpJVudsh",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/421DF070-4323-433B-A01B-C381D6C8B841.mp4",
+        "videoUUID": "B3584C8F-64BA-440B-890E-CD7715B249F6"
+    },
+	{
+        "createdAt": "2014-09-18T01:03:45.821Z",
+        "lengthInSeconds": 82,
+        "objectId": "IIjnzeeePj",
+        "updatedAt": "2014-09-18T01:03:45.821Z",
+        "user": "ICs99BSDpv",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/0E37071D-75C5-4FBE-8AD4-588BBABDBABE.mp4",
+        "videoUUID": "8182EB7C-60AD-44D6-A3B6-35857CBD4CCB"
+    },
+	{
+        "createdAt": "2014-09-18T08:24:04.041Z",
+        "lengthInSeconds": 18,
+        "objectId": "aaEhQpvp6l",
+        "updatedAt": "2014-09-18T08:24:04.041Z",
+        "user": "wrpwT9XJ1J",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/E5D4A06F-1FF4-4CD4-9B79-BE5F5B37BE6B.mp4",
+        "videoUUID": "5D81F887-3DE6-4AEF-97C5-A1BBC8DCC314"
+    },
+	{
+        "createdAt": "2014-09-18T08:44:09.014Z",
+        "lengthInSeconds": 78,
+        "objectId": "kRo1VCPNQW",
+        "updatedAt": "2014-09-18T08:44:09.014Z",
+        "user": "wrpwT9XJ1J",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/CD03FE2A-03C1-4E1E-8DF4-047758906908.mp4",
+        "videoUUID": "52C31F3B-7C43-44AE-8189-EB19B013E466"
+    },
+	{
+        "createdAt": "2014-09-18T09:21:55.719Z",
+        "lengthInSeconds": 28,
+        "objectId": "AtnsDAMsst",
+        "updatedAt": "2014-09-18T09:21:55.719Z",
+        "user": "wrpwT9XJ1J",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/9883E45A-BAC0-4B8E-A25D-565C3D74C1A9.mp4",
+        "videoUUID": "E3287109-DD7F-4DE4-A2D0-CA599C890C8A"
+    },
+	{
+        "createdAt": "2014-09-18T12:14:18.551Z",
+        "lengthInSeconds": 21,
+        "objectId": "WyNDMzJQcr",
+        "updatedAt": "2014-09-18T12:14:18.551Z",
+        "user": "kbfYdWjJSu",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/A5117CE0-758C-47E6-9974-011BA398AFCB.mp4",
+        "videoUUID": "1AEB4EE5-993D-48BB-829D-5A3F35E06E12"
+    },
+	{
+        "allViews": 3,
+        "createdAt": "2014-09-18T16:06:09.684Z",
+        "lengthInSeconds": 15,
+        "objectId": "DI30e1kBzu",
+        "updatedAt": "2014-12-02T03:49:13.448Z",
+        "user": "4zlZu42H0S",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/B76F2F80-6B74-4EB5-A953-A734CF4EF86A.mp4",
+        "videoUUID": "577DC783-0F4F-4C48-8644-450D1F31916E",
+        "viewsThisMonth": 3
+    },
+	{
+        "createdAt": "2014-09-18T18:46:58.096Z",
+        "lengthInSeconds": 6,
+        "objectId": "8BMHugsAEL",
+        "updatedAt": "2014-09-18T18:46:58.096Z",
+        "user": "BsJz6zz5XC",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/A065E936-A554-4BA8-9CDE-EC1817A84095.mp4",
+        "videoUUID": "403AFBF4-FA55-423B-BDF6-F7EC5442540F"
+    },
+	{
+        "createdAt": "2014-09-19T00:28:57.215Z",
+        "lengthInSeconds": 23,
+        "objectId": "IewOJpWl0q",
+        "updatedAt": "2014-09-19T00:28:57.215Z",
+        "user": "kbfYdWjJSu",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/2E3869BA-2BCD-432B-A7D0-DE43DD13AF87.mp4",
+        "videoUUID": "282A2DE6-F18D-489D-8D48-8576010FD861"
+    },
+	{
+        "allViews": 4,
+        "createdAt": "2014-09-25T18:33:07.617Z",
+        "lengthInSeconds": 26,
+        "objectId": "jnZYnYJ8Kl",
+        "updatedAt": "2014-12-02T03:49:13.368Z",
+        "user": "4zlZu42H0S",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/3979E643-4DF4-4B15-8531-BF12735F211D.mp4",
+        "videoUUID": "9D5DF04B-186E-453A-A5AB-DC17F93354C0",
+        "viewsThisMonth": 4
+    },
+	{
+        "createdAt": "2014-09-25T23:30:15.760Z",
+        "lengthInSeconds": 10,
+        "objectId": "CRJ5i2FKuj",
+        "updatedAt": "2014-09-25T23:30:15.760Z",
+        "user": "BsJz6zz5XC",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/27A3D474-412F-40E2-889B-84989A8EC37F.mp4",
+        "videoUUID": "5430209A-A4B0-44AC-9760-E9BE311512DB"
+    },
+	{
+        "allViews": 4,
+        "createdAt": "2014-09-28T22:42:33.016Z",
+        "lengthInSeconds": 18,
+        "objectId": "kc9Xg8MhAT",
+        "updatedAt": "2014-12-02T03:49:13.374Z",
+        "user": "4zlZu42H0S",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/34DB1D69-4410-4640-8457-DD89607081A6.mp4",
+        "videoUUID": "BD1759EC-FF3B-4B09-904C-31B83FF04948",
+        "viewsThisMonth": 4
+    },
+	{
+        "allViews": 3,
+        "createdAt": "2014-10-02T20:00:53.316Z",
+        "lengthInSeconds": 42,
+        "objectId": "dkfbDDY1Pq",
+        "updatedAt": "2014-12-02T03:49:13.522Z",
+        "user": "4zlZu42H0S",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/7DAD2DEC-9A10-4049-846D-B198517C045A.mp4",
+        "videoUUID": "3E9B694C-67F7-40C7-817A-92250F577766",
+        "viewsThisMonth": 3
+    },
+	{
+        "createdAt": "2014-10-03T20:37:00.502Z",
+        "lengthInSeconds": 87,
+        "objectId": "Eir2dvPfxO",
+        "updatedAt": "2014-10-03T20:37:00.502Z",
+        "user": "cUZJX0Do2M",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/FBA9518F-3109-4651-90AB-4AAFF0DC9241",
+        "videoUUID": "960EAEDD-5AF6-4F0D-8653-9A8B73AA4C90"
+    },
+	{
+        "allViews": 3,
+        "createdAt": "2014-10-03T20:57:30.864Z",
+        "lengthInSeconds": 14,
+        "objectId": "8xrezpIJXl",
+        "updatedAt": "2014-10-26T02:30:56.940Z",
+        "user": "cUZJX0Do2M",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/9751B330-0315-46F9-B924-8DDA008AD47F.mp4",
+        "videoUUID": "7DD5A779-5139-4384-A00A-E5A38D0F5DE0",
+        "viewsThisMonth": 3
+    },
+	{
+        "allViews": 5,
+        "createdAt": "2014-10-09T17:58:37.961Z",
+        "lengthInSeconds": 10,
+        "objectId": "R3Ctw5v7Zs",
+        "updatedAt": "2014-12-02T03:49:13.203Z",
+        "user": "4zlZu42H0S",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/24FF88AD-7CF8-4B86-8989-B1221D786DE5.mp4",
+        "videoUUID": "F3E70D30-412E-4D3F-A9B8-7788246F7A55",
+        "viewsThisMonth": 5
+    },
+	{
+        "allViews": 5,
+        "createdAt": "2014-10-09T20:13:03.524Z",
+        "lengthInSeconds": 24,
+        "objectId": "TkCmRIMm0I",
+        "updatedAt": "2014-12-02T03:49:13.559Z",
+        "user": "4zlZu42H0S",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/93B8B0CF-591A-42B8-B05F-FB866A3083AB.mp4",
+        "videoUUID": "121B670C-8883-4B21-A8A5-AC992847557C",
+        "viewsThisMonth": 5
+    },
+	{
+        "allViews": 4,
+        "createdAt": "2014-10-09T20:32:31.738Z",
+        "lengthInSeconds": 28,
+        "objectId": "z1CsHEaPJo",
+        "updatedAt": "2014-12-02T03:49:13.212Z",
+        "user": "4zlZu42H0S",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/9467FFEF-5FEE-447E-828C-01229880E071.mp4",
+        "videoUUID": "EB930896-4385-4395-BA41-C7CB3CBBCB47",
+        "viewsThisMonth": 4
+    },
+	{
+        "createdAt": "2014-10-09T22:08:18.932Z",
+        "lengthInSeconds": 29,
+        "objectId": "NjxVDSvDuu",
+        "updatedAt": "2014-10-09T22:08:18.932Z",
+        "user": "rW73worDt7",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/1699BB43-3544-4F75-B474-A47FE8A6A282.mp4",
+        "videoUUID": "53479BB8-FB72-43F4-93A7-78E77FAB22D3"
+    },
+	{
+        "allViews": 2,
+        "createdAt": "2014-10-09T22:14:22.258Z",
+        "lengthInSeconds": 40,
+        "objectId": "iFaO4HapZm",
+        "updatedAt": "2014-12-02T03:49:13.275Z",
+        "user": "4zlZu42H0S",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/9682BBCA-B3D3-4CA9-BCE8-14CF8DA7C61D.mp4",
+        "videoUUID": "E9C8CAE4-3B50-4AA3-AD3D-4D35766A6123",
+        "viewsThisMonth": 2
+    },
+	{
+        "allViews": 4,
+        "createdAt": "2014-10-09T23:36:24.495Z",
+        "lengthInSeconds": 31,
+        "objectId": "god8GX5GQv",
+        "updatedAt": "2014-12-02T03:49:13.321Z",
+        "user": "4zlZu42H0S",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/1A45C652-BD9A-452E-911E-97014F4A2C45.mp4",
+        "videoUUID": "EB89AC97-5C38-4715-B732-3C7F9FF1AE63",
+        "viewsThisMonth": 4
+    },
+	{
+        "allViews": 4,
+        "createdAt": "2014-10-10T00:45:29.380Z",
+        "lengthInSeconds": 22,
+        "objectId": "BlqPmipLL8",
+        "updatedAt": "2014-12-02T03:49:13.388Z",
+        "user": "4zlZu42H0S",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/0566834F-7292-4285-B38B-D0F66251D588.mp4",
+        "videoUUID": "8BFD1B35-C806-496C-911B-111F77BCE5D1",
+        "viewsThisMonth": 4
+    },
+	{
+        "allViews": 4,
+        "createdAt": "2014-10-10T01:09:54.631Z",
+        "lengthInSeconds": 27,
+        "objectId": "n45AxgxpJO",
+        "updatedAt": "2014-12-02T03:49:13.463Z",
+        "user": "4zlZu42H0S",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/6A712BF2-DC43-46C9-AD22-B78B7F6BA142.mp4",
+        "videoUUID": "AA6545CA-810A-4D1A-944C-E8EDCBD41F3D",
+        "viewsThisMonth": 4
+    },
+	{
+        "allViews": 3,
+        "createdAt": "2014-10-12T02:57:02.275Z",
+        "lengthInSeconds": 24,
+        "objectId": "yyeUiz9K2C",
+        "updatedAt": "2014-12-02T03:49:13.295Z",
+        "user": "4zlZu42H0S",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/798509C9-0BE1-4642-8745-D1092BDBB0CE.mp4",
+        "videoUUID": "013097D2-418E-4DB3-8654-F5C53B8DD9ED",
+        "viewsThisMonth": 3
+    },
+	{
+        "allViews": 3,
+        "createdAt": "2014-10-14T13:42:24.388Z",
+        "lengthInSeconds": 14,
+        "objectId": "vijSVORRqO",
+        "updatedAt": "2014-12-02T03:49:13.528Z",
+        "user": "4zlZu42H0S",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/39135DD1-538D-4881-90C4-9F88C4DFAAFD.mp4",
+        "videoUUID": "FA42D5D5-9701-427E-87E9-FA98EAC6592F",
+        "viewsThisMonth": 3
+    },
+	{
+        "createdAt": "2014-10-14T17:34:30.750Z",
+        "lengthInSeconds": 13,
+        "objectId": "KTj9R05gek",
+        "updatedAt": "2014-10-14T17:34:30.750Z",
+        "user": "CcIf3WEhv4",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/1D86AB6F-8F8A-4369-85E6-10DAE899CFA3.mp4",
+        "videoUUID": "97FBC26D-E723-466D-9D72-4E683A63D6F8"
+    },
+	{
+        "allViews": 3,
+        "createdAt": "2014-10-14T17:45:15.667Z",
+        "lengthInSeconds": 19,
+        "objectId": "UNHnfHKePd",
+        "updatedAt": "2014-12-02T03:49:13.566Z",
+        "user": "4zlZu42H0S",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/FF0EB7D6-69CC-47AA-BF8F-B344CFE142E9.mp4",
+        "videoUUID": "C2B10332-7637-4078-92C3-C7D5493C5402",
+        "viewsThisMonth": 3
+    },
+	{
+        "createdAt": "2014-10-14T20:31:30.579Z",
+        "lengthInSeconds": 17,
+        "objectId": "5ryIPW9GbS",
+        "updatedAt": "2014-10-14T20:31:30.579Z",
+        "user": "Yiq5IwkdDN",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/C55C2C21-58D9-42CC-8C28-7C9C7A09271B.mp4",
+        "videoUUID": "EF59C5E1-9E3D-48C2-ACAF-83D3266C15B2"
+    },
+	{
+        "createdAt": "2014-10-14T20:37:48.742Z",
+        "lengthInSeconds": 26,
+        "objectId": "kaf8N8ZcqU",
+        "updatedAt": "2014-10-14T20:37:48.742Z",
+        "user": "Yiq5IwkdDN",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/E54D4D99-2B5B-4D49-818F-EFA2764A95CA.mp4",
+        "videoUUID": "4B462DEB-FCE1-4529-9ECF-203A7701D1C6"
+    },
+	{
+        "createdAt": "2014-10-14T21:34:05.215Z",
+        "lengthInSeconds": 87,
+        "objectId": "evajvewBAz",
+        "updatedAt": "2014-10-14T21:34:05.215Z",
+        "user": "Yiq5IwkdDN",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/5E4D7D92-CC94-4E71-B7AD-8A5CDAE70C39",
+        "videoUUID": "7CB43778-B8D6-4643-AEA6-B701A130834A"
+    },
+	{
+        "createdAt": "2014-10-15T03:43:57.292Z",
+        "lengthInSeconds": 74,
+        "objectId": "uydjfJhGKG",
+        "updatedAt": "2014-10-15T03:43:57.292Z",
+        "user": "7XL69FK3ll",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/A310A84D-C3A6-4773-BDDB-60E3C26F8605.mp4",
+        "videoUUID": "7800E8BF-0CD4-46A4-A12E-6C5F78A8DF62"
+    },
+	{
+        "createdAt": "2014-10-15T03:50:17.692Z",
+        "lengthInSeconds": 87,
+        "objectId": "doOX9yKEQo",
+        "updatedAt": "2014-10-15T03:50:17.692Z",
+        "user": "VB0n9QHQeO",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/6946FF8F-4E2E-47C2-837E-3A34096E7114",
+        "videoUUID": "D472ABB4-2D5C-4150-827B-85D6F139FDB2"
+    },
+	{
+        "createdAt": "2014-10-15T18:37:14.515Z",
+        "lengthInSeconds": 19,
+        "objectId": "dqIWwOtQc6",
+        "updatedAt": "2014-10-15T18:37:14.515Z",
+        "user": "o9cCudQioq",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/378F7DBD-F86C-44C8-807D-7BB5A4DEB77C.mp4",
+        "videoUUID": "F711DE17-4644-4A6C-8A34-09F08432C14F"
+    },
+	{
+        "allViews": 3,
+        "createdAt": "2014-10-16T12:29:25.670Z",
+        "lengthInSeconds": 24,
+        "objectId": "1X1ApIKDwN",
+        "updatedAt": "2014-12-02T03:49:13.482Z",
+        "user": "4zlZu42H0S",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/3CE2CF65-D92C-41C9-B9F8-21DB5C4662FF.mp4",
+        "videoUUID": "AFD4BA27-A222-4CCB-ADA5-76EA2E218D13",
+        "viewsThisMonth": 3
+    },
+	{
+        "createdAt": "2014-10-17T21:11:36.860Z",
+        "lengthInSeconds": 26,
+        "objectId": "6qTucb6ula",
+        "updatedAt": "2014-10-17T21:11:36.860Z",
+        "user": "cUZJX0Do2M",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/721E5866-1409-4C85-86F5-115B29B7193E.mp4",
+        "videoUUID": "234E11DC-CBB8-4B3C-A9E1-140FF93C7072"
+    },
+	{
+        "createdAt": "2014-10-18T17:26:09.506Z",
+        "lengthInSeconds": 17,
+        "objectId": "2HJ5hbVoUl",
+        "updatedAt": "2014-10-18T17:26:09.506Z",
+        "user": "cq204UyUz4",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/AAA432C9-985C-4411-BDA8-D0B97A865DA2.mp4",
+        "videoUUID": "48CB1956-FC0E-4D39-89AA-D376E63C8CEB"
+    },
+	{
+        "createdAt": "2014-10-18T17:35:32.599Z",
+        "lengthInSeconds": 35,
+        "objectId": "TcYgo0wzDz",
+        "updatedAt": "2014-10-18T17:35:32.599Z",
+        "user": "cq204UyUz4",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/CAC2EA6D-C196-4DB6-AB73-C1802C81BCBD.mp4",
+        "videoUUID": "64AD0346-6997-45B4-B133-77D4FD43BCFF"
+    },
+	{
+        "createdAt": "2014-10-20T18:45:33.381Z",
+        "lengthInSeconds": 31,
+        "objectId": "GIc17Y5Inq",
+        "updatedAt": "2014-10-20T18:45:33.381Z",
+        "user": "cUZJX0Do2M",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/D78C890C-D678-4143-BCB5-FE72973F1CB2.mp4",
+        "videoUUID": "F0D200D4-AE00-4594-B895-14A0E0CC6C75"
+    },
+	{
+        "createdAt": "2014-10-20T19:02:17.187Z",
+        "lengthInSeconds": 77,
+        "objectId": "eaGVMIDAia",
+        "updatedAt": "2014-10-20T19:02:17.187Z",
+        "user": "cUZJX0Do2M",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/99F492F6-6793-4DAF-904B-1BF70CFF6764.mp4",
+        "videoUUID": "D6115C8F-2292-4B42-9917-3C16F697E216"
+    },
+	{
+        "createdAt": "2014-10-20T23:27:10.196Z",
+        "lengthInSeconds": 5,
+        "objectId": "YBuYUgAcsE",
+        "updatedAt": "2014-10-20T23:27:10.196Z",
+        "user": "EE2e5EK5bI",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/B828F162-BE37-4B5F-8498-3E11F61B3132.mp4",
+        "videoUUID": "17B17562-467D-4092-8D7B-6017287F284C"
+    },
+	{
+        "createdAt": "2014-10-21T12:08:04.900Z",
+        "lengthInSeconds": 23,
+        "objectId": "AWPMEWlWIB",
+        "updatedAt": "2014-10-21T12:08:04.900Z",
+        "user": "StNCXmQjd3",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/56CF23F4-7F83-441E-8E92-0567C82E9325.mp4",
+        "videoUUID": "4E455FAF-5DF8-464E-B556-4F4AF6A15374"
+    },
+	{
+        "createdAt": "2014-10-21T12:57:02.957Z",
+        "lengthInSeconds": 0,
+        "objectId": "D6YSQm2NGk",
+        "updatedAt": "2014-10-21T12:57:02.957Z",
+        "user": "StNCXmQjd3",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/0BF0C4B7-566B-45A5-96EA-F4CC581FD834.mp4",
+        "videoUUID": "663FB484-C20E-4CA9-87B2-A8C1AA451C6D"
+    },
+	{
+        "createdAt": "2014-10-21T14:43:16.309Z",
+        "lengthInSeconds": 41,
+        "objectId": "ovdumvm2ME",
+        "updatedAt": "2014-10-21T14:43:16.309Z",
+        "user": "S8xU288D1t",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/5511A0CD-A69C-4ABB-86B3-09F9FE77013A.mp4",
+        "videoUUID": "F44096CE-7DD3-4796-8EC2-F4051747C6A6"
+    },
+	{
+        "createdAt": "2014-10-21T19:23:24.749Z",
+        "lengthInSeconds": 22,
+        "objectId": "SCmaK7fvhs",
+        "updatedAt": "2014-10-21T19:23:24.749Z",
+        "user": "4zlZu42H0S",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/B32CA5DA-D78C-4F49-851C-1C9641DA418A.mp4",
+        "videoUUID": "9DEF725A-0882-414A-8B70-E13DC6DD3548"
+    },
+	{
+        "allViews": 1,
+        "createdAt": "2014-10-21T22:39:17.962Z",
+        "lengthInSeconds": 5,
+        "objectId": "mo7gwqnlh9",
+        "updatedAt": "2014-10-24T00:40:36.615Z",
+        "user": "EXiYdafj5F",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/078635F1-2604-4C9A-A088-9E8235D9DF07.mp4",
+        "videoUUID": "AD08FB2D-DC80-49F0-BBD3-850EE9F4348D",
+        "viewsThisMonth": 1
+    },
+	{
+        "allViews": 4,
+        "createdAt": "2014-10-23T03:48:14.601Z",
+        "lengthInSeconds": 128,
+        "objectId": "vEyNL0cVsi",
+        "updatedAt": "2014-10-24T17:38:53.102Z",
+        "user": "7XL69FK3ll",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/F5E77522-2BD1-46CA-B0D9-14BB0E73014D.mp4",
+        "videoUUID": "97AAE934-1B0A-4472-87F0-A4741B759587",
+        "viewsThisMonth": 4
+    },
+	{
+        "createdAt": "2014-10-23T20:04:00.135Z",
+        "lengthInSeconds": 218,
+        "objectId": "4f1KtT4Jjs",
+        "updatedAt": "2014-10-23T20:04:00.135Z",
+        "user": "srXrqRhae6",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/5CCF4615-6B53-426E-860A-1EBDC2FC253C.mp4",
+        "videoUUID": "487ACD79-ABF6-4F07-AFA0-45EB75ACCE2A"
+    },
+	{
+        "allViews": 2,
+        "createdAt": "2014-10-24T15:39:51.326Z",
+        "lengthInSeconds": 11,
+        "objectId": "R6pslqVEKF",
+        "updatedAt": "2014-12-02T03:49:13.281Z",
+        "user": "4zlZu42H0S",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/6E43CFEE-0DDD-4FA7-9E33-DC708C00D609.mp4",
+        "videoUUID": "95C2E43E-5EF0-4EF6-844E-4E5E09429A9B",
+        "viewsThisMonth": 2
+    },
+	{
+        "allViews": 1,
+        "createdAt": "2014-10-25T04:35:23.646Z",
+        "lengthInSeconds": 24,
+        "objectId": "m0fM13mTse",
+        "updatedAt": "2014-10-25T05:28:52.891Z",
+        "user": "Yiq5IwkdDN",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/CA12FAEF-21A6-4138-AE81-C2143551BE8F.mp4",
+        "videoUUID": "2D01C0CE-3E52-4E84-8238-F57E1F70445C",
+        "viewsThisMonth": 1
+    },
+	{
+        "allViews": 3,
+        "createdAt": "2014-10-25T17:43:15.208Z",
+        "lengthInSeconds": 21,
+        "objectId": "c1nXZVT0RR",
+        "updatedAt": "2014-10-26T02:30:56.924Z",
+        "user": "cUZJX0Do2M",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/45B9BC71-C189-4660-BD50-E63D246D96F4.mp4",
+        "videoUUID": "C6489BA4-03B2-453C-861A-D297302C442B",
+        "viewsThisMonth": 3
+    },
+	{
+        "allViews": 2,
+        "createdAt": "2014-10-27T14:57:24.460Z",
+        "lengthInSeconds": 2,
+        "objectId": "w44S58eUUu",
+        "updatedAt": "2014-12-02T03:49:13.262Z",
+        "user": "4zlZu42H0S",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/B76B1537-0E36-4F1B-9BDB-4DC7D6471DCA.mp4",
+        "videoUUID": "2B0703FC-B8BA-47F2-932E-462C0D3D9E7E",
+        "viewsThisMonth": 2
+    },
+	{
+        "createdAt": "2014-10-28T19:28:29.830Z",
+        "lengthInSeconds": 58,
+        "objectId": "sWpDm9WdNs",
+        "updatedAt": "2014-10-28T19:28:29.830Z",
+        "user": "7XL69FK3ll",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/76F3FA0B-0593-4A96-BE2E-C4A5810545DE.mp4",
+        "videoUUID": "D665BE92-7934-4ECA-9922-A042278EFBF1"
+    },
+	{
+        "createdAt": "2014-10-28T20:23:16.151Z",
+        "lengthInSeconds": 42,
+        "objectId": "NgDXaBaNKR",
+        "updatedAt": "2014-10-28T20:23:16.151Z",
+        "user": "7XL69FK3ll",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/4B07DDF5-EEF9-494A-851C-B2EC13B22977.mp4",
+        "videoUUID": "88BC7FFD-58B1-45CF-90C5-8C3870683669"
+    },
+	{
+        "createdAt": "2014-10-28T20:26:18.469Z",
+        "lengthInSeconds": 41,
+        "objectId": "e6wNTzNLhn",
+        "updatedAt": "2014-10-28T20:26:18.469Z",
+        "user": "7XL69FK3ll",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/9662FE7C-B153-4111-A6EE-0C91A6636794.mp4",
+        "videoUUID": "FEB677F6-9BE7-4D87-81DF-19463AC79A52"
+    },
+	{
+        "createdAt": "2014-10-28T21:16:10.507Z",
+        "lengthInSeconds": 234,
+        "objectId": "5BQKg8Xbcr",
+        "updatedAt": "2014-10-28T21:16:10.507Z",
+        "user": "YF17H80lg1",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/7261E0F9-2523-4F82-B579-37D599DC686D.mp4",
+        "videoUUID": "9B33EB97-3733-4F04-A8B0-6792E91E4C6F"
+    },
+	{
+        "createdAt": "2014-11-03T00:50:55.294Z",
+        "lengthInSeconds": 29,
+        "objectId": "BwIGtwYZaP",
+        "updatedAt": "2014-11-03T00:50:55.294Z",
+        "user": "xJVlRdNe7r",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/1680DA72-9BE5-41AA-8FFD-93465A64A853.mp4",
+        "videoUUID": "3F705568-A301-4C73-BB7D-B88642FAA91D"
+    },
+	{
+        "createdAt": "2014-11-04T23:01:37.626Z",
+        "lengthInSeconds": 67,
+        "objectId": "Ozy1BpQGNE",
+        "updatedAt": "2014-11-04T23:01:37.626Z",
+        "user": "782Yh8zvui",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/C68D3E24-C42B-4D34-B8E5-D9654F7000D3.mp4",
+        "videoUUID": "8F0CD047-E451-494D-9117-00AAF030FDEE"
+    },
+	{
+        "allViews": 4,
+        "createdAt": "2014-11-06T19:35:47.432Z",
+        "lengthInSeconds": 81,
+        "objectId": "HYrbXOTPm8",
+        "updatedAt": "2014-12-02T15:25:36.905Z",
+        "user": "782Yh8zvui",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/3B4918F2-B6EF-4BCE-9520-45953F1EDD7A.mp4",
+        "videoUUID": "05E46E70-DCE8-48BB-B62F-AA92EBE64919",
+        "viewsThisMonth": 4
+    },
+	{
+        "allViews": 8,
+        "createdAt": "2014-11-06T19:50:44.928Z",
+        "lengthInSeconds": 29,
+        "objectId": "MbvBVukqKb",
+        "updatedAt": "2014-12-02T18:25:36.327Z",
+        "user": "782Yh8zvui",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/A7D20131-FF56-48FC-B780-EA575135CA56.mp4",
+        "videoUUID": "27325809-1A02-4762-8D45-5B59044ADBEF",
+        "viewsThisMonth": 8
+    },
+	{
+        "allViews": 5,
+        "createdAt": "2014-11-06T20:11:16.552Z",
+        "lengthInSeconds": 25,
+        "objectId": "KgWSxSmeK3",
+        "updatedAt": "2014-12-02T18:35:42.855Z",
+        "user": "782Yh8zvui",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/C69CFC80-24A3-417F-90ED-71F8787222E0.mp4",
+        "videoUUID": "0F8CCE68-A36E-4EAA-85B3-9AFC27662768",
+        "viewsThisMonth": 5
+    },
+	{
+        "allViews": 5,
+        "createdAt": "2014-11-06T23:47:52.389Z",
+        "lengthInSeconds": 67,
+        "objectId": "60Cs2nrvmI",
+        "updatedAt": "2014-12-02T18:35:42.849Z",
+        "user": "782Yh8zvui",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/1202D0FC-FADC-49A6-A32E-B701450BDA28.mp4",
+        "videoUUID": "A8FF3293-A395-4F6B-99C8-8F55E5A33025",
+        "viewsThisMonth": 5
+    },
+	{
+        "createdAt": "2014-11-06T23:56:35.110Z",
+        "lengthInSeconds": 87,
+        "objectId": "ZXrUpdc4g4",
+        "updatedAt": "2014-11-06T23:56:35.110Z",
+        "user": "5GgIequhGk",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/10D2D101-D037-4CF9-A5EA-B6E2E8003F4D",
+        "videoUUID": "92B1871A-78AD-422F-87BC-58C74675D245"
+    },
+	{
+        "createdAt": "2014-11-07T16:51:23.872Z",
+        "lengthInSeconds": 94,
+        "objectId": "xTp91rltbg",
+        "updatedAt": "2014-11-07T16:51:23.872Z",
+        "user": "xhB0PlXsoj",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/B479EA3A-B6A0-42AF-B061-5117CBB601F1.mp4",
+        "videoUUID": "F83C62A4-F23D-478E-BF14-C3D2F64DD325"
+    },
+	{
+        "createdAt": "2014-11-07T20:00:03.741Z",
+        "lengthInSeconds": 17,
+        "objectId": "LGcoMmDDX5",
+        "updatedAt": "2014-11-07T20:00:03.741Z",
+        "user": "iTvRwTn0uo",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/C7A07DD4-CA0D-4FE5-845C-7EE13B346F59.mp4",
+        "videoUUID": "11AF11CB-B948-4723-AAE4-21B068939D27"
+    },
+	{
+        "createdAt": "2014-11-07T20:41:39.358Z",
+        "lengthInSeconds": 26,
+        "objectId": "iGPUyUB2UK",
+        "updatedAt": "2014-11-07T20:41:39.358Z",
+        "user": "iTvRwTn0uo",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/0702FA1F-890B-4471-87A5-FECD887A8773.mp4",
+        "videoUUID": "D9CE64FF-269C-4CE4-AF19-2995CD9148B7"
+    },
+	{
+        "allViews": 2,
+        "createdAt": "2014-11-08T01:38:30.397Z",
+        "lengthInSeconds": 34,
+        "objectId": "Ii5TQbVR9j",
+        "updatedAt": "2014-12-02T03:49:13.506Z",
+        "user": "4zlZu42H0S",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/45CF56FE-3635-4580-85A0-B6100481A139.mp4",
+        "videoUUID": "63C1FE26-E5ED-461E-A64C-DD002258DC8E",
+        "viewsThisMonth": 2
+    },
+	{
+        "allViews": 1,
+        "createdAt": "2014-11-08T20:50:23.109Z",
+        "lengthInSeconds": 37,
+        "objectId": "FAAHLqOQkK",
+        "updatedAt": "2014-12-02T03:49:13.540Z",
+        "user": "4zlZu42H0S",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/F741784D-7C87-4959-BB74-7FCAD5F2293C.mp4",
+        "videoUUID": "1683CD9B-1CDD-4C63-B088-82E735B1513C",
+        "viewsThisMonth": 1
+    },
+	{
+        "allViews": 4,
+        "createdAt": "2014-11-08T21:10:10.822Z",
+        "lengthInSeconds": 21,
+        "objectId": "koMG4Fs87R",
+        "updatedAt": "2014-12-02T13:35:37.814Z",
+        "user": "782Yh8zvui",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/07F32874-6A33-41AF-977F-12B5889BEF17.mp4",
+        "videoUUID": "DFB60DB2-1F6E-4FB3-890F-DEFF7B1A9BA0",
+        "viewsThisMonth": 4
+    },
+	{
+        "allViews": 3,
+        "createdAt": "2014-11-09T06:31:04.884Z",
+        "lengthInSeconds": 44,
+        "objectId": "0Fy5L9SUlB",
+        "updatedAt": "2014-12-02T03:49:13.221Z",
+        "user": "UgD0zLnEvp",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/C8F16CF5-90EC-487D-98F4-C424F9933F1D.mp4",
+        "videoUUID": "F3F50617-007A-443B-BF7F-3503136F36D3",
+        "viewsThisMonth": 3
+    },
+	{
+        "allViews": 2,
+        "createdAt": "2014-11-13T20:44:38.394Z",
+        "lengthInSeconds": 30,
+        "objectId": "ziO66EnnyV",
+        "updatedAt": "2014-12-02T18:35:42.834Z",
+        "user": "782Yh8zvui",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/B226A518-3890-4401-AC6A-A1A551510232.mp4",
+        "videoUUID": "7E8DE391-BBAE-480F-819E-4B10433607DA",
+        "viewsThisMonth": 2
+    },
+	{
+        "allViews": 2,
+        "createdAt": "2014-11-13T21:56:28.925Z",
+        "lengthInSeconds": 33,
+        "objectId": "VjKUAn9kh5",
+        "updatedAt": "2014-12-02T18:35:42.828Z",
+        "user": "782Yh8zvui",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/CB75BADB-A39A-4AFC-B73E-954BEA80C7A6.mp4",
+        "videoUUID": "1BE28409-F39D-4F22-AFFE-69028E63ED53",
+        "viewsThisMonth": 2
+    },
+	{
+        "createdAt": "2014-11-15T16:26:35.467Z",
+        "lengthInSeconds": 35,
+        "objectId": "GuD9GbN7cG",
+        "updatedAt": "2014-11-15T16:26:35.467Z",
+        "user": "D8o0Evwe7R",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/F60E7321-14BB-4AF9-BD23-B890D17B451F.mp4",
+        "videoUUID": "CC2DAB17-AA3B-4859-9EF3-2D2E449D83E2"
+    },
+	{
+        "createdAt": "2014-11-17T00:07:27.951Z",
+        "lengthInSeconds": 87,
+        "objectId": "J9BBP3N9gN",
+        "updatedAt": "2014-11-17T00:07:27.951Z",
+        "user": "u54e9BOh0K",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/BAF03B36-9AEB-4922-8008-E48B2D1B2036",
+        "videoUUID": "F268EB73-AFE7-4295-9390-F1A142746F69"
+    },
+	{
+        "createdAt": "2014-11-18T15:01:37.051Z",
+        "lengthInSeconds": 14,
+        "objectId": "aJOMSVMrnm",
+        "updatedAt": "2014-11-18T15:01:37.051Z",
+        "user": "4zlZu42H0S",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/CB0D226F-65CE-4974-9BAF-62ADCFADDD2E.mp4",
+        "videoUUID": "0F86D217-A46B-46FE-BCEC-53D1C32DAF79"
+    },
+	{
+        "createdAt": "2014-11-21T17:30:49.915Z",
+        "lengthInSeconds": 14,
+        "objectId": "I7SRWH02vN",
+        "updatedAt": "2014-11-21T17:30:49.915Z",
+        "user": "HGYGeDUs2u",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/AE3EDB86-5F7C-450D-A80B-84C40A733818.mp4",
+        "videoUUID": "FFFA2BC2-664A-45FB-80A0-648DD7BBC174"
+    },
+	{
+        "createdAt": "2014-11-21T17:40:39.344Z",
+        "lengthInSeconds": 25,
+        "objectId": "phWwkYJuAF",
+        "updatedAt": "2014-11-21T17:40:39.344Z",
+        "user": "tIZP4kMNIY",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/41BEDA05-D6D3-4541-B4A6-7906C8DE9D9E.mp4",
+        "videoUUID": "6E305704-12BA-4608-A337-99ED8D0904F8"
+    },
+	{
+        "createdAt": "2014-11-21T17:43:55.400Z",
+        "lengthInSeconds": 26,
+        "objectId": "heTrN7K4M6",
+        "updatedAt": "2014-11-21T17:43:55.400Z",
+        "user": "tIZP4kMNIY",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/73455025-68D5-43D5-847D-3A1A0ACEB1C2.mp4",
+        "videoUUID": "7F126DB0-ECA0-4E15-8C8D-952F5712E91E"
+    },
+	{
+        "allViews": 3,
+        "createdAt": "2014-11-21T18:15:37.434Z",
+        "lengthInSeconds": 29,
+        "objectId": "3D1wdzKuDQ",
+        "updatedAt": "2014-12-02T03:49:13.499Z",
+        "user": "782Yh8zvui",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/9491593E-B4D9-4B0E-AEA3-7E1720451CAB.mp4",
+        "videoUUID": "E1C4E3FF-5F46-4C8D-B339-100B3099F627",
+        "viewsThisMonth": 3
+    },
+	{
+        "allViews": 3,
+        "createdAt": "2014-11-21T22:43:22.456Z",
+        "lengthInSeconds": 23,
+        "objectId": "fIekzMTJXX",
+        "updatedAt": "2014-12-02T03:49:13.513Z",
+        "user": "782Yh8zvui",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/66D1CB4D-6DC9-44F7-8BE6-0D4D392A3656.mp4",
+        "videoUUID": "180E88C4-5EB6-4895-9ED8-BA21711C9090",
+        "viewsThisMonth": 3
+    },
+	{
+        "allViews": 2,
+        "createdAt": "2014-11-22T22:20:04.502Z",
+        "lengthInSeconds": 38,
+        "objectId": "pVuSJQy9sx",
+        "updatedAt": "2014-12-02T03:49:13.248Z",
+        "user": "4zlZu42H0S",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/321D5A63-4CC0-4132-88A2-8DE472CBBE1B.mp4",
+        "videoUUID": "66EDC10D-1747-4AE4-A451-0949DAA9350A",
+        "viewsThisMonth": 2
+    },
+	{
+        "allViews": 2,
+        "createdAt": "2014-11-24T16:17:45.605Z",
+        "lengthInSeconds": 18,
+        "objectId": "9FUcodurzO",
+        "updatedAt": "2014-12-02T03:49:13.470Z",
+        "user": "782Yh8zvui",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/BB1694B8-05AC-4E4D-A160-D8390127F981.mp4",
+        "videoUUID": "016CCCAE-D7AD-47EB-BE96-278BCCFDC950",
+        "viewsThisMonth": 2
+    },
+	{
+        "allViews": 2,
+        "createdAt": "2014-11-24T16:58:47.706Z",
+        "lengthInSeconds": 26,
+        "objectId": "9tp8aqKgKe",
+        "updatedAt": "2014-12-02T03:49:13.234Z",
+        "user": "782Yh8zvui",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/D4AB7D8C-76F7-43CB-BDAC-1A51E7F26709.mp4",
+        "videoUUID": "3086D3B6-2EC5-45AF-BF3A-AB33BCE6F78C",
+        "viewsThisMonth": 2
+    },
+	{
+        "allViews": 1,
+        "createdAt": "2014-11-24T19:05:38.360Z",
+        "lengthInSeconds": 65,
+        "objectId": "nobC2L4OVC",
+        "updatedAt": "2014-12-02T18:35:42.822Z",
+        "user": "782Yh8zvui",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/567B6487-5C77-479E-873B-A7298897D7C7.mp4",
+        "videoUUID": "A23D5F2A-0985-48E7-97DA-998D03882216",
+        "viewsThisMonth": 1
+    },
+	{
+        "allViews": 5,
+        "createdAt": "2014-11-24T19:16:48.720Z",
+        "lengthInSeconds": 61,
+        "objectId": "vYezs8odcw",
+        "updatedAt": "2014-12-02T20:25:36.139Z",
+        "user": "782Yh8zvui",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/9BEBB49F-4176-4224-935B-A1A7746B63AB.mp4",
+        "videoUUID": "19E83CAC-B621-4446-8E23-D0C16A9168EA",
+        "viewsThisMonth": 5
+    },
+	{
+        "allViews": 2,
+        "createdAt": "2014-11-24T19:28:08.300Z",
+        "lengthInSeconds": 63,
+        "objectId": "bLdyq0uRR9",
+        "updatedAt": "2014-12-02T20:25:36.128Z",
+        "user": "782Yh8zvui",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/0E62D4E3-1A24-4319-8C98-8EE9D0DF68EB.mp4",
+        "videoUUID": "87891405-7359-4D83-AF8C-A2789C34E1C6",
+        "viewsThisMonth": 2
+    },
+	{
+        "allViews": 7,
+        "createdAt": "2014-11-24T19:43:58.082Z",
+        "lengthInSeconds": 43,
+        "objectId": "h6o2uFH6yr",
+        "updatedAt": "2014-12-02T03:49:13.381Z",
+        "user": "782Yh8zvui",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/247CCB58-BDB3-4184-9507-0BA7540B1DF6.mp4",
+        "videoUUID": "C1D800E7-82DD-4B9D-9E11-3FE597E97641",
+        "viewsThisMonth": 7
+    },
+	{
+        "createdAt": "2014-11-25T04:35:15.275Z",
+        "lengthInSeconds": 597,
+        "objectId": "JPmyTavkTG",
+        "updatedAt": "2014-11-25T04:35:15.275Z",
+        "user": "P65LZWdU55",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/E559FBEE-35F0-4A59-AFAB-83F6B5371152.mp4",
+        "videoUUID": "50E00DD4-BD65-4EED-B658-C7C48447A173"
+    },
+	{
+        "createdAt": "2014-11-25T20:29:54.662Z",
+        "lengthInSeconds": 26,
+        "objectId": "OsrQ01t2xV",
+        "updatedAt": "2014-11-25T20:29:54.662Z",
+        "user": "4zlZu42H0S",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/1FADA90C-B8EB-41E9-9643-BC1B4277E101.mp4",
+        "videoUUID": "59EC8CD5-9C8C-4E86-BC32-BA216D318051"
+    },
+	{
+        "allViews": 4,
+        "createdAt": "2014-11-25T21:34:35.553Z",
+        "lengthInSeconds": 37,
+        "objectId": "pUvuEFH1mE",
+        "updatedAt": "2014-12-02T20:25:36.133Z",
+        "user": "782Yh8zvui",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/23FF667D-7263-4B16-BBD7-F898A616F3B0.mp4",
+        "videoUUID": "85B98832-40AC-43F8-B577-4D5E201D2616",
+        "viewsThisMonth": 4
+    },
+	{
+        "allViews": 1,
+        "createdAt": "2014-11-25T21:47:21.411Z",
+        "lengthInSeconds": 35,
+        "objectId": "zApEjtQoTP",
+        "updatedAt": "2014-12-02T20:25:36.108Z",
+        "user": "782Yh8zvui",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/5DB05453-A737-4AEE-AA27-DC59AC94EFBE.mp4",
+        "videoUUID": "604656CC-7A5E-46AA-A31E-CAFBE3A54540",
+        "viewsThisMonth": 1
+    },
+	{
+        "createdAt": "2014-11-25T23:28:41.327Z",
+        "lengthInSeconds": 21,
+        "objectId": "kXodtAsLHp",
+        "updatedAt": "2014-11-25T23:28:41.327Z",
+        "user": "CK8cgdUG6h",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/95C6C8AD-37DD-4AA8-870E-D94A33EF6FB9.mp4",
+        "videoUUID": "3781A6B8-1D56-4B75-A413-D24FBEB7D75F"
+    },
+	{
+        "createdAt": "2014-11-25T23:30:47.349Z",
+        "lengthInSeconds": 20,
+        "objectId": "fJyF6Qih7D",
+        "updatedAt": "2014-11-25T23:30:47.349Z",
+        "user": "CK8cgdUG6h",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/243101B7-C10F-4A9A-B1D7-F3A0AED32083.mp4",
+        "videoUUID": "688D6D65-9468-4939-A72C-509E5F2B6A78"
+    },
+	{
+        "createdAt": "2014-11-26T20:08:35.058Z",
+        "lengthInSeconds": 28,
+        "objectId": "lvqSDIn0uI",
+        "updatedAt": "2014-11-26T20:08:35.058Z",
+        "user": "rW73worDt7",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/EA54BF35-B90C-4DCE-8E86-939CAB44E1D1.mp4",
+        "videoUUID": "8858AC99-D6DC-495D-8515-7DE13E9ADB49"
+    },
+	{
+        "createdAt": "2014-11-27T02:31:34.006Z",
+        "lengthInSeconds": 533,
+        "objectId": "mBkPuftrfA",
+        "updatedAt": "2014-11-27T02:31:34.006Z",
+        "user": "sUqFwtpcJD",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/36F1859A-6A4C-4679-A753-7B1F3ECE68CD.mp4",
+        "videoUUID": "BB9A7FF8-3D7C-4239-A781-79886CA4D20D"
+    },
+	{
+        "createdAt": "2014-11-27T04:44:41.487Z",
+        "lengthInSeconds": 596,
+        "objectId": "iVaQAt0fAc",
+        "updatedAt": "2014-11-27T04:44:41.487Z",
+        "user": "BPrH6TV92E",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/D5B36A17-44EE-42C3-AD4F-53276C3C5325.mp4",
+        "videoUUID": "098478EF-C9D7-4FD3-8A18-83417134ED9F"
+    },
+	{
+        "createdAt": "2014-11-27T05:48:51.967Z",
+        "lengthInSeconds": 661,
+        "objectId": "EY09n48T6Y",
+        "updatedAt": "2014-11-27T05:48:51.967Z",
+        "user": "bzLVlWTTGT",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/B9507456-AED0-447D-AECA-375E44DE898E.mp4",
+        "videoUUID": "D42B1024-B794-4CD5-BABC-C68A4127DCBD"
+    },
+	{
+        "createdAt": "2014-11-27T06:31:48.682Z",
+        "lengthInSeconds": 684,
+        "objectId": "QDp26nmWXz",
+        "updatedAt": "2014-11-27T06:31:48.682Z",
+        "user": "UR1NB76vng",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/2551E550-B5C7-42F1-924E-C544E42141EC.mp4",
+        "videoUUID": "F37FC641-ECCE-4FA0-84F1-39D43FD32D9E"
+    },
+	{
+        "allViews": 1,
+        "createdAt": "2014-11-27T21:02:29.585Z",
+        "lengthInSeconds": 20,
+        "objectId": "NaTaDKln6a",
+        "updatedAt": "2014-11-27T22:42:55.866Z",
+        "user": "782Yh8zvui",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/41D1DE5D-FAF3-454B-BF24-72E83DE2888E.mp4",
+        "videoUUID": "B846A2C2-6EB6-47C2-A8DE-F0AC52100308",
+        "viewsThisMonth": 1
+    },
+	{
+        "createdAt": "2014-11-28T04:08:03.648Z",
+        "lengthInSeconds": 682,
+        "objectId": "QS27nbJxOk",
+        "updatedAt": "2014-11-28T04:08:03.648Z",
+        "user": "TpXVginOcW",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/A5D0F022-8BA6-4A1B-95A0-5141CFE851D2.mp4",
+        "videoUUID": "F76C86D7-F76B-4C02-8205-8C73DFC6AF1B"
+    },
+	{
+        "allViews": 2,
+        "createdAt": "2014-11-30T05:19:04.781Z",
+        "lengthInSeconds": 3,
+        "objectId": "ZC1xSe9R47",
+        "updatedAt": "2014-12-02T03:49:13.395Z",
+        "user": "FHsBWlCuD9",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/4B1B68DD-D523-4B39-989D-C8697E5BF29F.mp4",
+        "videoUUID": "E39ACED9-40CF-4F21-B4AE-C43248DECF9D",
+        "viewsThisMonth": 2
+    },
+	{
+        "allViews": 2,
+        "createdAt": "2014-11-30T06:07:30.333Z",
+        "lengthInSeconds": 46,
+        "objectId": "DULyz21CLf",
+        "updatedAt": "2014-12-02T03:49:13.288Z",
+        "user": "FHsBWlCuD9",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/3D7FFD67-7578-4EED-BD64-258FF06BC2A5.mp4",
+        "videoUUID": "4DC45E9F-000D-49BA-B45A-624BFAA05ED8",
+        "viewsThisMonth": 2
+    },
+	{
+        "createdAt": "2014-11-30T07:06:07.689Z",
+        "lengthInSeconds": 16,
+        "objectId": "Pzi27nmt0W",
+        "updatedAt": "2014-11-30T07:06:07.689Z",
+        "user": "FHsBWlCuD9",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/A448A899-F84E-41F1-85C5-8E3F0CB39FAC.mp4",
+        "videoUUID": "3DA09929-CD58-45DA-B450-6EAB270CC2C1"
+    },
+	{
+        "allViews": 2,
+        "createdAt": "2014-11-30T07:06:54.357Z",
+        "lengthInSeconds": 15,
+        "objectId": "0JL2dEbpRK",
+        "updatedAt": "2014-12-02T03:49:13.241Z",
+        "user": "FHsBWlCuD9",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/4313EB9B-9449-444F-97E7-75D970922EEA.mp4",
+        "videoUUID": "1DE04373-1764-452C-89A0-CD6202DC79DE",
+        "viewsThisMonth": 2
+    },
+	{
+        "allViews": 1,
+        "createdAt": "2014-11-30T23:11:31.545Z",
+        "lengthInSeconds": 20,
+        "objectId": "uw8RdW4kHd",
+        "updatedAt": "2014-12-02T03:49:13.546Z",
+        "user": "4zlZu42H0S",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/B718A634-0FFC-45BB-9E86-817BCB191822.mp4",
+        "videoUUID": "CFDD9C03-A021-495A-8A36-BC988AFE8E6E",
+        "viewsThisMonth": 1
+    },
+	{
+        "createdAt": "2014-12-01T00:06:29.913Z",
+        "lengthInSeconds": 60,
+        "objectId": "5O1tQ42VFn",
+        "updatedAt": "2014-12-01T00:06:29.913Z",
+        "user": "fazGducc7N",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/DC9D56DB-7C33-4D23-B564-881A79DD3033.mp4",
+        "videoUUID": "41ADF7BB-FFED-47D6-AF2C-598B420DCE39"
+    },
+	{
+        "createdAt": "2014-12-01T00:33:53.672Z",
+        "lengthInSeconds": 18,
+        "objectId": "mBkMIm5RTt",
+        "updatedAt": "2014-12-01T00:33:53.672Z",
+        "user": "4zlZu42H0S",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/652B324E-29D1-467C-B8D6-64AA46E8BA64.mp4",
+        "videoUUID": "969D278D-4215-4AE3-8063-67BCC1E82967"
+    },
+	{
+        "allViews": 2,
+        "createdAt": "2014-12-01T03:48:44.336Z",
+        "lengthInSeconds": 40,
+        "objectId": "f9ib5idQ3D",
+        "updatedAt": "2014-12-02T03:49:13.442Z",
+        "user": "mX7XXFbkQ3",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/408D41BA-BAA7-46FE-82D8-1468D0619DB2.mp4",
+        "videoUUID": "55245CF8-B913-415D-9F5D-22592924F745",
+        "viewsThisMonth": 2
+    },
+	{
+        "allViews": 6,
+        "createdAt": "2014-12-02T00:16:57.784Z",
+        "lengthInSeconds": 152,
+        "objectId": "SB57Blq3IQ",
+        "updatedAt": "2014-12-02T17:45:35.216Z",
+        "user": "xJYyHknKg7",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/3F93D9A6-F6C3-4B0F-B9DF-0E86E210BD75.mp4",
+        "videoUUID": "43568243-2088-40C8-B40A-74B744AD9119",
+        "viewsThisMonth": 6
+    },
+	{
+        "allViews": 2,
+        "createdAt": "2014-12-02T00:42:59.580Z",
+        "lengthInSeconds": 72,
+        "objectId": "1GQRBAbshJ",
+        "updatedAt": "2014-12-03T00:47:00.091Z",
+        "user": "xJYyHknKg7",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/4C668D6E-AB23-4FE4-8B86-E26F4C290CED.mp4",
+        "videoUUID": "C67A085E-154C-460A-A9A7-D4F39A9E09C9",
+        "viewsThisMonth": 2
+    },
+	{
+        "allViews": 2,
+        "createdAt": "2014-12-02T01:17:36.886Z",
+        "lengthInSeconds": 32,
+        "objectId": "K5O7c0iqBN",
+        "updatedAt": "2014-12-02T03:49:13.553Z",
+        "user": "782Yh8zvui",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/CB0C623D-3655-4615-9ED2-B85CB1BB4E1C.mp4",
+        "videoUUID": "4002EA11-3425-48E6-9E71-8E417EB463C5",
+        "viewsThisMonth": 2
+    },
+	{
+        "createdAt": "2014-12-02T01:54:21.855Z",
+        "lengthInSeconds": 71,
+        "objectId": "P24uTTjgY8",
+        "updatedAt": "2014-12-02T01:54:21.855Z",
+        "user": "xJYyHknKg7",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/2730B16F-4760-4921-A448-50B83C509490.mp4",
+        "videoUUID": "68C15930-2AF9-4469-8BB0-C14E68C2810E"
+    },
+	{
+        "allViews": 3,
+        "createdAt": "2014-12-02T12:55:31.095Z",
+        "lengthInSeconds": 65,
+        "objectId": "Xf0Qk2jHmB",
+        "updatedAt": "2014-12-03T01:37:00.766Z",
+        "user": "782Yh8zvui",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/30D9EA7D-F73A-4028-AF8A-78AA59D8623D.mp4",
+        "videoUUID": "13D8183F-7695-4143-9CC9-3ED6AEFA9CC6",
+        "viewsThisMonth": 3
+    },
+	{
+        "createdAt": "2014-12-02T19:29:04.968Z",
+        "lengthInSeconds": 25,
+        "objectId": "thiHDbhiHy",
+        "updatedAt": "2014-12-02T19:29:04.968Z",
+        "user": "782Yh8zvui",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/EBA95DE4-1AA6-42A2-A794-E8571C6FD89A.mp4",
+        "videoUUID": "1DB0D961-FD79-440F-A1D0-1516944F4984"
+    },
+	{
+        "createdAt": "2014-12-03T14:39:50.037Z",
+        "lengthInSeconds": 18,
+        "objectId": "wZbvKYq6si",
+        "updatedAt": "2014-12-03T14:39:50.037Z",
+        "user": "4zlZu42H0S",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/EF3AB0E8-DA43-4C96-8953-401D5B69252E.mp4",
+        "videoUUID": "B8DA45C8-AE54-4291-943D-1A157E9A96AD"
+    },
+	{
+        "createdAt": "2014-12-03T16:09:29.201Z",
+        "lengthInSeconds": 16,
+        "objectId": "tW5MhQWMTl",
+        "updatedAt": "2014-12-03T16:09:29.201Z",
+        "user": "fazGducc7N",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/EEB6B5E3-19A7-43C3-B788-9DEED0E1BF36.mp4",
+        "videoUUID": "399AC7A6-B306-4759-BB30-00E97A9D7997"
+    },
+	{
+        "createdAt": "2014-12-03T22:21:15.622Z",
+        "lengthInSeconds": 28,
+        "objectId": "rWEI1wFkdd",
+        "updatedAt": "2014-12-03T22:21:15.622Z",
+        "user": "782Yh8zvui",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/45798DB7-C097-4D0D-8605-712208A4CE31.mp4",
+        "videoUUID": "5FA13DFD-E7A6-4C93-A8DD-B68EB8D1E52A"
+    },
+	{
+        "createdAt": "2014-12-04T04:45:36.322Z",
+        "lengthInSeconds": 513,
+        "objectId": "x5Xg0dNrFI",
+        "updatedAt": "2014-12-04T04:45:36.322Z",
+        "user": "81gSGqaTxc",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/67853C17-A639-4D45-959C-7A45F887BFC9.mp4",
+        "videoUUID": "7BB54FB1-7446-4AEB-9308-B6B56437D594"
+    },
+	{
+        "createdAt": "2014-12-04T17:33:57.096Z",
+        "lengthInSeconds": 8,
+        "objectId": "IpjJOZJTU6",
+        "updatedAt": "2014-12-04T17:33:57.096Z",
+        "user": "4zlZu42H0S",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/7F69C487-D728-44DB-8CC2-5B6E12ECB988.mp4",
+        "videoUUID": "B2A05C75-89BE-421E-8746-340D0277F18D"
+    },
+	{
+        "createdAt": "2014-12-04T23:14:24.914Z",
+        "lengthInSeconds": 673,
+        "objectId": "AEPt9Cma8b",
+        "updatedAt": "2014-12-04T23:14:24.914Z",
+        "user": "dZN7Mcfs2T",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/37530545-2E9F-45DF-BBE9-0E5F5316F938.mp4",
+        "videoUUID": "53417789-D44C-496F-AD12-40E2DB7275B9"
+    },
+	{
+        "createdAt": "2014-12-05T02:14:23.842Z",
+        "lengthInSeconds": 6,
+        "objectId": "VLgJrpR4PX",
+        "updatedAt": "2014-12-05T02:14:23.842Z",
+        "user": "ndqic80AwX",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/01788D0C-01C0-4A8C-A2A1-F430835E8437.mp4",
+        "videoUUID": "781AD21F-535A-4BDD-A4E1-12F47D36052D"
+    },
+	{
+        "createdAt": "2014-12-07T11:24:24.507Z",
+        "lengthInSeconds": 17,
+        "objectId": "2KlwFCStRD",
+        "updatedAt": "2014-12-07T11:24:24.507Z",
+        "user": "Pou5D64Apj",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/F1638FF7-97F4-4A1C-9E4A-B9125C54718A.mp4",
+        "videoUUID": "2B6F9CAB-862D-49F2-A2C8-8E1F152E20EB"
+    },
+	{
+        "createdAt": "2014-12-07T21:09:27.084Z",
+        "lengthInSeconds": 71,
+        "objectId": "ZzXlPpdjUu",
+        "updatedAt": "2014-12-07T21:09:27.084Z",
+        "user": "WQ0xJHJbvM",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/0F18F712-97A0-43C1-BB24-5E3F97348F8E.mp4",
+        "videoUUID": "2C78E5ED-FF0C-4770-BB7C-B240D60CE9E1"
+    },
+	{
+        "createdAt": "2014-12-07T21:11:03.982Z",
+        "lengthInSeconds": 64,
+        "objectId": "LOlHxqJbXq",
+        "updatedAt": "2014-12-07T21:11:03.982Z",
+        "user": "782Yh8zvui",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/A33B4BA1-67D0-48A3-B630-B2DC9F866B2F.mp4",
+        "videoUUID": "DE18D986-D6D9-42D7-B681-3E1FFAD44C5C"
+    },
+	{
+        "createdAt": "2014-12-07T21:37:31.399Z",
+        "lengthInSeconds": 145,
+        "objectId": "MHV8ysLv8O",
+        "updatedAt": "2014-12-07T21:37:31.399Z",
+        "user": "xJYyHknKg7",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/3C9740AF-EFDE-4933-855A-C9804FC24BDB.mp4",
+        "videoUUID": "FCF2E424-2DB8-4097-88CA-D96D5C316F7F"
+    },
+	{
+        "createdAt": "2014-12-08T14:25:20.851Z",
+        "lengthInSeconds": 46,
+        "objectId": "5jLaspTYI8",
+        "updatedAt": "2014-12-08T14:25:20.851Z",
+        "user": "782Yh8zvui",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/91B02072-F810-47D4-9417-7B0F4197B4CA.mp4",
+        "videoUUID": "348FD079-EBB1-4F2B-A18E-ABE3B22BDE14"
+    },
+	{
+        "createdAt": "2014-12-08T14:48:25.295Z",
+        "lengthInSeconds": 50,
+        "objectId": "4g4Czm9MF2",
+        "updatedAt": "2014-12-08T14:48:25.295Z",
+        "user": "782Yh8zvui",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/AB9EB6BB-98D6-41BF-8F2A-B63CE637EF97.mp4",
+        "videoUUID": "78016753-C8F3-45D5-8A02-42446782D541"
+    },
+	{
+        "createdAt": "2014-12-08T14:58:50.913Z",
+        "lengthInSeconds": 52,
+        "objectId": "A66i4ZmBv3",
+        "updatedAt": "2014-12-08T14:58:50.913Z",
+        "user": "782Yh8zvui",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/FD2A5658-3D99-4E1D-B59C-BC34B81B8558.mp4",
+        "videoUUID": "AE09305A-55DC-465A-A390-BA76816A3659"
+    },
+	{
+        "createdAt": "2014-12-08T15:20:15.795Z",
+        "lengthInSeconds": 51,
+        "objectId": "Tq6EvgkyOs",
+        "updatedAt": "2014-12-08T15:20:15.795Z",
+        "user": "LTVVcT9p0k",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/9D32092E-5631-41B6-80B9-39B77F734383.mp4",
+        "videoUUID": "1BA41E3F-1C1A-49A0-95C5-FDA32B476DBD"
+    },
+	{
+        "createdAt": "2014-12-08T22:21:05.731Z",
+        "lengthInSeconds": 349,
+        "objectId": "mQGFqZYEno",
+        "updatedAt": "2014-12-08T22:21:05.731Z",
+        "user": "7JZY7tFdTv",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/E11C8433-40BA-4DBA-9DC1-8FAE8193483C.mp4",
+        "videoUUID": "1C7B5ECB-BBD7-4499-B7BB-A03B675586E0"
+    },
+	{
+        "createdAt": "2014-12-09T02:19:15.639Z",
+        "lengthInSeconds": 716,
+        "objectId": "bbn7bwNRzc",
+        "updatedAt": "2014-12-09T02:19:15.639Z",
+        "user": "afITSBD4qA",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/69A48E53-241C-4B05-B903-040DA53C54DE.mp4",
+        "videoUUID": "009BC18D-5660-44F5-A11B-08C1E6C42CA6"
+    },
+	{
+        "createdAt": "2014-12-09T22:43:21.415Z",
+        "lengthInSeconds": 39,
+        "objectId": "cIlTi3b2Hx",
+        "updatedAt": "2014-12-09T22:43:21.415Z",
+        "user": "782Yh8zvui",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/3182701A-B31C-441F-9E35-EBBE48FD542C.mp4",
+        "videoUUID": "AACC1DCE-C918-4B2E-B5FA-9D40340824D9"
+    },
+	{
+        "createdAt": "2014-12-09T22:53:29.885Z",
+        "lengthInSeconds": 59,
+        "objectId": "fqgJWO6gRs",
+        "updatedAt": "2014-12-09T22:53:29.885Z",
+        "user": "8Ve4UPYNMk",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/D215EF85-0A43-4EE9-9DFD-D7AC4315B45A.mp4",
+        "videoUUID": "93D3A777-96A7-49E0-A635-AD8168F4E6A6"
+    },
+	{
+        "createdAt": "2014-12-10T00:44:33.296Z",
+        "lengthInSeconds": 33,
+        "objectId": "w2IfD7JjJb",
+        "updatedAt": "2014-12-10T00:44:33.296Z",
+        "user": "SHjmaSrNne",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/A382E4A8-61DA-40D7-8381-1B963D8A8BC8.mp4",
+        "videoUUID": "DE29CE00-E4AA-422E-8040-153F0E35FE1D"
+    },
+	{
+        "createdAt": "2014-12-10T17:37:02.698Z",
+        "lengthInSeconds": 75,
+        "objectId": "cczqNxzRc2",
+        "updatedAt": "2014-12-10T17:37:02.698Z",
+        "user": "VrTmcvhlMM",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/94B8BEA4-0D70-4FE7-B06F-141523D89941.mp4",
+        "videoUUID": "2DA319DB-743D-4BFB-84E2-37C989DE9022"
+    },
+	{
+        "createdAt": "2014-12-11T21:13:30.686Z",
+        "lengthInSeconds": 65,
+        "objectId": "yqSAyWkQHh",
+        "updatedAt": "2014-12-11T21:13:30.686Z",
+        "user": "782Yh8zvui",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/8CD55EFD-4B0F-47C3-B958-97490D21805C.mp4",
+        "videoUUID": "B943ACAD-3693-4373-90C9-570AF8CB2A6E"
+    },
+	{
+        "createdAt": "2014-12-11T23:14:09.080Z",
+        "lengthInSeconds": 18,
+        "objectId": "vVyrJVzJRW",
+        "updatedAt": "2014-12-11T23:14:09.080Z",
+        "user": "4zlZu42H0S",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/9A7B2251-E769-4D01-9D64-4A90D32132D6.mp4",
+        "videoUUID": "287700CE-0678-4A7C-BD42-68C311719B42"
+    },
+	{
+        "createdAt": "2014-12-12T14:51:43.800Z",
+        "lengthInSeconds": 11,
+        "objectId": "gge7ZpCLzv",
+        "updatedAt": "2014-12-12T14:51:43.800Z",
+        "user": "n6xZe2qFIf",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/AF2F7016-6FA6-4971-B4E7-FEFBE287DA53.mp4",
+        "videoUUID": "06FEF268-80B0-447F-9A5B-FB0340A0791C"
+    },
+	{
+        "createdAt": "2014-12-12T15:12:15.227Z",
+        "lengthInSeconds": 87,
+        "objectId": "erLAWJbPp9",
+        "updatedAt": "2014-12-12T15:12:15.227Z",
+        "user": "782Yh8zvui",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/DBE1799E-212C-4799-8A1F-8A1F29E89A17",
+        "videoUUID": "3F78576F-AA32-46E1-B856-75E22593D436"
+    },
+	{
+        "createdAt": "2014-12-12T17:24:06.820Z",
+        "lengthInSeconds": 15,
+        "objectId": "104s4oOOe2",
+        "updatedAt": "2014-12-12T17:24:06.820Z",
+        "user": "UpRNKlqpna",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/CD3519DF-E0CC-48A4-A91F-A66C7B386377.mp4",
+        "videoUUID": "B5BB612D-6C13-430E-8332-358CB39FFA61"
+    },
+	{
+        "createdAt": "2014-12-12T21:50:47.343Z",
+        "lengthInSeconds": 43,
+        "objectId": "5IuUzsZPQt",
+        "updatedAt": "2014-12-12T21:50:47.343Z",
+        "user": "782Yh8zvui",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/41801808-FE54-4C18-9D2D-0889499BDC58.mp4",
+        "videoUUID": "6DBFBE70-9F68-4606-8B30-9DFEEB27AAD0"
+    },
+	{
+        "createdAt": "2014-12-13T23:53:09.000Z",
+        "lengthInSeconds": 114,
+        "objectId": "z3p4A0apht",
+        "updatedAt": "2014-12-13T23:53:09.000Z",
+        "user": "8Ve4UPYNMk",
+        "videoURL": "http://s3.amazonaws.com/iTOi.producer.videos/6D84D8C4-F70F-4EAA-8FD5-FEAE48084BCB.mp4",
+        "videoUUID": "25D327A6-E55C-4A7A-8C82-CC8437EF55D9"
+    },
+	{
+        "createdAt": "2014-12-14T01:31:50.824Z",
+        "lengthInSeconds": 19,
+        "objectId": "TT6mcQ9v9i",
+        "updatedAt": "2014-12-14T01:31:50.824Z",
+        "user": "8Ve4UPYNMk",
+        "videoURL": "https://s3.amazonaws.com/iTOi.producer.videos/7BFD43D4-9DEB-4D18-801D-E3FE6EAB5EF0.mp4",
+        "videoUUID": "146DDF15-797B-43C7-BD18-2E110F626B6E"
+    }
+] }

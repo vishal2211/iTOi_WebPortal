@@ -1,0 +1,60 @@
+<div class="col-md-12">
+	<% userInfo = NowUser.where(:email=>@userEmail, :token=>@userToken)[0] %>
+	<% if !userInfo %>
+		<div class="col-md-12">
+			<h1 class="text-danger">There has been an error...</h1>
+			<p>Please try following the your activation link again.  If it continues not to work please contact our dedicated support team at <span class="text-danger">1-844-SEE-iTOi</span></p>
+			<p>You may also want to try resetting your registration token.</p>
+			<%= link_to 'Resend Auth', relay_resendAuth_path, class:"btn btn-primary btn-danger" %>
+		</div>
+	<% elsif userInfo && userInfo.tokenExpiration <= Time.now %>
+		<div class="col-md-12">
+			<h1 class="text-danger">Registration Token Has Expired</h1>
+			<p>Please click below to resend</p>
+			<%= link_to 'Resend Auth', relay_resendAuth_path, class:"btn btn-primary btn-danger" %>
+		</div>
+	<% else %>
+		<% if userInfo.account_type == "SINGLE" && userInfo.company_id == 0 %>
+			<h1 class="text-warning">Purchase Confirmed</h1>
+			<p>You will be redirected shortly to setup your account.</p>
+			<%= javascript_tag do %>
+				$(function(){
+					setTimeout(function(){
+						window.location.replace('/users/sign_up/?email=<%= @userEmail %>&token=<%= @userToken %>');
+					}, 2000);
+				});	
+			<% end %>
+		<% elsif userInfo.account_type == "MULTI" && userInfo.company_id == 0 %>
+			<h1 class="text-warning">Purchase Confirmed</h1>
+			<p>You will be redirected shortly to setup your account.</p>
+			<%= javascript_tag do %>
+				$(function(){
+					setTimeout(function(){
+						window.location.replace('/relay/company/?now_user[email]=<%= @userEmail %>&now_user[token]=<%= @userToken %>');
+					}, 2000);
+				});	
+			<% end %>
+		<% elsif userInfo.account_type == "MULTI" && userInfo.company_id > 0 && User.where(:email=>userInfo.email).count < 1 %>
+			<h1 class="text-warning">Purchase Confirmed</h1>
+			<p>You will be redirected shortly to setup your account.</p>
+			<% companyToken = Company.where(:id=>userInfo.company_id)[0].company_token %>
+			<%= javascript_tag do %>
+				$(function(){
+					setTimeout(function(){
+						window.location.replace('/users/sign_up/?email=<%= userInfo.email %>&token=<%= userInfo.token %>&companyToken=<%= companyToken %>');
+					}, 2000);
+			});	
+			<% end %>
+		<% elsif User.where(:email=>userInfo.email).count > 0 %>
+			<h1 class="text-warning">Your Account Is Already Setup...</h1>
+			<p>You will be redirected shortly to setup your account.</p>
+			<% companyToken = Company.where(:id=>userInfo.company_id)[0].company_token %>
+			<%= javascript_tag do %>
+				$(function(){
+					setTimeout(function(){
+						window.location.replace('/users/sign_in') %>');
+					}, 2000);
+			});	
+			<% end %>
+		<% end %>
+	<% end %>

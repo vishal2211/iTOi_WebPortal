@@ -1,0 +1,23 @@
+.row.content-title
+  .col-sm-6
+    %h3= @user.email
+
+= form_for [@company, @user], class: 'form parsley-form' do |f|
+  - if @user.errors.any?
+    #error_explanation
+      %h2= "#{pluralize(@user.errors.count, "error")} prohibited this plan from being saved:"
+      %ul
+        - @user.errors.full_messages.each do |msg|
+          %li= msg
+
+  - if current_user.is_admin?
+    .form-group
+      = f.label :plan_id
+      = select(:user, :plan_id, options_for_select([["Bronze", Plan::PLAN_CID_BRONZE], ["Silver", Plan::PLAN_CID_SILVER], ["Gold", Plan::PLAN_CID_GOLD], ["Platinum", Plan::PLAN_CID_PLATINUM],["Unlimited", Plan::PLAN_CID_UNLIMITED]], selected: @user.plan_id), {}, {class: 'form-control'})
+
+  .form-group
+    = f.label :permission
+    = select_tag(:permission, options_for_select([["Admin", 1], ["Standard User", 0]], selected: @user.company_user.permissions), class: 'form-control')
+
+  .form-group
+    = f.submit 'Save', class: 'btn btn-danger'

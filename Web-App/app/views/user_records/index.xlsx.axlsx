@@ -1,0 +1,12 @@
+wb = xlsx_package.workbook
+wb.add_worksheet(name: "Buttons") do |sheet|
+  sheet.add_row ['Email','Recordings','Created At','Last Seen']
+  @users.each do |user|
+    sheet.add_row [
+                      user.email,
+                      pluralize(user.recordings.active.length, "recording"),
+                      user.created_at,
+                      user.current_sign_in_at
+                  ]
+  end
+end

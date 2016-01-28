@@ -1,0 +1,23 @@
+development:
+  access_key_id: AKIAJQVJ25KPOIFOO5UQ
+  secret_access_key: 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
+  aws_bucket: itoi-themes
+  aws_bucket_url: itoi-themes.s3.amazonaws.com
+
+test:
+  access_key_id: AKIAJQVJ25KPOIFOO5UQ
+  secret_access_key: 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
+  aws_bucket: itoi-themes
+  aws_bucket_url: itoi-themes.s3.amazonaws.com
+
+staging:
+  access_key_id: AKIAJQVJ25KPOIFOO5UQ
+  secret_access_key: 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
+  aws_bucket: itoi-themes
+  aws_bucket_url: itoi-themes.s3.amazonaws.com
+
+production:
+  access_key_id: AKIAJQVJ25KPOIFOO5UQ
+  secret_access_key: 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
+  aws_bucket: itoi-themes
+  aws_bucket_url: itoi-themes.s3.amazonaws.com

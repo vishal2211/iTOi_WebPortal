@@ -1,0 +1,34 @@
+{"recording": {
+  "template_id": null,
+  "title": "",
+  "script": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed...",
+  "scroll_speed": 55,
+  "duration": 52.94,
+  "palette_images": [
+    "url2",
+    "url1"
+  ],
+  "video_url": "https://s3.amazonaws.com/iTOi.producer.videos/B76F2F80-6B74-4EB5-A953-A734CF4EF86A.mp4",
+  "thumbnail_url": "http://s3.amazonaws.com/iTOi.producer.thumbnails/B76F2F80-6B74-4EB5-A953-A734CF4EF86A.jpg",
+  "expected_length": 129.49,
+  "youtube_url": "http://youtube.com",
+  "video_background_color": "49/49/49",
+  "recording_images": [
+    {
+      "associated_string": "dolor sit amet",
+      "image_url": "https://s3.amazonaws.com/iTOi.producer.images/B76F2F80-6B74-4EB5-A953-A734CF4EF86A.jpg",
+      "start_time": 5.294,
+      "end_time": 7.582,
+      "scroll_height": 300,
+      "scroll_y_value": 768
+    },
+    {
+      "associated_string": "adipiscing elit, sed",
+      "image_url": "https://s3.amazonaws.com/iTOi.producer.images/B76F2F80-6B74-4EB5-A953-A734CF4EF86A.jpg",
+      "start_time": 7.582,
+      "end_time": 9.444,
+      "scroll_height": 300,
+      "scroll_y_value": 768
+    }
+  ]
+}}

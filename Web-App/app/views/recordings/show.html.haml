@@ -1,0 +1,14 @@
+%p#notice= notice
+
+%p
+  %b Created by:
+  = @recording.user.email
+%p
+  %b Title:
+  = @recording.title
+%p
+  = link_to 'Watch Video', @recording.play_url, class: 'btn btn-primary'
+
+= link_to 'Edit', edit_recording_path(@recording)
+\|
+= link_to 'Back', recordings_path

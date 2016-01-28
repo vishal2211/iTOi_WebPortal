@@ -1,0 +1,63 @@
+= form_for @plan, class: 'form parsley-form' do |f|
+  - if @plan.errors.any?
+    #error_explanation
+      %h2= "#{pluralize(@plan.errors.count, "error")} prohibited this plan from being saved:"
+      %ul
+        - @plan.errors.full_messages.each do |msg|
+          %li= msg
+
+  .form-group
+    = f.label :max_video_length_seconds
+    %p
+      %small -1 means "no limit"
+    = f.text_field :max_video_length_seconds, class: 'form-control parsley-validated', 'data-required' => 'true', 'data-parsley-type' => 'number'
+
+  .form-group
+    = f.label :total_video_space_minutes
+    %p
+      %small -1 means "no limit"
+    = f.text_field :total_video_space_minutes, class: 'form-control parsley-validated', 'data-required' => 'true', 'data-parsley-type' => 'number'
+
+  .form-group
+    = f.label :video_filters
+    %p
+      %small -1 means "no limit"
+    = f.text_field :video_filters, class: 'form-control parsley-validated', 'data-required' => 'true', 'data-parsley-type' => 'number'
+
+  .form-group
+    = f.label :can_download
+    %p
+    = f.select(:can_download, [['Yes',true], ['No',false]], {}, {:class => "form-control"})
+
+  .form-group
+    = f.label :video_quality
+    %p
+    = f.select(:video_quality, [['SD',Plan::VIDEO_QUALITY_SD], ['HD',Plan::VIDEO_QUALITY_HD]], {}, {:class => "form-control"})
+
+  .form-group
+    = f.label :youtube_share
+    %p
+    = f.select(:youtube_share, [['Yes',true], ['No',false]], {}, {:class => "form-control"})
+
+  .form-group
+    = f.label :custom_watermark
+    %p
+    = f.select(:custom_watermark, [['Yes',true], ['No',false]], {}, {:class => "form-control"})
+
+  .form-group
+    = f.label :custom_header_graphic
+    %p
+    = f.select(:custom_header_graphic, [['Yes',true], ['No',false]], {}, {:class => "form-control"})
+
+  .form-group
+    = f.label :custom_footer_graphic
+    %p
+    = f.select(:custom_footer_graphic, [['Yes',true], ['No',false]], {}, {:class => "form-control"})
+
+  .form-group
+    = f.label :video_analytics
+    %p
+    = f.select(:video_analytics, [['Yes',true], ['No',false]], {}, {:class => "form-control"})
+
+  .form-group
+    = f.submit 'Save', class: 'btn btn-danger'

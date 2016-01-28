@@ -1,0 +1,673 @@
+
+.container
+  .row
+    .col-md-3#leftCol
+      %ul.nav.nav-stacked#doc-sidebar
+
+        %li.header
+          %a{href: '#overview'} Overview
+        %li.subheading
+          %a{href: '#10'} 1.0 Format
+        %li.subheading
+          %a{href: '#11'} 1.1 Endpoints
+        %li.subheading
+          %a{href: '#12'} 1.2 API Authentication
+        %li.subheading
+          %a{href: '#13'} 1.3 User Authentication
+
+        %li.header
+          %a{href: '#user'} User Calls
+        %li.subheading
+          %a{href: '#20'} 2.0 User Registration
+        %li.subheading
+          %a{href: '#21'} 2.1 User Base Call
+        %li.subheading
+          %a{href: '#22'} 2.2 Password Reset
+        %li.subheading
+          %a{href: '#23'} 2.3 Update User
+        %li.subheading
+          %a{href: '#24'} 2.4 Extend Subscription
+
+
+        %li.header
+          %a{href: '#recordings'} Recording Calls
+        %li.subheading
+          %a{href: '#30'} 3.0 Core Data Type
+        %li.subheading
+          %a{href: '#31'} 3.1 Create a Recording
+        %li.subheading
+          %a{href: '#32'} 3.2 List Recordings
+        %li.subheading
+          %a{href: '#33'} 3.3 Recording Detail
+        %li.subheading
+          %a{href: '#34'} 3.4 Update a Recording
+        %li.subheading
+          %a{href: '#35'} 3.5 Destroy a Recording
+
+        %li.header
+          %a{href: '#media'} Media
+        %li.subheading
+          %a{href: '#40'} 4.0 Media Overview
+        %li.subheading
+          %a{href: '#41'} 4.1 Storing Media
+        %li.subheading
+          %a{href: '#42'} 4.2 Listing Media
+
+    .col-md-9
+      %h1#overview Overview
+      %p The purpose of this document is to provide an API reference for the iOS and Server communication for the SeeiTOi iPad application.
+
+      .spacer
+
+      %h3#10 Format
+      %p The API is designed using a standard REST interface.  All responses will be returned in JSON format.  If the request enables it, they will be gzipped on response.  Standard GET, PUT, POST, and DESTROY methods are used.  PATCH is not supported.
+      %p All POST and PUT requests should be formatted with JSON.  Make sure the proper header is set:
+      %code Content-Type: application/json
+
+      .spacer
+
+      %h3#11 Endpoints
+
+      %table.table.table-bordered
+        %thead
+          %tr
+            %th Environment
+            %th Base URL
+        %tbody
+          %tr
+            %td QA
+            %td http://itoi.nine70labs.com
+          %tr
+            %td Production
+            %td https://app.seeitoi.com
+
+      .spacer
+
+      %h3#12 API Authentication
+      %p Access to the API is restricted from public use.  For your calls to be allowed, you must pass the proper credentials.  Credentials are passed via a custom HTTP header
+
+      %code X-API-Authentication: 394f026f0d288eb28d75a03e137730c5
+
+      .spacer
+
+      %h3#13 User Authentiation
+      %p To properly identify the proper system user (that is, the login of the individual on whose iPad the app is installed), all calls should use HTTP Basic Auth.
+
+      .spacer
+
+      %h1#user User Calls
+
+      %h3#20 Registration
+      %p To configure a user account, you need to make a simple registration call with the following inputs.
+
+      %table.table.table-bordered
+        %thead
+          %tr
+            %th Variable Name
+            %th Description
+        %tbody
+          %tr
+            %td email
+            %td Login email address of the user.  Format will NOT be validated.
+          %tr
+            %td password
+            %td User's password.  Client is responsible for any "confirmation password" functionality.  Minimum 8 chars.
+          %tr
+            %td company_token
+            %td
+              %i optional
+              If the user has been given a token to associate with a corporate account, enter it here.
+
+      %table.table.table-bordered
+        %thead
+          %tr
+            %th POST /api/v1/users
+        %tbody
+          %tr
+            %td
+              %h5 Request
+              %pre
+                :preserve
+                  {
+                    "email": "john@doe.com",
+                    "password": "foobar",
+                    "company_token": "token"
+                  }
+
+              %h5 Response - Success (200)
+              %pre
+                :preserve
+                  {
+                    "user": {
+                      "company": null,
+                      "email": "john@doe.com",
+                      "id": 4,
+                      "plan_expiration": null,
+                      "plan": {
+                        "name": "Bronze",
+                        "permissions": {
+                          "can_download": false,
+                          "custom_footer_graphic": false,
+                          "custom_header_graphic": false,
+                          "custom_watermark": false,
+                          "max_video_length_seconds": 45,
+                          "total_video_space_minutes": 10,
+                          "video_analytics": false,
+                          "video_filters": 5,
+                          "video_quality": "SD",
+                          "youtube_share": false
+                        }
+                      },
+                      "used_video_space_seconds": 25
+                    }
+                  }
+
+              %h5 Response - Error (409)
+              %pre
+                :preserve
+                  {
+                    "message": "Email address already taken"
+                  }
+
+              %h5 Response - Other Error (400)
+              %pre
+                :preserve
+                  {
+                    "message": "Email address is required"
+                  }
+
+      %h3#21 User base call
+      %p This "base call" will retrieve information about the current user (as identified via HTTP Basic Auth).  This can also be used as a "login" call.  If the response is 200, the credentials are valid.  A 401 will indicate failed authentication.
+
+      %table.table.table-bordered
+        %thead
+          %tr
+            %th GET /api/v1/users/me
+        %tbody
+          %tr
+            %td
+              %h5 Response
+              %pre
+                :preserve
+                  {
+                    "user": {
+                      "company": {
+                        "id": 5,
+                        "name": "nine70 labs",
+                        "whitelabel_icon_url": "http://itoi-themes.s3.amazonaws.com/development/whitelabel_image-5.jpg",
+                        "whitelabel_text": "Text",
+                        "watermark_image_url": "http://itoi-themes.s3.amazonaws.com/development/watermark_image-5.jpg",
+                        "header_image_url": "http://itoi-themes.s3.amazonaws.com/development/header_image-5.jpg",
+                        "footer_image_url": "http://itoi-themes.s3.amazonaws.com/development/footer_image-5.jpg",
+                        "allow_uploads": true,
+                        "simplified_workflow": false,
+                        "request_user_email": false
+                      },
+                      "email": "john@doe.com",
+                      "id": 4,
+                      "plan_expiration": null,
+                      "plan": {
+                        "name": "Bronze",
+                        "permissions": {
+                          "can_download": false,
+                          "custom_footer_graphic": false,
+                          "custom_header_graphic": false,
+                          "custom_watermark": false,
+                          "max_video_length_seconds": 45,
+                          "total_video_space_minutes": 10,
+                          "video_analytics": false,
+                          "video_filters": 5,
+                          "video_quality": "SD",
+                          "youtube_share": false
+                        }
+                      },
+                      "used_video_space_seconds": 25
+                    }
+                  }
+
+      .spacer
+
+      %h3#22 Password Reset
+      %p This call will cause a password reset email to be sent to the requesting user.  The password will not actually reset until they follow the link in the email.
+
+      %table.table.table-bordered
+        %thead
+          %tr
+            %th POST /api/v1/users/reset_password
+        %tbody
+          %tr
+            %td
+              %h5 Request
+              %pre
+                :preserve
+                  {
+                    "email": "john@doe.com"
+                  }
+
+              %h5 Response - Success (200)
+              %pre
+                :preserve
+                  {
+                    "user": {
+                      "company": {
+                        "id": 5,
+                        "name": "nine70 labs",
+                        "whitelabel_icon_url": "http://itoi-themes.s3.amazonaws.com/development/whitelabel_image-5.jpg",
+                        "whitelabel_text": "Text",
+                        "watermark_image_url": "http://itoi-themes.s3.amazonaws.com/development/watermark_image-5.jpg",
+                        "header_image_url": "http://itoi-themes.s3.amazonaws.com/development/header_image-5.jpg",
+                        "footer_image_url": "http://itoi-themes.s3.amazonaws.com/development/footer_image-5.jpg",
+                        "allow_uploads": true,
+                        "request_user_email": false
+                      },
+                      "email": "john@doe.com",
+                      "id": 4,
+                      "plan_expiration": null,
+                      "plan": {
+                        "name": "Bronze",
+                        "permissions": {
+                          "can_download": false,
+                          "custom_footer_graphic": false,
+                          "custom_header_graphic": false,
+                          "custom_watermark": false,
+                          "max_video_length_seconds": 45,
+                          "total_video_space_minutes": 10,
+                          "video_analytics": false,
+                          "video_filters": 5,
+                          "video_quality": "SD",
+                          "youtube_share": false
+                        }
+                      },
+                      "used_video_space_seconds": 25
+                    }
+                  }
+
+              %h5 Response - Other Error (400)
+              %pre
+                :preserve
+                  {
+                    "message": "Could not find user with email address john@doe.com"
+                  }
+
+
+      .spacer
+
+      %h3#23 Update Plan
+      %p The user has an attribute for plan level.  You can update this with a PUT request.
+      %p Plan ID's are integers 1 or 2, where 1 is Bronze and 2 is Silver.  Gold and Bronze cannot be set via API, only from the admin interface.
+
+      %table.table.table-bordered
+        %thead
+          %tr
+            %th PUT /api/v1/users/me
+        %tbody
+          %tr
+            %td
+              %h5 Request
+              %pre
+                :preserve
+                  {
+                    "plan_id": 2
+                  }
+
+              %h5 Response - Success (200)
+              %pre
+                :preserve
+                  {
+                    "user": {
+                      "company": {
+                        "id": 5,
+                        "name": "nine70 labs",
+                        "whitelabel_icon_url": "http://itoi-themes.s3.amazonaws.com/development/whitelabel_image-5.jpg",
+                        "whitelabel_text": "Text",
+                        "watermark_image_url": "http://itoi-themes.s3.amazonaws.com/development/watermark_image-5.jpg",
+                        "header_image_url": "http://itoi-themes.s3.amazonaws.com/development/header_image-5.jpg",
+                        "footer_image_url": "http://itoi-themes.s3.amazonaws.com/development/footer_image-5.jpg",
+                        "simplified_workflow": false,
+                        "request_user_email": false
+                      },
+                      "email": "john@doe.com",
+                      "id": 4,
+                      "plan_expiration": null,
+                      "plan": {
+                        "name": "Bronze",
+                        "permissions": {
+                          "can_download": false,
+                          "custom_footer_graphic": false,
+                          "custom_header_graphic": false,
+                          "custom_watermark": false,
+                          "max_video_length_seconds": 45,
+                          "total_video_space_minutes": 10,
+                          "video_analytics": false,
+                          "video_filters": 5,
+                          "video_quality": "SD",
+                          "youtube_share": false
+                        }
+                      },
+                      "used_video_space_seconds": 25
+                    }
+                  }
+
+              %h5 Response - Other Error (400)
+              %pre
+                :preserve
+                  {
+                    "message": "Nothing to change!"
+                  }
+
+
+      .spacer
+
+      %h3#22 Extend Subscription
+      %p This call will extend the user's plan_expiration date by 30 days.  You can optionally pass a "token" that identifies the transaction.  This will ALWAYS set their plan to "Silver", since that's the only in-app purchase.
+
+      %table.table.table-bordered
+        %thead
+          %tr
+            %th POST /api/v1/users/bump_subscription
+        %tbody
+          %tr
+            %td
+              %h5 Request
+              %pre
+                :preserve
+                  {
+                    "token": "iap_purchase_token"
+                  }
+
+              %h5 Response - Success (200)
+              %pre
+                :preserve
+                  {
+                    "user": {
+                      "company": {
+                        "id": 5,
+                        "name": "nine70 labs",
+                        "whitelabel_icon_url": "http://itoi-themes.s3.amazonaws.com/development/whitelabel_image-5.jpg",
+                        "whitelabel_text": "Text",
+                        "watermark_image_url": "http://itoi-themes.s3.amazonaws.com/development/watermark_image-5.jpg",
+                        "header_image_url": "http://itoi-themes.s3.amazonaws.com/development/header_image-5.jpg",
+                        "footer_image_url": "http://itoi-themes.s3.amazonaws.com/development/footer_image-5.jpg",
+                        "simplified_workflow": false,
+                        "request_user_email": false
+                      },
+                      "email": "john@doe.com",
+                      "id": 4,
+                      "plan_expiration": "2015-01-02,
+                      "plan": {
+                        "name": "Bronze",
+                        "permissions": {
+                          "can_download": false,
+                          "custom_footer_graphic": false,
+                          "custom_header_graphic": false,
+                          "custom_watermark": false,
+                          "max_video_length_seconds": 45,
+                          "total_video_space_minutes": 10,
+                          "video_analytics": false,
+                          "video_filters": 5,
+                          "video_quality": "SD",
+                          "youtube_share": false
+                        }
+                      },
+                      "used_video_space_seconds": 25
+                    }
+                  }
+
+              %h5 Response - Other Error (400)
+              %pre
+                :preserve
+                  {
+                    "message": "Could not find user with email address john@doe.com"
+                  }
+
+        .spacer
+
+      %h1#recording Recordings
+
+      %h3#30 Core Data Type
+      %p All the recording calls will use a standardized data type.  This will be returned on listing and submitted for POST and PUTs.
+
+      %table.table.table-bordered
+        %thead
+          %tr
+            %th Example Recording Data Model
+        %tbody
+          %tr
+            %td
+              %pre
+                :preserve
+                  {
+                    "recording": {
+                      "id": 1,
+                      "template_id": null,
+                      "created_by": {
+                        "id": 44,
+                        "email": "david@nine70labs.com"
+                      },
+                      "title": "Example Recording",
+                      "script": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed...",
+                      "scroll_speed": 55,
+                      "created_at": "2014-12-16T02:51:57.000Z",
+                      "duration": "12.29",
+                      "palette_images": [
+                        "url2",
+                        "url1"
+                      ],
+                      "play_count": 14,
+                      "play_url": "https://manage.seeitoi.com/recordings/1/play/a7bb09287e3b78608e7a62dc6d22035a",
+                      "video_url": "https://s3.amazonaws.com/iTOi.producer.videos/B76F2F80-6B74-4EB5-A953-A734CF4EF86A.mp4",
+                      "transcoded_video_url": "http://transcoded-cdn.seeitoi.com/trans-4-194949874.mp4",
+                      "youtube_url": null,
+                      "video_background_color": "0/0/0",
+                      "thumbnail_url": "http://s3.amazonaws.com/iTOi.producer.thumbnails/B76F2F80-6B74-4EB5-A953-A734CF4EF86A.jpg",
+                      "images": [
+                        {
+                          "id": 48,
+                          "associated_string": "dolor sit amet",
+                          "image_url": "https://s3.amazonaws.com/iTOi.producer.images/B76F2F80-6B74-4EB5-A953-A734CF4EF86A.jpg",
+                          "start_time": 5.294,
+                          "end_time": 7.582,
+                          "scroll_height": 300,
+                          "scroll_y_value": 768
+                        },
+                        {
+                          "id": 49,
+                          "associated_string": "adipiscing elit, sed",
+                          "image_url": "https://s3.amazonaws.com/iTOi.producer.images/B76F2F80-6B74-4EB5-A953-A734CF4EF86A.jpg",
+                          "start_time": 7.582,
+                          "end_time": 9.444,
+                          "scroll_height": 300,
+                          "scroll_y_value": 768
+                        }
+                      ]
+                    }
+                  }
+
+      %h3#31 Create a Recording
+      %p Creating a recording presumes that the client has already uploaded the actual video and image content to S3.  No binary data is actually sent into the API, just URL references to content already uploaded.  We can discuss alternates if we want to, but I think it makes sense to avoid a double-hop to our API and then back into S3.
+      %p Sending the data to the server is as simple as making a full POST of the data model to the proper endpoint.
+      %p For creation, you should omit the "id" keys.  Also you do not need to send any "created_by" data, it will be implied by the HTTP Basic Auth of the user making the request.
+      %p Duration and expected_length values are seconds.
+      %p Video background color should be a simple RGB string delimited with a "/", so black = "0/0/0", white = "255/255/255"
+
+      %table.table.table-bordered
+        %thead
+          %tr
+            %th POST /api/v1/recordings
+        %tbody
+          %tr
+            %td
+              %h5 Request
+              %pre
+                :preserve
+                  {"recording": {
+                    "template_id": null,
+                    "title": "Example Recording",
+                    "script": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed...",
+                    "scroll_speed": 55,
+                    "created_at": "2014-12-16T02:51:57.000Z",
+                    "duration": "12.29",
+                    "play_count": 14,
+                    "video_url": "https://s3.amazonaws.com/iTOi.producer.videos/B76F2F80-6B74-4EB5-A953-A734CF4EF86A.mp4",
+                    "transcoded_video_url": "http://transcoded-cdn.seeitoi.com/trans-4-194949874.mp4",
+                    "youtube_url": null,
+                    "video_background_color: "0/0/0",
+                    "expected_length": "129.23",
+                    "font_size": 14,
+                    "palette_images": [
+                      "url2",
+                      "url1"
+                    ],
+                    "recording_images": [
+                      {
+                        "associated_string": "dolor sit amet",
+                        "image_url": "https://s3.amazonaws.com/iTOi.producer.images/B76F2F80-6B74-4EB5-A953-A734CF4EF86A.jpg"
+                        "start_time": "5.294",
+                        "end_time": "7.582",
+                        "scroll_height": 300,
+                        "scroll_y_value": 768
+                      },
+                      {
+                        "associated_string": "adipiscing elit, sed",
+                        "image_url": "https://s3.amazonaws.com/iTOi.producer.images/B76F2F80-6B74-4EB5-A953-A734CF4EF86A.jpg"
+                        "start_time": "7.582",
+                        "end_time": "9.444",
+                        "scroll_height": 300,
+                        "scroll_y_value": 768
+                      }
+                    ]
+                  }
+                }
+              %h5 Response
+              %pre
+                :preserve
+                  Success - HTTP 201
+                  Error - HTTP 400
+
+      %h3#32 List Recordings
+      %p Listing is a simple HTTP GET call.  All recordings created by the requesting user will be returned.
+
+      %table.table.table-bordered
+        %thead
+          %tr
+            %th GET /api/v1/recordings
+        %tbody
+          %tr
+            %td
+              %h5 Response
+              %pre
+                :preserve
+                  {
+                    "recordings": [
+                      {
+                        "title": "Example Recording",
+                        "video_url": "https://s3.amazonaws.com/iTOi.producer.videos/B76F2F80-6B74-4EB5-A953-A734CF4EF86A.mp4",
+                        "transcoded_video_url": "http://transcoded-cdn.seeitoi.com/trans-4-194949874.mp4",
+                        "play_url": "https://manage.seeitoi.com/recordings/13/play/a7bb09287e3b78608e7a62dc6d22035a",
+                        "id": 13,
+                        "expected_length": 129.23
+                      },
+                      ...
+                    ]
+                  }
+
+      %h3#33 Recording Detail
+      %p This call shows the expanded details (script, etc) for a single recording
+
+      %table.table.table-bordered
+        %thead
+          %tr
+            %th GET /api/v1/recordings/13
+        %tbody
+          %tr
+            %td
+              %h5 Response
+              %pre
+                :preserve
+                  << CORE DATA MODEL >>
+
+      %h3#34 Update a Recording
+      %p Update is accomplished via HTTP PUT request to the recording model in question.
+
+      %table.table.table-bordered
+        %thead
+          %tr
+            %th PUT /api/v1/recordings/1
+        %tbody
+          %tr
+            %td
+              %h5 Request
+              %pre
+                :preserve
+                  << CORE DATA MODEL >>
+              %h5 Response
+              %pre
+                :preserve
+                  Success - 200
+
+      %h3#35 Destroy a Recording
+      %p Use HTTP DELETE to remove a recording.  This will also remove all sub-elements (script images, etc).  Nothing will be removed from S3, so destroy that via client calls, or we can discuss integrating an S3 delete from the server if necessary.
+
+      %table.table.table-bordered
+        %thead
+          %tr
+            %th DELETE /api/v1/recordings/1
+        %tbody
+          %tr
+            %td
+              %pre
+                :preserve
+                  Success - 200
+
+      %h1#media Media
+
+      %h3#40 Media Overview
+      %p The media service is meant to provide a way for users in the same company to share static assets (images, videos, etc) with each other.  Items can be created be anyone in a company, and viewed by anyone.  Once uploaded, media items are immutable, but can be removed.
+
+      %h3#41 Storing Media
+      %p Our Media API only stores references (i.e. URLs) to media assets.  We will assume that the client or web tool will upload and content to S3 itself, and register the URL with the Media API.
+
+      %table.table.table-bordered
+        %thead
+          %tr
+            %th POST /api/v1/media
+        %tbody
+          %tr
+            %td
+              %pre
+                :preserve
+                  {
+                    "media_item": {
+                      "company_id": 1,
+                      "name": "My Media Item",
+                      "media_url": "https://s3.amazonaws.com/iTOi.media/B76F2F80-6B74-4EB5-A953-A734CF4EF86A.jpg"
+                    }
+                  }
+
+      %h3#42 Listing Media
+      %p The Media Listing will return all media for the user's COMPANY, not just the user.  The device can take these URLs and use them as assets in a recording or elsewhere.  They are not formally linked to their originating media item, they just re-use the URL.
+
+      %table.table.table-bordered
+        %thead
+          %tr
+            %th GET /api/v1/media
+        %tbody
+          %tr
+            %td
+              %pre
+                :preserve
+                  {
+                    "media": [
+                      {
+                        "company_id": 1,
+                        "name": "My Media Item",
+                        "media_url": "https://s3.amazonaws.com/iTOi.media/B76F2F80-6B74-4EB5-A953-A734CF4EF86A.jpg"
+                      },
+                      {
+                        "company_id": 1,
+                        "name": "My Other Media Item",
+                        "media_url": "https://s3.amazonaws.com/iTOi.media/C90F2F80-6B74-4EB5-A953-A734CF4EF11B.jpg"
+                      }
+                    ]
+                  }
+

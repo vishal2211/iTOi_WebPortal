@@ -1,0 +1,22 @@
+.row
+  .col-sm-4
+    .panel.panel-info
+      .panel-heading
+        .panel-title= link_to "Clients", companies_path
+      .panel-body.text-center{style: 'font-size: 3em;'}
+        = Company.count
+
+  .col-sm-4
+    .panel.panel-default
+      .panel-heading
+        .panel-title= link_to "Users", user_records_path
+      .panel-body.text-center{style: 'font-size: 3em;'}
+        = User.count
+
+  .col-sm-4
+    .panel.panel-primary
+      .panel-heading
+        .panel-title Recordings
+      .panel-body.text-center{style: 'font-size: 3em;'}
+        = Recording.active.count
+

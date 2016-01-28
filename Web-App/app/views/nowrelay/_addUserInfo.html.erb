@@ -1,0 +1,10 @@
+<p>authorization for user:</p> <%= NowUser.create(:email=>@userEmail, :account_type=>@userAcctType, :user_pkg=>@userPkg, :license=>@userLicense, :token=> @userToken, :expiration=>@userExpiration, :purchase_id=>@userPId) %>
+<ul>
+	<li>user email: <%= @userEmail %></li>
+	<li>user account type: <%= @userAcctType %></li>
+	<li>user invite pkg: <%= @userPkg %></li>
+	<li>user license: <%= @userLicense %></li>
+	<li>user authToken: <%= @userToken %></li>
+	<li>user Expiration: <%= @userExpiration %></li>
+	<li>user purchaseId: <%= @userPId %></li>
+</ul>

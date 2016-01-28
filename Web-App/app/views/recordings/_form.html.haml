@@ -1,0 +1,25 @@
+= form_for @recording, class: 'form parsley-form' do |f|
+  - if @recording.errors.any?
+    #error_explanation
+      %h2= "#{pluralize(@recording.errors.count, "error")} prohibited this recording from being saved:"
+      %ul
+        - @recording.errors.full_messages.each do |msg|
+          %li= msg
+
+  .form-group
+    = f.label :title
+    = f.text_field :title, class: 'form-control parsley-validated', 'data-required' => 'true'
+
+  - if current_user.is_a_account_admin?
+    .form-group
+      = f.label "Sharing Approved"
+      %p
+      = f.select(:sharing_approved, [['Yes',true], ['No',false]], {}, {:class => "form-control"})
+
+  .form-group
+    = f.label :script
+    = f.text_area :script, class: 'form-control', style: 'height: 250px;'
+
+  .form-group
+    = f.submit 'Save & Manage Images', :name => "manage_image",  class: 'btn btn-primary-blue'
+    = f.submit 'Save', class: 'btn btn-primary-blue'

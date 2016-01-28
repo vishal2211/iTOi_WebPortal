@@ -1,0 +1,38 @@
+!!!
+%html
+  %head
+    %title iTOi
+    %meta{:charset => "utf-8"}/
+    %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}/
+    %meta{:content => "see iTOi web administration", :name => "description"}/
+    %meta{:content => "See iTOi / Orangeberry Company", :name => "author"}/
+    / Google Font: Open Sans
+    %link{:href => "//fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic", :rel => "stylesheet"}/
+    %link{:href => "//fonts.googleapis.com/css?family=Oswald:400,300,700", :rel => "stylesheet"}/
+
+    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
+    = javascript_include_tag 'application', 'data-turbolinks-track' => true
+    = csrf_meta_tags
+
+  %body{:id => "#{params[:controller].parameterize}-#{params[:action].parameterize}"}
+    #wrapper
+      %header.navbar.navbar-inverse{:role => "banner"}
+        .container
+          .navbar-header
+            %a.navbar-brand.navbar-brand-img{:href => "./"}
+              %img{:src => "/assets/logo.png"}
+          / /.navbar-header
+      .content
+        .container
+          - if flash[:notice]
+            .row
+              .alert.alert-info
+                = flash[:notice]
+          .row
+            = yield
+
+    %footer.footer
+      .container
+        %p.pull-left
+          Copyright © 2015 SeeiTOi.
+          = link_to "VISIT iTOi", "http://www.seeitoi.com"

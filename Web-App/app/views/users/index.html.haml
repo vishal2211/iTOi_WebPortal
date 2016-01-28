@@ -1,0 +1,97 @@
+- if NowUser.isUser(current_user)
+  -if ! NowUser.expired(:email=>current_user.email)
+    %h3.content-title
+    %p.text-warning
+      = 'Users - ' 
+      = NowUser.getInvites(current_user)
+      = ' of '
+      = NowUser.where(:email=>current_user.email)[0].user_pkg
+      = ' user invites remaining'
+  -else
+    %p.text-danger
+      ='Account is expired.'
+      %a.text-warning{href:'http://seeitoi.com/login', target:'_blank'} Visit our site by clicking here in order to renew your subscription.
+
+.row
+  .col-md-12
+    .table-responsive
+      %table.table.table-striped.table-bordered.thumbnail-table
+        %thead
+          %tr
+            %th Email
+            %th Recordings
+            %th Status
+            %th Permissions
+            - if (current_user.company_user && current_user.company_user.is_admin?) || (current_user.is_admin?)
+              %th Actions
+        %tbody
+          - @users.each do |user|
+            %tr
+              %td.valign-middle= link_to user.email, company_user_path(@company,user)
+              %td.text-center
+                %a.btn.btn-secondary{href: company_user_path(@company,user)}
+                  = pluralize(user.recordings.active.length, "recording")
+              %td.text-center.valign-middle
+                - if user.invitation_accepted_at
+                  Normal User
+                - else
+                  Invitation Pending
+              %td.text-center.valign-middle
+                - if user.company_user.permissions == 0
+                  Standard User
+                - else
+                  Admin
+              - if (current_user.company_user && current_user.company_user.is_admin?) || (current_user.is_admin?)
+                %td.text-center.valign-middle
+                  %a.btn.btn-xs.btn-primary{href: edit_company_user_path(@company,user)}
+                    %i.fa.fa-pencil
+                  = link_to company_user_path(@company, user), :method => :delete, :data => { :confirm => 'Are you sure?' }, :class => 'btn btn-xs btn-secondary' do
+                    %i.fa.fa-times
+
+- if (current_user.company_user && current_user.company_user.is_admin?) || (current_user.is_admin?)
+  - if(NowUser.isUser(current_user) && NowUser.hasInvites(current_user) && ! NowUser.expired(:email=>current_user.email))
+    .row
+      .col-md-4
+        %h4 Invite User
+        %small User will receive an email invitation to setup their own password.
+        %form{action: invite_company_users_path(@company), method: 'POST'}
+          %input{:type=>"hidden", :name=>"authenticity_token", :value=>form_authenticity_token.to_s}
+          .form-group
+            %input{name: 'email', placeholder: "Email Address", class: 'form-control parsley-validated', 'data-required' => 'true'}
+            %input{type: 'submit', class: 'btn btn-primary', value: 'Invite', style: 'margin-top: 5px'}
+
+      .col-md-4
+        &nbsp;
+
+      .col-md-4
+        %h4 Create New User
+        %small You create the password for a new user.  They will not be notified, so you'll want to let them know yourself.
+        %form{action: manual_create_company_users_path(@company), method: 'POST'}
+          %input{:type=>"hidden", :name=>"authenticity_token", :value=>form_authenticity_token.to_s}
+          .form-group
+            %input{name: 'email', placeholder: "Email Address", class: 'form-control parsley-validated', 'data-required' => 'true'}
+            %input{name: 'password', placeholder: "Password", type: 'password', class: 'form-control parsley-validated', 'data-required' => 'true'}
+            %input{type: 'submit', class: 'btn btn-primary', value: 'Create', style: 'margin-top: 5px'}
+  - elsif (!NowUser.isUser(current_user))
+    .row
+      .col-md-4
+        %h4 Invite User
+        %small User will receive an email invitation to setup their own password.
+        %form{action: invite_company_users_path(@company), method: 'POST'}
+          %input{:type=>"hidden", :name=>"authenticity_token", :value=>form_authenticity_token.to_s}
+          .form-group
+            %input{name: 'email', placeholder: "Email Address", class: 'form-control parsley-validated', 'data-required' => 'true'}
+            %input{type: 'submit', class: 'btn btn-primary', value: 'Invite', style: 'margin-top: 5px'}
+
+      .col-md-4
+        &nbsp;
+
+      .col-md-4
+        %h4 Create New User
+        %small You create the password for a new user.  They will not be notified, so you'll want to let them know yourself.
+        %form{action: manual_create_company_users_path(@company), method: 'POST'}
+          %input{:type=>"hidden", :name=>"authenticity_token", :value=>form_authenticity_token.to_s}
+          .form-group
+            %input{name: 'email', placeholder: "Email Address", class: 'form-control parsley-validated', 'data-required' => 'true'}
+            %input{name: 'password', placeholder: "Password", type: 'password', class: 'form-control parsley-validated', 'data-required' => 'true'}
+            %input{type: 'submit', class: 'btn btn-primary', value: 'Create', style: 'margin-top: 5px'}

@@ -1,0 +1,25 @@
+<h1>New Client</h1>
+
+<% if @company.errors.any? %>
+	<h3>"#{pluralize(@company.errors.count, "error")} prohibited this company from being saved:"</h3>
+<% else %>
+	<h1 class="text-warning">Purchase Confirmed</h1>
+	<% userInfo = NowUser.where(:email=>@nowrelay.email, :token=>@nowrelay.token) %>
+	<% if NowUser.addCompany(:email=>@nowrelay.email, :token=>@nowrelay.token, :companyId=>@company.id) && userInfo.count > 0 && userInfo.pluck(:account_type)[0] == "MULTI" && userInfo.pluck(:company_id)[0] > 0 %>
+		<h3>You will be redirected shortly to setup your admin user</h3>
+		<%= javascript_tag do %>
+			$(function(){
+				setTimeout(function(){
+					window.location.replace('/users/sign_up/?email=<%= @nowrelay.email %>&token=<%= @nowrelay.token %>&companyToken=<%= @company.company_token %>');
+				}, 2000);
+			});	
+		<% end %>
+	<% else %>
+		<div class="col-md-12">
+			<h1 class="text-danger">There has been an error...</h1>
+			<p>Please try following the your activation link again.  If it continues not to work please contact our dedicated support team at <span class="text-danger">1-844-SEE-iTOi</span></p>
+		</div>
+	<% end %>
+<% end %>
+
+

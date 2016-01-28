@@ -1,0 +1,52 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_self
+ *= require font-awesome.css
+ *= require bootstrap.css
+ *= require mvpready-admin
+ *= require mvpready-admin-pom
+ *= require mvpready-flat
+ *= require bootstrap-fileupload
+ *= require_tree .
+ *=
+ */
+
+.field_with_errors {
+    width: 100%;
+}
+
+.alert-info {
+    background-color: #3F87FC !important;
+}
+
+.btn-primary-blue {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+
+.btn-primary-blue:hover,
+.btn-primary-blue:focus,
+.btn-primary-blue:active,
+.btn-primary-blue.active,
+.open .dropdown-toggle.btn-primary-blue {
+    color: #ffffff !important;
+    background-color: #286090;
+    border-color: #204d74;
+}
+
+.btn-primary-blue:active,
+.btn-primary-blue.active,
+.open .dropdown-toggle.btn-primary-blue {
+    background-image: none;
+}

@@ -1,0 +1,9 @@
+%p#notice= notice
+
+%p
+  %b Recording:
+  = @palette_image.recording_id
+
+= link_to 'Edit', edit_palette_image_path(@palette_image)
+\|
+= link_to 'Back', palette_images_path

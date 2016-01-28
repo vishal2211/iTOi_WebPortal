@@ -1,0 +1,27 @@
+<html style="font-family:sans-serif;">
+<div style="width:100%; height:71px; text-align:center; background-color:#4281ff; padding:10px auto;"><img style="margin:10px 0 10px 0;" src="http://dev.getitoi.com/emailPieces/emailLogo.png" alt="iTOi Logo"></div>
+<div style="width:371px; margin:24px auto; color:#ebe7e8; text-align:center;">
+  <h2 style="font-size:26px; font-weight:500; color:#808284;"><%= @recording.title %></h2>
+  <p style="font-size:12px; padding-bottom:20px; color:#808284;">Created by <%= @recording.user.email %> | <%= @recording.updated_at.strftime("%B %e, %Y") %></p>
+  <div style="background:#ebe7e8 url(<%= @recording.thumbnail_url %>) top center;padding:0px; margin:0px;">
+    <a href="<%=  @recording.play_url  %>"><img style="width:98px; height:98px; padding:136px 136px 137px 137px;" src="http://dev.getitoi.com/emailPieces/playButton.png" /></a>
+  </div>
+  <div style="width:100%; margin:0px;">
+    <div style="width:371px; height:40px; margin:0px auto 15px auto;">
+      <a href="<%=  @recording.play_url  %>"><img src="http://dev.getitoi.com/emailPieces/watchBtn.jpg" alt="Watch Now"></a>
+    </div>
+    <div style="width:371px; margin:0px auto 25px auto; padding:11px auto 11px auto;">
+      <a href="<%=  @recording.play_url  %>"><img src="http://dev.getitoi.com/emailPieces/copyBtn.jpg" alt="Copy Link"></a>
+    </div>
+  </div>
+</div>
+<div style="width:100%; padding:25px auto; background-color:#ebe7e8; text-align:center;">
+  <p style="color:#808284; padding:10px 0 0px 0;">Created with iTOi | Let's connect!</p>
+  <div style="text-align:center; padding:18px auto;">
+    <a href="http://www.facebook.com/SeeiTOi"><img style="display:inline-block;" src="http://dev.getitoi.com/emailPieces/facebook_icon.png" alt="Follow iTOi on Facebook" /></a>
+    <a href="http://www.twitter.com/seeiTOi"><img style="display:inline-block;" src="http://dev.getitoi.com/emailPieces/twitter_icon.png" alt="Follow iTOi on Twitter" /></a>
+    <a href="mailto:sales@seeitoi.com"><img style="display:inline-block;" src="http://dev.getitoi.com/emailPieces/email_icon.png" alt="Need to contact iTOi?" /></a>
+  </div>
+  <p align="center" style="color:#808284; padding:0px 0 10px 0;"><a style="color:#808284; text-decoration:none;" href="http://www.getitoi.com/terms-of-service">Terms</a> | <a style="color:#808284; text-decoration:none;" href="http://www.getitoi.com/legal">Privacy</a></p>
+</div>
+</html>

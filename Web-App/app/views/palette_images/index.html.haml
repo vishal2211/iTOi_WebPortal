@@ -1,0 +1,49 @@
+%h3.content-title
+  .row
+    .col-sm-6
+      %u Recording Images
+    .col-sm-6
+      .pull-right
+        = link_to "Back To Recording", edit_recording_path(@recording), class: 'btn btn-primary'
+
+
+%table.table.table-bordered
+  %thead
+    %tr
+      %th
+      %th
+
+  %tbody
+    - @palette_images.each do |palette_image|
+      %tr
+        %td= image_tag palette_image.image_url, style: 'max-height: 200px;'
+        %td
+          = link_to recording_palette_image_path(@recording, palette_image), :method => :delete, :data => { :confirm => 'Are you sure?' }, :class => 'btn btn-xs btn-danger' do
+            %i.fa.fa-times
+
+%br
+
+%h3.content-title
+  %u Upload New Image
+
+%form{method: 'POST', action: recording_palette_images_path(@recording), :enctype => 'multipart/form-data'}
+  %input{:type=>"hidden", :name=>"authenticity_token", :value=>form_authenticity_token.to_s}
+  .row
+    .col-md-4
+      .form-group
+        %label
+          Select Image
+          %small (720x720 .jpg or .png)
+        %br
+        .fileinput{"data-provides" => "fileinput", "class" => "fileinput-new"}
+          .fileinput-new.thumbnail{:style => "width: 250px; height: 150px;"}
+            %img{:alt => "...", "src" => "holder.js/100%x100%/text:Upload Image"}/
+          .fileinput-preview.fileinput-exists.thumbnail{:style => "max-width: 200px; max-height: 150px;"}
+            %img.valign-middle{:style => "max-width: 200px; max-height: 150px;"}
+          %div
+            %span.btn.btn-default.btn-file
+              %span.fileinput-new Select image
+              %span.fileinput-exists Change
+              %input{:name => "upload_file[]", :type => "file", :multiple => true}/
+            %a.btn.btn-default.fileinput-exists{"data-dismiss" => "fileinput", :href => "#"} Remove
+      %button.btn.btn-primary{type: 'submit'} Upload
